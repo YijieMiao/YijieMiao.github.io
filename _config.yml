@@ -32,15 +32,11 @@ author:
   email            : "yjmiao.seu@gmail.com" 
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  arxiv            : "https://arxiv.org/"
+  googlescholar    : "https://scholar.google.com/"
+  Wikipedia        : "https://en.wikipedia.org/wiki/Main_Page"
+  Math Stack Exchange  : "https://math.stackexchange.com/"
+
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
