@@ -22,7 +22,7 @@ repository               : "YijieMiao/YijieMiao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Me.png"
   name             : "Yijie Miao"
   pronouns         : # example: "she/her"  
   bio              : "Updates on my research and expository papers, discussion of open problems, and other maths-related topics."
