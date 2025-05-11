@@ -13,10 +13,15 @@ main:
 
   - title: "Talks"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  
+  - title: "Research Papers"
+    url: /Papers/   
     
+  - title: "Courese Notes"
+    url: /Notes/    
+    
+  - title: "Miscellaneous"
+    url: /teaching/   
   #- title: "Portfolio"
    # url: /portfolio/
         
