@@ -10,4 +10,4 @@ redirect_from:
 I am a third-year undergraduate student at the School of Mathematics, Southeast University. My research interests include differential geometry and partial differential equations.
 
 
-[Wechat](https://github.com/YijieMiao/YijieMiao.github.io/tree/master/images/wechat.jpg)/[Github](https://github.com/YijieMiao) 
+[Wechat](https://github.com/YijieMiao/YijieMiao.github.io/blob/master/images/wechat.jpg)/[Github](https://github.com/YijieMiao) 
