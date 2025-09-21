@@ -1,7 +1,7 @@
 ## Welcome to my homepage!
 
 ### About me
-Hello, I'm Zhiyao Xiong, just a lover of mathmatics. I am quite interested in exploring some wonderful results in complicated things with an analytical approach. Specifically, I am now learning geometric analysis. I am also a lover of piano, football and tennis.
+Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast University, School of Mathematics. I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 ### Seminars
 * (2022Autumn) [Here](notes/Ricci_flow/Ricci_flow.pdf) are the lecture notes I typed for a seminar about Ricci flow and the sphere theorem.
