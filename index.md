@@ -7,6 +7,8 @@ Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast Univer
 * (2025 Summer) [Here](notes/Ricci_flow/Ricci_flow.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about PDE.
 * (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about Riemann Geometry.
 * (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about Complex Geometry.
+
+
 ### Personal notes
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
