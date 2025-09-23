@@ -5,7 +5,7 @@ Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast Univer
 
 ### Seminars
 * (2025 Summer) [Here](notes/Ricci_flow/Ricci_flow.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about PDE.
-* (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about Riemann Geometry.
+* (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about Riemannian Geometry.
 * (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes I typed for 2025 Summer School on Differential Geometry about Complex Geometry.
 
 
