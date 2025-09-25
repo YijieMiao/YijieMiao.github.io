@@ -14,6 +14,12 @@ Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast Univer
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
 
+### Study Materials
+* [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
+
+
+### Randomly dropped thoughts
+
 
 ### Links
 * [Arxiv](https://arxiv.org/) 
