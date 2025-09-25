@@ -19,6 +19,7 @@ Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast Univer
 * [Arxiv](https://arxiv.org/) 
 * [Mathoverflow](https://mathoverflow.net/)
 * [Terence Tao](https://terrytao.wordpress.com/)
+* [Mao Sheng](http://staff.ustc.edu.cn/~msheng/)
 * [USTC STY](https://tysunseven.github.io/)
 * [SEU LMX](https://liumengxuan04.github.io/)
 
