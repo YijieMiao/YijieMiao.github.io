@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
- Updates on my research and expository papers, discussion of open problems, and other maths-related topics.
+ Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Sep.]
  
 ### About me
 Hi, I'm Yijie Miao, a student in the Department of Mathematics at Southeast University. I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
@@ -41,5 +41,6 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 ### Contact
 yjmiao.seu@gmail.com
+
 
 Please contact me if you find any mistake in my notes! Thanks in advance.
