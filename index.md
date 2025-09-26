@@ -16,7 +16,7 @@ Hello, I'm Yijie Miao, just a lover of mathmatics, a student at Southeast Univer
 
 ### Study Materials
 * [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
-
+* [Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
 
 ### Randomly dropped thoughts
 
