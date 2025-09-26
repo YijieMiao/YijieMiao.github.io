@@ -22,7 +22,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 本专栏旨在收录整理各类高质量的数学课程资源，涵盖本科、研究生课程，以及部分专题研讨会和精选的在线课程。后续个人学习心得与整理将更新至此，以便回顾与查阅。这个专栏的成长离不开大家的支持。如果你在学习过程中发现了任何优秀的课程（无论是本校、外校的，还是网络上的），都欢迎分享给我。让我们一起，把这里变成一个汇集精华学习资源的宝地！
 
 * [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
-* [Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
+* [2024 Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
 
 ### Randomly dropped thoughts
 
