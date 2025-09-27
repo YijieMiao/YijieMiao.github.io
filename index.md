@@ -1,7 +1,7 @@
 ## Welcome to my homepage!
  Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Sep.]
  
-### About me
+### About Me
 Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
@@ -12,7 +12,7 @@ Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast Uni
 * (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
 
 
-### Personal notes
+### Personal Notes
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
@@ -57,8 +57,9 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [北师大黎曼曲面(张科伟)](https://www.bilibili.com/video/BV1o4421Q7ne/?spm_id_from=333.1387.collection.video_card.click)
 
 
-### Randomly dropped thoughts
+### Randomly Dropped Thoughts
 
+### SEU Diary: The Art of Doing Nothing
 
 
 ### Links
