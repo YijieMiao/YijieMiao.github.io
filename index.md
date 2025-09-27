@@ -60,7 +60,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 ### Randomly Dropped Thoughts
 
 ### SEU Diary: The Art of Doing Nothing
-
+[我的项目](SEU/Diary.md)
 
 ### Links
 * [Arxiv](https://arxiv.org/) 
