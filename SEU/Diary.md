@@ -1,4 +1,4 @@
 # 我的SEU求生日记
 
 
-[返回主页](https://github.com/index)
+[返回Github主页](https://github.com/YijieMiao)
