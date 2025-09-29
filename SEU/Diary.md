@@ -1,7 +1,6 @@
 # 我的SEU求生日记
 ![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 ## 2025.9.28
-![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 
 ### 我的棋圣，我的青春：一场关于信念与重生的胜利
 
@@ -43,7 +42,7 @@
 
 提筆于中國南京江寧區東南大學九龍湖校區 齋內
 
-
+---
 
 
 [返回Github主页](https://github.com/YijieMiao)
