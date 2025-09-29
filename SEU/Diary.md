@@ -1,7 +1,7 @@
 # 我的SEU求生日记
 ![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 ## 2025.9.28
-![](figure/lantingxu.jpg)
+![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 
 ### 我的棋圣，我的青春：一场关于信念与重生的胜利
 
