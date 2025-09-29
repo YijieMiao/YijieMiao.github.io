@@ -1,4 +1,8 @@
+## Welcome to my homepage!
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Sep.]
 
+
+ ![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 ### About Me
 Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
