@@ -70,7 +70,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页。
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页，从中学到了很多，也借鉴了不少网站资料，如果想了解更多的内容，可以点进学长的个人主页。
-* [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的老乡刘孟玄同学搭建的个人主页，十分优秀，或许日后也会产出许多优质内容。
+* [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页，十分优秀，或许日后也会产出许多优质内容。
 * [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章，以及他的一些课程的讲义，以及与数学有关的学习工作建议等内容。Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取。
 * [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/)：陶哲轩在UCLA的个人主页。
 * [Pikachu345](https://space.bilibili.com/180947374?spm_id_from=333.337.0.0):Pikachu345在B站的主页，他有很多学习的思路与思维，我在听到后获益匪浅，并向他学习了很多。下面的不少链接都是他提供的，我仅仅是作为搬运工便于自己查找。
