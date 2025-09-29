@@ -1,5 +1,10 @@
 # 我的SEU求生日记
 ![兰亭序](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
+
+
+!(figure/qzw.jpg)
+
+!(https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/qzw.jpg)
 ## 2025.9.28
 
 ### 我的棋圣，我的青春：一场关于信念与重生的胜利
