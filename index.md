@@ -97,7 +97,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Annoying precision](https://qchu.wordpress.com/):Qiaochu Yuan的博客。
 * [J.S. Milne的博客](https://www.jmilne.org/math/)：其主页上有很多关于代数以及代数几何，算术几何的内容。
 * [combinatorics and more](https://gilkalai.wordpress.com/):组合学家Gil Kalai的博客。
-* https://cloud.tsinghua.edu.cn/d/2f75fc5f10f64c128e70/ ：清华大学博资考整理。
+* [清华大学博资考整理](https://cloud.tsinghua.edu.cn/d/2f75fc5f10f64c128e70/ )
 * [Pengzi Miao's homepage](https://www.math.miami.edu/~pengzim/)：正质量问题等相关内容（Differential Geometry, Mathematical Relativity）。
 * [孙天阳的个人主页](https://tysunseven.github.io/)上面有一些科大课程录像及讲义。
 * [Zuoqin Wang's homepage](http://staff.ustc.edu.cn/~wangzuoq/)：王作勤老师的个人主页，上面更新一些课程讲义以及作业习题（如微分流形，黎曼几何，代数拓扑等）
