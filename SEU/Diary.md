@@ -1,5 +1,5 @@
 # 我的SEU求生日记
-![兰亭序](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
+![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/lantingxu.jpg)
 
 
 ## 2025.9.28
@@ -45,6 +45,7 @@
 提筆于中國南京江寧區東南大學九龍湖校區 齋內
 
 ---
-![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/figure/qzw.jpg)
+
+
 
 [返回Github主页](https://github.com/YijieMiao)
