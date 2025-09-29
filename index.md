@@ -74,7 +74,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章，以及他的一些课程的讲义，以及与数学有关的学习工作建议等内容。Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取。
 * [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/)：陶哲轩在UCLA的个人主页。
 * [Pikachu345](https://space.bilibili.com/180947374?spm_id_from=333.337.0.0):Pikachu345在B站的主页，他有很多学习的思路与思维，我在听到后获益匪浅，并向他学习了很多。下面的不少链接都是他提供的，我仅仅是作为搬运工便于自己查找。
-* [Yufei Zhao](https://yufeizhao.com/cv.pdf)：MIT的一个研究图论以及加性组合的教授，[他的主页](https://yufeizhao.com/)上有一些组合学有关的资料。
+* [Yufei Zhao](https://yufeizhao.com/cv.pdf):MIT的一个研究图论以及加性组合的教授，[他的主页](https://yufeizhao.com/)上有一些组合学有关的资料。
 * [Robert Charles Vaughan](https://en.wikipedia.org/wiki/Bob_Vaughan):这是一个宾夕法尼亚大学的解析数论专家，[他的主页](https://personal.science.psu.edu/rcv4/)上有一些关于解析数论的资源,也有一些数论的课程，配套习题及其解答。
 * Miles H. Wheeler:英国Bath大学的一个分析方向的副教授，[他的主页](https://www.mileshwheeler.com/)上有互动性很好的可以用作在线学习的分析学基础的教程： 
 * [高等微积分](https://www.mileshwheeler.com/ma30252/notes.html)：难度和基本内容对标Baby Rudin。
