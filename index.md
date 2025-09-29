@@ -60,8 +60,9 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 ### Randomly Dropped Thoughts
 
 ### SEU Diary: The Art of Doing Nothing
-[我在SEU-SAST的求生日记](SEU/Diary.md)
+[我在SEU的求生日记](SEU/Diary.md)
 
+[我在SEU-SAST的求生日记](SEU/Diary-SAST.md)
 
 [我在SEU-Math的求学日记](SEU/Diary-Math.md)
 
