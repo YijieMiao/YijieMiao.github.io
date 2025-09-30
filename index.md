@@ -72,7 +72,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 | PART A | PART B | PART C |
 | :--- | :--- | :--- |
-| [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的求生日记](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |
+| [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |
 
 ### Links
 * [Arxiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
