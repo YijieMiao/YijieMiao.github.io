@@ -1,7 +1,6 @@
 ## Welcome to my homepage!
 Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Sep.]
 
-
 ### About Me
 Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
@@ -59,13 +58,17 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 
 ### Randomly Dropped Thoughts
-[Nash-Moser Iteration Mothod]()
-[The Schauder Estimates]()
+这里记录了我对一些数学问题的随想，并非详尽的笔记。
+
+* [Nash-Moser Iteration Method]()
+* [The Schauder Estimate]()
+* [Ricci Flow]()
+* [Minkowski Problem]()
+* [Capillary hypersurface]()
+* [Yau's conjecture]()
 
 ### SEU Diary: The Art of Doing Nothing
-[我在SEU的求生日记](SEU/Diary.md)
-[我在SEU-SAST的求生日记](SEU/Diary-SAST.md)
-[我在SEU-Math的求学日记](SEU/Diary-Math.md)
+我在东南大学的生活日常，记录着那些摸鱼的快乐时光。
 
 | PART A | PART B | PART C |
 | :--- | :--- | :--- |
