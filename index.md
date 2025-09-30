@@ -67,7 +67,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 [我在SEU-SAST的求生日记](SEU/Diary-SAST.md)
 [我在SEU-Math的求学日记](SEU/Diary-Math.md)
 
-| 链接一 | 链接二 | 链接三 |
+| PART A | PART B | PART C |
 | :--- | :--- | :--- |
 | [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的求生日记](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |
 
