@@ -1,6 +1,6 @@
 # 我的SEU求生日记
 
-![](Images\F4.jpg)
+![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/Images/F4.jpg)
 
  2025.9.28
 
