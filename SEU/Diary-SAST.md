@@ -1,7 +1,6 @@
 # 我在SEU-SAST的日子
 
 
-
 ## 社团介绍
 
 东南大学学生科学技术协会（简称“校学生科协”）是面向全校学生的科技服务组织。自1982年成立至今，一直紧跟时代步伐，我们始终秉持着科协“真诚 务实 创新”的宗旨在科学研究中探索、发掘、学习和实践。
@@ -170,7 +169,7 @@ SRTP 交流群管理员换届工作应在校学生科协换届工作后的一个
 >
 > 现给出另一种解法：
 >
-> $$\lim_{n\to \infty}sin^2(\pi \sqrt{n^2+n})=\frac{1}{2}\left(1-\lim_{n\to \infty}cos(2\pi \sqrt{n^2+n})\right)=\frac{1}{2}\left(1-\lim_{n\to \infty}cos\left(2n\pi \sqrt{1+\frac{1}{n}} \right)\right)$$>$$=\frac{1}{2}\left[1-\lim_{n\to \infty}cos\left(2n \pi \left(1+\frac{1}{2n}+o(\frac{1}{n})\right)  \right)\right]=\frac{1}{2}\left[1-\lim_{n\to \infty} cos\left( 2n\pi+\pi+o(1)
+> $$\lim_{n\to \infty}sin^2(\pi \sqrt{n^2+n})=\frac{1}{2}\left(1-\lim_{n\to \infty}cos(2\pi \sqrt{n^2+n})\right)=\frac{1}{2}\left(1-\lim_{n\to \infty}cos\left(2n\pi \sqrt{1+\frac{1}{n}} \right)\right)$$>$$=\frac{1}{2}\left[1-\lim_{n\to \infty}cos\left(2n \pi \left(1+\frac{1}{2n}+o(\frac{1}{n})\right)\right)\right]=\frac{1}{2}\left[1-\lim_{n\to \infty} cos\left( 2n\pi+\pi+o(1)
 >  \right)\right]=\frac{1}{2}(1-cos\pi )=1.$$
 >
 > **例题**
