@@ -67,7 +67,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Ricci Flow]()
 * [Minkowski Problem]()
 * [Capillary hypersurface]()
-* [Yau's conjecture]()
+* [Yau's conjectures]()
 
 ### SEU Diary: The Art of Doing Nothing
 我在东南大学的生活日常，记录着那些摸鱼的快乐时光。
@@ -125,6 +125,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 yjmiao.seu@gmail.com
 
 
+
 Please contact me if you find any mistake in my notes! Thanks in advance.
+
 
 ![](https://komarev.com/ghpvc/?username=YijieMiao&style=flat-square)
