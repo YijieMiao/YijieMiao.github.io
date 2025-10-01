@@ -2,7 +2,7 @@
 
 
 ![](Images\logo\F4.jpg)
-![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/Images/logo/logo.png])
+![](https://github.com/YijieMiao/YijieMiao.github.io/blob/main/Images/logo/logo.png)
 # 2025.9.28 **柯洁九段卫冕棋圣**
 
 ### 我的棋圣，我的青春：一场关于信念与重生的胜利
