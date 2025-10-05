@@ -1,6 +1,6 @@
 # 我的SEU求学日记
 
-
+![](/Images\logo\12.jpg)
 
 
 

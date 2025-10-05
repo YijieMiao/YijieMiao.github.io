@@ -1,5 +1,6 @@
 # 我在SEU-SAST的日子
 
+![](/Images\logo/SAST.png)
 
 ## 社团介绍
 
