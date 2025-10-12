@@ -34,11 +34,16 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 #### Analysis
 * [2022年春实分析(殷浩)](https://tysunseven.github.io/video/Real_Analysis_2022.html)
 * [2025年复分析(刘思齐)](https://www.bilibili.com/video/BV13Bw9eeEtP/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
-
+* [Real Analysis 2020-2021 ICTP](https://www.bilibili.com/video/BV1x34y1y7SS/?spm_id_from=333.1387.favlist.content.click)
 
 #### Algebra
+* [抽象代数Ⅱ by Ph.D Matthew Salomone](https://www.bilibili.com/video/BV1vu411d71Y/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2021年代数数论](https://www.bilibili.com/video/BV1e54y1a7dY/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2025年春BIMSA同调代数(袁北彗)](https://www.bimsa.net/activity/AninttoHomAlg/)
-
+* [王崧《代数群介绍》](https://www.bilibili.com/video/BV1KB4y1m7DY/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [同调代数UCLA](https://www.bilibili.com/video/BV1TE7Gz6ENj/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [伽罗瓦理论(Richard E Borcherds) ](https://www.bilibili.com/video/BV1bf421m7T5/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [某校本科暑假课程－交换代数](https://www.bilibili.com/video/BV1Py4y1T78G/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 
 #### Topology
 * [2020年春拓扑学H(王作勤)](https://tysunseven.github.io/video/Topology_2020S.html)
@@ -46,8 +51,13 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 
 #### Geometry
+* [NCTS Mini Course and Workshop on Ricci Flow and Related Aspects 2017](https://www.bilibili.com/video/BV12VspefEHP/?vd_source=649e15088a359d76e6ba174c16e74de8)
+* [Wangjian Jian--Ricci Flow课程](https://www.bilibili.com/video/BV1MX4y1f78z/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2020年夏Hodge理论(沈明民)](https://www.bilibili.com/video/BV1D3411w7m6/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [流形上的几何：18.966 Geometry of Manifolds Ⅱ 2021 Spring](https://www.bilibili.com/video/BV1Pi4y1K7vH/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2022年春黎曼几何(刘世平)](https://tysunseven.github.io/video/Riemannian_Geometry_2022S.html)
+* [2022年BIMSA复几何(石亚龙)](https://www.bilibili.com/video/BV17m4y1i7wr/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2022年BIMSA黎曼几何（简旺健）](https://www.bilibili.com/video/BV1Hh4y1R7kR?spm_id_from=333.788.recommend_more_video.-1&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2023年秋微分流形(王作勤)](https://tysunseven.github.io/video/Manifolds%202023F.html)
 * [2023年春BIMSA纤维丛、示性类和指标定理(万喆彦)](https://bimsa.net/activity/fibbunchaclsindthm/)
 * [2023年夏BIMSA极小曲面与CMC曲面(William Meeks)](https://bimsa.net/activity/mincmcr3/)
@@ -79,7 +89,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 | PART A | PART B | PART C |PART D
 | :--- | :--- | :--- |:--- |
 | [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU\Math-Jokes.pdf)|
-|[我读过的一些书](SEU/Read.md) | | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
+|[Miaoの书屋](SEU/Read.md) | | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
 
 ### Links
 * [Arxiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
