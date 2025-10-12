@@ -133,7 +133,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [2025 Summer School on Differential Geometry - - 北京国际数学研究中心](https://bicmr.pku.edu.cn/content/show/17-3575.html):参加的体验感很好，来自北京师范大学的王雨生老师、浙江大学的李奇睿老师和西湖大学的韩骥原老师分别讲授了黎曼几何，偏微分方程及复几何三门课程，内容深入浅出，很适合有志于在微分几何方向研究探索的高年级本科生和低年级研究生学习,一些课程笔记与录像后续会上传至云盘。
 * [Shoshichi Kobayashi](https://en.wikipedia.org/wiki/Shoshichi_Kobayashi):一些工作简要介绍在[Biography – Shoshichi Kobayashi](https://www.shoshichikobayashi.com/biography/)中有所提及。
 * [小林俊行 Toshiyuki KOBAYASHI](https://www.ms.u-tokyo.ac.jp/~toshi/j-index.html):研究上の関心 “リー理論，とくに，非可換調和解析，ユニタリ表現論，積分幾何，不連続群。”
-
+* [BIMSA Course in 2025 Fall](https://www.bimsa.net/course.php)
 
 ### Contact
 yjmiao.seu@gmail.com
