@@ -87,7 +87,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 
 ### Randomly Dropped Thoughts
-这里记录了我对一些数学问题的随想，并非详尽的笔记。
+这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
 
 * [Nash-Moser Iteration Method]()
 * [The Schauder Estimate]()
@@ -106,7 +106,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 |[Miaoの书屋](SEU/Read.md) | | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
 
 ### Links
-* [Arxiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
+* [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页。
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页，从中学到了很多，也借鉴了不少网站资料，如果想了解更多的内容，可以点进学长的个人主页。
@@ -148,6 +148,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Shoshichi Kobayashi](https://en.wikipedia.org/wiki/Shoshichi_Kobayashi):一些工作简要介绍在[Biography – Shoshichi Kobayashi](https://www.shoshichikobayashi.com/biography/)中有所提及。
 * [小林俊行 Toshiyuki KOBAYASHI](https://www.ms.u-tokyo.ac.jp/~toshi/j-index.html):研究上の関心 “リー理論，とくに，非可換調和解析，ユニタリ表現論，積分幾何，不連続群。”
 * [BIMSA Course in 2025 Fall](https://www.bimsa.net/course.php)
+
 
 ### Contact
 yjmiao.seu@gmail.com
