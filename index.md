@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Sep.]
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Oct.]
 
 ![](Images\lantingxu.jpg)
 
@@ -39,6 +39,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 #### Algebra
 * [抽象代数Ⅱ by Ph.D Matthew Salomone](https://www.bilibili.com/video/BV1vu411d71Y/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2021年代数数论](https://www.bilibili.com/video/BV1e54y1a7dY/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2022年秋BIMSA 同调代数导论(谢尔盖·伊万诺夫)](https://www.bimsa.cn/zh-CN/research_detail/IntHomAlg.html)
+* [2025年春BIMSA Introduction to Lie algebras(阮宸炜)](https://www.bimsa.net/activity/InttoLiealg/)
 * [2025年春BIMSA同调代数(袁北彗)](https://www.bimsa.net/activity/AninttoHomAlg/)
 * [王崧《代数群介绍》](https://www.bilibili.com/video/BV1KB4y1m7DY/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [同调代数UCLA](https://www.bilibili.com/video/BV1TE7Gz6ENj/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
@@ -47,6 +49,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 #### Topology
 * [2020年春拓扑学H(王作勤)](https://tysunseven.github.io/video/Topology_2020S.html)
+* [2021年秋BIMSA Simplicial Homology and Homotopy I(李京艳)](https://bimsa.net/activity/SimHomHom/)
+* [2022年春BIMSA Simplicial Homology and Homotopy II(李京艳)](https://bimsa.net/activity/SimHomHomII/)
 * [2024年春NCTS代数拓扑中的微分形式(Loring W. Tu)](https://www.bilibili.com/video/BV1vr421K74W/?vd_source=649e15088a359d76e6ba174c16e74de8)
 
 
@@ -58,9 +62,16 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [2022年春黎曼几何(刘世平)](https://tysunseven.github.io/video/Riemannian_Geometry_2022S.html)
 * [2022年BIMSA复几何(石亚龙)](https://www.bilibili.com/video/BV17m4y1i7wr/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2022年BIMSA黎曼几何（简旺健）](https://www.bilibili.com/video/BV1Hh4y1R7kR?spm_id_from=333.788.recommend_more_video.-1&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2022年秋BIMSA Geometry and Analysis in Black Hole Spacetimes](https://bimsa.net/activity/gabhs/)
 * [2023年秋微分流形(王作勤)](https://tysunseven.github.io/video/Manifolds%202023F.html)
 * [2023年春BIMSA纤维丛、示性类和指标定理(万喆彦)](https://bimsa.net/activity/fibbunchaclsindthm/)
 * [2023年夏BIMSA极小曲面与CMC曲面(William Meeks)](https://bimsa.net/activity/mincmcr3/)
+* [2023年夏BIMSA最优传输理论及其应用(李向东)](https://bimsa.net/activity/opttraapp/)
+* [2023年春BIMSA Fibre bundles, characteristic classes, and index theorems(万喆彦)](https://bimsa.net/activity/fibbunchaclsindthm/)
+* [2023年春BIMSA Nearly Kähler geometry in 2023 Spring(河井公大朗)](https://bimsa.net/activity/kahgeo/)
+* [2023年秋BIMSA Riemannian Geometry(杨琳)](https://bimsa.net/people/lynnheller/)
+* [2024年秋BIMSA Introduction to p-harmonic functions(Peter Gordon)](https://bimsa.net/activity/Inttop-hfun/)
+* [2025年春BIMSA An Introduction to Minimal Surfaces(张一岳)](https://www.bimsa.net/activity/AnInttoMinSur/)
 * [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
 * [2024 Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
 * [2025年春BIMSA莫尔斯理论(Guillaume Tahar)](https://bimsa.net/activity/MorThe/)
@@ -70,6 +81,9 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [山东大学 微分流形(李向东)](https://www.bilibili.com/video/BV1YT411u7wL/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [Wangjian Jian--Ricci Flow课程](https://www.bilibili.com/video/BV1MX4y1f78z?spm_id_from=333.788.videopod.sections&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [北师大黎曼曲面(张科伟)](https://www.bilibili.com/video/BV1o4421Q7ne/?spm_id_from=333.1387.collection.video_card.click)
+
+#### Physics
+
 
 
 ### Randomly Dropped Thoughts
