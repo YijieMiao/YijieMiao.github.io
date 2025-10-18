@@ -20,6 +20,8 @@ Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast Uni
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
 * [Here](notes\MA\MAIII.pdf) is my notes on Mathematical Analysis III.
+* [Here](notes\complex_analysis\complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
+* [Here](notes\real_analysis\real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
 
 
 ### Study Materials
