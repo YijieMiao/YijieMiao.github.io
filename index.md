@@ -110,6 +110,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 ### Links
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
+* [Z-Library](https://zh.z-library.sk/) 在这里可以下载一些电子书（需要魔法）
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页。
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页，从中学到了很多，也借鉴了不少网站资料，如果想了解更多的内容，可以点进学长的个人主页。
 * [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页，十分优秀，或许日后也会产出许多优质内容。
