@@ -4,7 +4,7 @@ Updates on my research and expository papers, discussion of open problems, and o
 ![](Images\lantingxu.jpg)
 
 ### About Me
-Hi, I'm Yijie Miao, a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
+Hi, I'm Yijie Miao (Chinese Name:苗祎杰), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
 
@@ -85,6 +85,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [北师大黎曼曲面(张科伟)](https://www.bilibili.com/video/BV1o4421Q7ne/?spm_id_from=333.1387.collection.video_card.click)
 
 #### Physics
+
 
 
 
