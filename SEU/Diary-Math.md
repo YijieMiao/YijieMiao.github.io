@@ -3,17 +3,17 @@
 ![](/Images\logo\12.jpg)
 
 一些零散的题目和方法整理：
-* [一道简单估计的三角代换方法](/notes/math/简单估计的三角代换法.pdf)
+* [一道简单估计的三角代换方法](/notes/math_rubbish/简单估计的三角代换法.pdf)
 
 * [有限测度当中各种收敛方式之间的关系](/notes/math_rubbish/有限测度当中各种收敛方式之间的关系.pdf)
 
 * [Golden-Thompson inequality](/notes/math_rubbish/Golden-Thompson_inequality.pdf)
 
-* [分组拆分估计](/notes/math/分组拆分法.Splitting%20the%20Summation.pdf)
+* [分组拆分估计](/notes\math_rubbish\分组拆分估计.pdf)
 
 * [部分积的上界估计与Gautschi不等式](/notes/math_rubbish/部分积的上界估计与Gautschi不等式.pdf)
 
-* [杂题汇总](/notes/math/Marvelous_Notes.pdf) 这里存放着同学或网友问过的问题，因为刚刚整理，篇幅不多，所以也不打算每个问题单列出来，而是集中到一个pdf文档中(不定期更新：2025.11.2)
+* [杂题汇总](/notes/math/Marvelous_Notes.pdf) 这里存放着同学或网友问过的问题，因为刚刚整理，篇幅不多，所以也不打算每个问题单列出来，而是集中到一个pdf文档中(不定期更新：2025.11.1)
 
 * [AI 提问词](/notes/math/AI提问关键词.pdf) 从UP小号菌子那里参考，后续随着进一步使用，或许会更新一份新的提示词。
 
