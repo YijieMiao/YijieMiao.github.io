@@ -91,8 +91,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Classical Mechanics 2011-2012 ICTP](https://www.bilibili.com/video/BV19Y411t7GU/)
 * [麻省理工：广义相对论](https://www.bilibili.com/video/BV1NVKLzHE2B/)
 
-### 
-这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
+
+#### 这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
 
 * [Aleksandrov-Bakelman-Pucci estimates]()
 * [Nash-Moser Iteration Method]()
