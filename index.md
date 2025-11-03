@@ -1,21 +1,21 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. [Last updated: 2025. Nov.]
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 1, 2025*
 
 ![](Images\lantingxu.jpg)
 
 ### About Me
-Hi, I'm Yijie Miao (Chinese Name:苗祎杰), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
+Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
 
-**“由于一些较大的文件，部分页面可能需要一些时间加载。感谢您的理解与支持！”**
+**“由于一些文件较大，部分页面可能需要一些时间加载，可以先冲一杯咖啡等待，感谢您的理解与支持！”**
 ### Seminars
 * (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
 * (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
 * (2025 Summer) [Here](notes\complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 
-
-### Personal Notes
+### Personal Course Notes
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
@@ -86,12 +86,15 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 
 #### Physics
 
+* [广义相对论：温伯格引力与宇宙论导读(王一)](https://www.bilibili.com/video/BV1Eg41197Af/) 
+* [Weinberg 量子场论导读(王一）](https://www.bilibili.com/video/BV1ES4y1J7bF/)
+* [Classical Mechanics 2011-2012 ICTP](https://www.bilibili.com/video/BV19Y411t7GU/)
+* [麻省理工：广义相对论](https://www.bilibili.com/video/BV1NVKLzHE2B/)
 
-
-
-### Randomly Dropped Thoughts
+### 
 这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
 
+* [Aleksandrov-Bakelman-Pucci estimates]()
 * [Nash-Moser Iteration Method]()
 * [The Schauder Estimate]()
 * [Ricci Flow]()
@@ -99,9 +102,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Capillary hypersurface]()
 * [Yau's conjectures]()
 
-### SEU Diary: The Art of Doing Nothing
+### SEU Diary
 我在东南大学的生活日常，记录着那些摸鱼的快乐时光。
-
 
 | PART A | PART B | PART C |PART D
 | :--- | :--- | :--- |:--- |
@@ -111,10 +113,11 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 ### Links
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
+* [MathSciNet](https://mathscinet.ams.org/mathscinet/publications-search) 和 [Google Scholar](https://scholar.google.com/) 是我常用于查阅文献。
 * [Z-Library](https://zh.z-library.sk/) 在这里可以下载一些电子书（需要魔法）
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页。
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页，从中学到了很多，也借鉴了不少网站资料，如果想了解更多的内容，可以点进学长的个人主页。
-* [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页，十分优秀，或许日后也会产出许多优质内容。
+* [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页，十分优秀，或许日后也会产出更多优质的内容。
 * [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章，以及他的一些课程的讲义，以及与数学有关的学习工作建议等内容。Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取。
 * [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/)：陶哲轩在UCLA的个人主页。
 * [Pikachu345](https://space.bilibili.com/180947374?spm_id_from=333.337.0.0):Pikachu345在B站的主页，他有很多学习的思路与思维，我在听到后获益匪浅，并向他学习了很多。下面的不少链接都是他提供的，我仅仅是作为搬运工便于自己查找。
