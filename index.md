@@ -48,6 +48,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [同调代数UCLA](https://www.bilibili.com/video/BV1TE7Gz6ENj/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [伽罗瓦理论(Richard E Borcherds) ](https://www.bilibili.com/video/BV1bf421m7T5/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [某校本科暑假课程－交换代数](https://www.bilibili.com/video/BV1Py4y1T78G/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2025年秋BIMSA Lectures on the Riemann Zeta Function(吴冬生)](https://www.bimsa.net/activity/LecontheRiezetfun/)
+
 
 #### Topology
 * [2020年春拓扑学H(王作勤)](https://tysunseven.github.io/video/Topology_2020S.html)
@@ -65,6 +67,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [2022年BIMSA复几何(石亚龙)](https://www.bilibili.com/video/BV17m4y1i7wr/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2022年BIMSA黎曼几何（简旺健）](https://www.bilibili.com/video/BV1Hh4y1R7kR?spm_id_from=333.788.recommend_more_video.-1&vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2022年秋BIMSA Geometry and Analysis in Black Hole Spacetimes](https://bimsa.net/activity/gabhs/)
+* [2022年秋从Hurwitz数谈起(周坚）](https://tianyuan.scu.edu.cn/portal/article/index/id/581/cid/5.html)
 * [2023年秋微分流形(王作勤)](https://tysunseven.github.io/video/Manifolds%202023F.html)
 * [2023年春BIMSA纤维丛、示性类和指标定理(万喆彦)](https://bimsa.net/activity/fibbunchaclsindthm/)
 * [2023年夏BIMSA极小曲面与CMC曲面(William Meeks)](https://bimsa.net/activity/mincmcr3/)
@@ -77,6 +80,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
 * [2024 Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
 * [2025年春BIMSA莫尔斯理论(Guillaume Tahar)](https://bimsa.net/activity/MorThe/)
+* [2025年秋BIMSA Moduli spaces of vector bundles on curves(汪建平）]()
 * [南开大学暑期学校 度量黎曼几何](https://www.bilibili.com/video/BV16yhZz4Eu3/?spm_id_from=333.1387.favlist.content.click)
 * [东南大学 几何分析(沈斌)](https://www.bilibili.com/video/BV1Qv411j7Zh/?spm_id_from=333.1387.upload.video_card.click)
 * [东南大学 黎曼几何(沈斌)](https://www.bilibili.com/video/BV1dZ4y1F7gn/?spm_id_from=333.1387.upload.video_card.click)
@@ -90,6 +94,8 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Weinberg 量子场论导读(王一）](https://www.bilibili.com/video/BV1ES4y1J7bF/)
 * [Classical Mechanics 2011-2012 ICTP](https://www.bilibili.com/video/BV19Y411t7GU/)
 * [麻省理工：广义相对论](https://www.bilibili.com/video/BV1NVKLzHE2B/)
+* [给数学系讲的量子力学 Quantum Mechanics For Mathematicians](https://www.bilibili.com/video/BV1np4y1t7Rm/?vd_source=649e15088a359d76e6ba174c16e74de8)
+* [2022年秋量子力学A(杨焕雄)](https://tysunseven.github.io/video/Quantum%20Mechanics%202022F.html)
 
 
 #### 这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
