@@ -12,7 +12,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Ma
 ### Seminars
 * (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
 * (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
-* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lectu·re notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 
@@ -120,13 +120,15 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 ### Links
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
-* [MathSciNet](https://mathscinet.ams.org/mathscinet/publications-search) 和 [Google Scholar](https://scholar.google.com/) 是我常用于查阅文献。
-* [Z-Library](https://zh.z-library.sk/) 在这里可以下载一些电子书（需要魔法）
+* [MathSciNet](https://mathscinet.ams.org/mathscinet/publications-search), [Jstor](https://www.jstor.org/) 和 [Google Scholar](https://scholar.google.com/) 是我常用于查阅文献的网站。
+* [Z-Library](https://zh.z-library.sk/) 和 [Anna's Archive](https://zh.annas-archive.li/) 这里可以下载一些电子书（需要魔法）
+* [TikZiT](https://tikzit.github.io/#install) 是一个非常简单的图形界面编辑器，TikZiT文件可以通过LaTeX直接包含在论文排版中。
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页。
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页，从中学到了很多，也借鉴了不少网站资料，如果想了解更多的内容，可以点进学长的个人主页。
 * [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页，十分优秀，或许日后也会产出更多优质的内容。
-* [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章，以及他的一些课程的讲义，以及与数学有关的学习工作建议等内容。Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取。
-* [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/)：陶哲轩在UCLA的个人主页。
+* [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章，以及他的一些课程的讲义，以及与数学有关的学习工作建议等内容。Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取。 [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/) 是陶哲轩在UCLA的个人主页。
+* [Paul Minter](https://minterscompactness.wordpress.com/) 的个人主页，他于 2022 年在剑桥大学完成博士学位，研究兴趣集中在微分几何、几何分析和几何测度论等方面。
+* [Graduate Students' Guide to Generals](https://web.math.princeton.edu/generals/) A database of the general examinations taken by graduate students in the Princeton University Mathematics Department.
 * [Pikachu345](https://space.bilibili.com/180947374?spm_id_from=333.337.0.0):Pikachu345在B站的主页，他有很多学习的思路与思维，我在听到后获益匪浅，并向他学习了很多。下面的不少链接都是他提供的，我仅仅是作为搬运工便于自己查找。
 * [Yufei Zhao](https://yufeizhao.com/cv.pdf):MIT的一个研究图论以及加性组合的教授，[他的主页](https://yufeizhao.com/)上有一些组合学有关的资料。
 * [Robert Charles Vaughan](https://en.wikipedia.org/wiki/Bob_Vaughan):这是一个宾夕法尼亚大学的解析数论专家，[他的主页](https://personal.science.psu.edu/rcv4/)上有一些关于解析数论的资源,也有一些数论的课程，配套习题及其解答。
@@ -153,11 +155,13 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [J.S. Milne的博客](https://www.jmilne.org/math/):其主页上有很多关于代数以及代数几何，算术几何的内容。
 * [combinatorics and more](https://gilkalai.wordpress.com/):组合学家Gil Kalai的博客。
 * [清华大学博资考整理](https://cloud.tsinghua.edu.cn/d/2f75fc5f10f64c128e70/ )
+* [Mathematics Tripos Papers](https://questions.tripos.org/part-ii/all/) An archive of questions from the Cambridge Mathematics Tripos.
 * [Pengzi Miao's homepage](https://www.math.miami.edu/~pengzim/):苗鹏子老师的个人主页，研究一些正质量问题等相关内容(Differential Geometry, Mathematical Relativity),我在听了一次报告后了解了一些内容,所以在这里附上链接。
 * [Zuoqin Wang's homepage](http://staff.ustc.edu.cn/~wangzuoq/):王作勤老师的个人主页，上面更新一些课程讲义以及作业习题（如微分流形，黎曼几何，代数拓扑等）
 * [Shiping Liu's Home Page](http://staff.ustc.edu.cn/~spliu/):刘世平老师的个人主页，可参考微分几何与黎曼几何的笔记与作业布置。
 * [2020年南开暑期短期课程](http://www.cim.nankai.edu.cn/2020/0709/c11453a284191/page.htm):苏伟旭老师讲授Teichmüller空间简介内容，附带有课程回放与讲义。
 * [Cambridge Notes](https://dec41.user.srcf.net/notes/):笔记较多，更多的可用于参考其latex写法，学习一些常用记号。
+* [欢迎来到剑桥数学 Tripos Gowers 的博客](https://gowers.wordpress.com/2011/09/23/welcome-to-the-cambridge-mathematical-tripos/) 虽然剑桥已有完善的授课与督导体系，但许多细节、理解方法和做数学的思维过程常常在课堂中无法充分讲清，因此博主希望通过博客系统性地补充这些内容，尤其是教学生如何真正“学会证明”。博客中还讨论了数学学习中的常见困难、有效的学习习惯、如何充分利用督导和课堂笔记，并强调通过博客互动来帮助学生更深入理解数学、培养做数学的能力。
 * [2025 Summer School on Differential Geometry - - 北京国际数学研究中心](https://bicmr.pku.edu.cn/content/show/17-3575.html):参加的体验感很好，来自北京师范大学的王雨生老师、浙江大学的李奇睿老师和西湖大学的韩骥原老师分别讲授了黎曼几何，偏微分方程及复几何三门课程，内容深入浅出，很适合有志于在微分几何方向研究探索的高年级本科生和低年级研究生学习,一些课程笔记与录像后续会上传至云盘。
 * [Shoshichi Kobayashi](https://en.wikipedia.org/wiki/Shoshichi_Kobayashi):一些工作简要介绍在[Biography – Shoshichi Kobayashi](https://www.shoshichikobayashi.com/biography/)中有所提及。
 * [小林俊行 Toshiyuki KOBAYASHI](https://www.ms.u-tokyo.ac.jp/~toshi/j-index.html):研究上の関心 “リー理論，とくに，非可換調和解析，ユニタリ表現論，積分幾何，不連続群。”
