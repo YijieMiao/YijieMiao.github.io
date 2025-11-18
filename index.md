@@ -108,7 +108,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Minkowski Problem]()
 * [Capillary hypersurface]()
 * [Yau's conjectures]()
-* [Gradient estimates under flow]()
+* [Gradient estimates]()
 * [球丛上的共形变换与Yamabe问题]()
 * [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture Gang Liu]()
 
