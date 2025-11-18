@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 1, 2025*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 17, 2025*
 
 ![](Images\lantingxu.jpg)
 
@@ -99,7 +99,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [2022年秋量子力学A(杨焕雄)](https://tysunseven.github.io/video/Quantum%20Mechanics%202022F.html)
 
 
-#### 这里记录了我对一些数学问题的随想，并非详尽的笔记(截至目前还没有上传)
+#### 这里记录了我对一些数学问题的随想，并非详尽的笔记(很多为我在阅读文献的过程中整理或推导的总结，截至目前还没有上传)
 
 * [Aleksandrov-Bakelman-Pucci estimates]()
 * [Nash-Moser Iteration Method]()
@@ -108,6 +108,9 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Minkowski Problem]()
 * [Capillary hypersurface]()
 * [Yau's conjectures]()
+* [Gradient estimates under flow]()
+* [球丛上的共形变换与Yamabe问题]()
+* [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture Gang Liu]()
 
 ### SEU Diary
 我在东南大学的生活日常，记录着那些摸鱼的快乐时光。
