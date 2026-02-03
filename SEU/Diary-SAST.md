@@ -108,7 +108,7 @@ SRTP 交流群管理员换届工作应在校学生科协换届工作后的一个
 
 #### 常用话术
 
-【校团委科创部】尊敬的同学您好，您的项目xxxx获东南大学挑战杯校赛x等奖，请您和您的组员的竞赛系统上报名，如已报名请忽略本信息，如有疑问请致电025-52090185。
+【校团委科创部】尊敬的同学您好，您的项目xxxx获东南大学挑战杯校赛x等奖，请您和您的组员的竞赛系统上报名，如已报名请忽略本信息，如有疑问请致电 025-52090185。
 
 ---
 
@@ -134,7 +134,7 @@ SRTP 交流群管理员换届工作应在校学生科协换届工作后的一个
 
 ---
 
-## 日常记录
+## 碎碎念的日常记录
 
 #### 1st Month
 
@@ -170,9 +170,9 @@ SRTP 交流群管理员换届工作应在校学生科协换届工作后的一个
 >
 > 现给出另一种解法：
 >
-> $$\lim_{n\to \infty}sin^2(\pi \sqrt{n^2+n})=\frac{1}{2}\left(1-\lim_{n\to \infty}cos(2\pi \sqrt{n^2+n})\right)=\frac{1}{2}\left(1-\lim_{n\to \infty}cos\left(2n\pi \sqrt{1+\frac{1}{n}} \right)\right)$$>$$=\frac{1}{2}\left[1-\lim_{n\to \infty}cos\left(2n \pi \left(1+\frac{1}{2n}+o(\frac{1}{n})\right)\right)\right]=\frac{1}{2}\left[1-\lim_{n\to \infty} cos\left( 2n\pi+\pi+o(1)
->  \right)\right]=\frac{1}{2}(1-cos\pi )=1.$$
+> $$\lim_{n\to \infty}sin^2(\pi \sqrt{n^2+n})=\frac{1}{2}\left(1-\lim_{n\to \infty}cos(2\pi \sqrt{n^2+n})\right)=\frac{1}{2}\left(1-\lim_{n\to \infty}cos\left(2n\pi \sqrt{1+\frac{1}{n}} \right)\right)$$>$$=\frac{1}{2}\left[1-\lim_{n\to \infty}cos\left(2n \pi \left(1+\frac{1}{2n}+o(\frac{1}{n})\right)\right)\right]=\frac{1}{2}\left[1-\lim_{n\to \infty} cos\left( 2n\pi+\pi+o(1)\right)\right]=\frac{1}{2}(1-cos\pi )=1.$$
 >
+
 > **例题**
 >
 > 7. 甲乙两坛子中各装一只白球和一只黑球, 从两坛中各取出一球交换后放入另一坛中.记事件 $A_n$,$B_n$,$C_n$ 分别表示第 $n$ 次交换后，甲坛的白球数为2，1，0，记 $p_n$,$q_n$,$r_n$ 表示其对应的概率，求 $p_n$,$q_n$,$r_n$ 的关系式，并讨论 $n\to \infty$ 时，各量的情况。
