@@ -10,9 +10,9 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Ma
 
 *“由于部分文件较大，页面可能需要一些时间加载，可以先冲一杯咖啡耐心等待，感谢您的理解与支持！”*
 ### Seminars
-* (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
-* (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
-* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lectu·re notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lectu·re notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 
