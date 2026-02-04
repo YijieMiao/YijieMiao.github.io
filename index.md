@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on February 3, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on February 4, 2026*
 
 ![](Images\lantingxu.jpg)
 
@@ -8,7 +8,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Ma
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
 
-**“由于部分文件较大，页面可能需要一些时间加载，可以先冲一杯咖啡耐心等待，感谢您的理解与支持！”**
+*“由于部分文件较大，页面可能需要一些时间加载，可以先冲一杯咖啡耐心等待，感谢您的理解与支持！”*
 ### Seminars
 * (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
 * (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
@@ -25,10 +25,10 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Ma
 * [Here](notes\real_analysis\real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
 
 
-### Study Materials
-In the internet age, knowledge can be recorded and shared. I invite every visitor to submit their own excellent courses, whether to fill gaps or provide additional options.
+### Collaborative Study Materials 
+In the spirit of open-source learning, this space serves as a collective archive for mathematical excellence. I welcome submissions of exceptional course notes and resources—help us fill the gaps or provide new insights for fellow students and researchers.
 
-本专栏旨在收录整理各类高质量的数学课程资源，涵盖本科、研究生课程，以及部分专题研讨会和精选的在线课程(中科大的孙天阳学长整理了更多内容，已附上链接，这里更多的是我学习过或想了解的内容)。后续与链接相关内容的个人学习心得与整理将更新至此，以便回顾与查阅。这个专栏的成长离不开大家的支持。如果你在学习过程中发现了任何优秀的课程（本校、外校、网络），都欢迎投稿给我。让我们一起，把这里变成一个汇集精华学习资源的宝地！再次感谢同学们的支持，更要感谢所有讲授课程的老师们！
+本专栏旨在收录整理各类高质量的数学课程资源，涵盖本科、研究生课程，以及部分专题研讨会和精选的在线课程(中科大的孙天阳学长整理了更多内容，已附上链接，这里更多的是我学习过或想了解的内容)。后续与链接相关内容的个人学习心得与整理将更新至此，以便回顾与查阅。这个专栏的成长离不开大家的支持。如果你在学习过程中发现了任何优秀的课程（本校、外校、网络），都欢迎投稿给我。让我们一起，把这里变成一个汇集精华学习资源的宝地！再次感谢同学们的支持，更要感谢所有讲授课程的老师们！(如有侵权或不宜上传的内容，请及时邮件联系，谢谢！)
 
 #### Equation
 * [2020年春微分方程IIH(麻希南)](https://tysunseven.github.io/video/Differential_Equation_2020.html)
@@ -99,7 +99,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [2022年秋量子力学A(杨焕雄)](https://tysunseven.github.io/video/Quantum%20Mechanics%202022F.html)
 
 
-#### 这里记录了我对一些数学问题的随想，并非详尽的笔记(很多为我在阅读文献的过程中整理或推导的总结，截至目前还没有上传)
+#### 这里记录了我对一些数学问题的随想，并非详尽的笔记(很多为我在阅读文献的过程中整理和推导的总结，截至本次更新并没有上传)
 
 * [Aleksandrov-Bakelman-Pucci estimates]()
 * [Nash-Moser Iteration Method]()
@@ -109,7 +109,7 @@ In the internet age, knowledge can be recorded and shared. I invite every visito
 * [Capillary hypersurface]()
 * [Yau's conjectures]()
 * [Gradient estimates for the heat equation]()
-* [积分曲率条件下的梯度估计问题]()
+* [积分曲率条件下的梯度估计问题(在图上是否仍能类似考虑)]()
 * [球丛上的共形变换与Yamabe问题]()
 * [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture by Gang Liu]()
 
