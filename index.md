@@ -119,7 +119,7 @@ In the spirit of open-source learning, this space serves as a collective archive
 | PART A | PART B | PART C |PART D
 | :--- | :--- | :--- |:--- |
 | [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU\Math-Jokes.pdf)|
-|[Miaoの书屋](SEU/Read.md) | | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
+|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
 
 
 ### Links
