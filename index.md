@@ -77,12 +77,14 @@ In the spirit of open-source learning, this space serves as a collective archive
 * [2023年春BIMSA Nearly Kähler geometry in 2023 Spring(河井公大朗)](https://bimsa.net/activity/kahgeo/)
 * [2023年秋BIMSA Riemannian Geometry(杨琳)](https://bimsa.net/people/lynnheller/)
 * [2024年秋BIMSA Introduction to p-harmonic functions(Peter Gordon)](https://bimsa.net/activity/Inttop-hfun/)
+* [【MSU】Conformal geometry and Riemann surfaces (2024)](https://www.bilibili.com/video/BV1ZUCPB7EPa)
 * [2025年春BIMSA An Introduction to Minimal Surfaces(张一岳)](https://www.bimsa.net/activity/AnInttoMinSur/)
 * [Algebraic Topology by Si Li](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:Algebraic_Topology)
 * [2024 Algebraic Geometry by Lei Zhang](https://passiflora-sago.github.io/2024FallAA/2024FallAA.html)
 * [2025年春BIMSA莫尔斯理论(Guillaume Tahar)](https://bimsa.net/activity/MorThe/)
 * [2025年秋BIMSA Moduli spaces of vector bundles on curves(汪建平）]()
 * [南开大学暑期学校 度量黎曼几何](https://www.bilibili.com/video/BV16yhZz4Eu3/?spm_id_from=333.1387.favlist.content.click)
+* [Kahler几何中的典则度量问题｜短期课程｜KE度量｜cscK度量｜YTD猜想(2026)](https://www.bilibili.com/video/BV1gorkBzEAE/)
 * [东南大学 几何分析(沈斌)](https://www.bilibili.com/video/BV1Qv411j7Zh/?spm_id_from=333.1387.upload.video_card.click)
 * [东南大学 黎曼几何(沈斌)](https://www.bilibili.com/video/BV1dZ4y1F7gn/?spm_id_from=333.1387.upload.video_card.click)
 * [山东大学 微分流形(李向东)](https://www.bilibili.com/video/BV1YT411u7wL/?spm_id_from=333.1387.favlist.content.click&vd_source=649e15088a359d76e6ba174c16e74de8)
@@ -97,6 +99,11 @@ In the spirit of open-source learning, this space serves as a collective archive
 * [麻省理工：广义相对论](https://www.bilibili.com/video/BV1NVKLzHE2B/)
 * [给数学系讲的量子力学 Quantum Mechanics For Mathematicians](https://www.bilibili.com/video/BV1np4y1t7Rm/?vd_source=649e15088a359d76e6ba174c16e74de8)
 * [2022年秋量子力学A(杨焕雄)](https://tysunseven.github.io/video/Quantum%20Mechanics%202022F.html)
+* [献给理论物理学家的数学课程(东京大学 大栗博司)](https://www.bilibili.com/video/BV1y4X4Y9E8z/)
+* [【MSU】Symplectic Geometry and Quantization (2024)](https://www.bilibili.com/video/BV1Qf6SB4EFz/)
+* [量子力学的几何结构](https://www.bilibili.com/video/BV11G411p7Rn/)
+
+
 
 
 #### 这里记录了我对一些数学问题的随想，并非详尽的笔记(很多为我在阅读文献的过程中整理和推导的总结，截至本次更新并没有上传)

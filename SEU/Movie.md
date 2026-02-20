@@ -15,3 +15,11 @@
 ### 黑泽明（待补充）
 
 "Why can't people be happier together?"
+
+#### 七武士
+
+#### 乱
+
+#### 影武者
+
+#### 梦

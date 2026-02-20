@@ -1,6 +1,6 @@
 # 我的SEU求生日记
 
-![](/Images/logo/F4.jpg)
+![](/Images/logo/jiulonglake.jpg)
 
 ### 2026.1.14  **昨日围棋未终局，多乘白鹤下山来**
 
@@ -144,5 +144,5 @@
 提筆于中國南京江寧區東南大學九龍湖校區 齋內
 
 ---
-
+![](/Images/logo/hangz2.jpg)
 [返回主页](https://yijiemiao.github.io/)
