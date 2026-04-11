@@ -4,7 +4,7 @@ Updates on my research and expository papers, discussion of open problems, and o
 ![](Images\lantingxu.jpg)
 
 ### About Me
-Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
+Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: I-chieh Miao), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I am quite interested in Differential Geometry and Geometric Analysis. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
 
@@ -126,7 +126,7 @@ In the spirit of open-source learning, this space serves as a collective archive
 | PART A | PART B | PART C |PART D
 | :--- | :--- | :--- |:--- |
 | [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU\Math-Jokes.pdf)|
-|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
+|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | [Notes on the Presentation](SEU/Presentation.md) | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
 
 
 ### Links
