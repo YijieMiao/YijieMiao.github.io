@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on February 4, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on April 8, 2026*
 
 ![](Images\lantingxu.jpg)
 
@@ -15,7 +15,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰), a student in [the Department of Ma
 * (2025 Summer) [Here](notes\complexgeometry.pdf) are the lectu·re notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
-
+* (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
 ### Personal Course Notes
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
@@ -132,6 +132,7 @@ In the spirit of open-source learning, this space serves as a collective archive
 ### Links
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库，内容涵盖物理、数学、计算机等多领域，可及时关注最新的进展(但文章为预印版，尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容，比如说阅读论文中遇到的一些问题，可以参考此网站。
+* [MSC2020 database](https://mathscinet.ams.org/mathscinet/msc/msc2020.html):The current 2020 Mathematics Subject Classification (MSC2020) is a revision of the MSC2010 that has been used by MR and Zbl since 2010. MSC2020 is the result of a collaborative effort by the editors of MR and Zbl to update their shared classification. These editors acknowledge the many helpful suggestions from the mathematical community during the revision process over more than two years.
 * [MathSciNet](https://mathscinet.ams.org/mathscinet/publications-search), [Jstor](https://www.jstor.org/) 和 [Google Scholar](https://scholar.google.com/) 是我常用于查阅文献的网站。
 * [Z-Library](https://zh.z-library.sk/) 和 [Anna's Archive](https://zh.annas-archive.li/) 这里可以下载一些电子书（需要魔法）
 * [TikZiT](https://tikzit.github.io/#install) 是一个非常简单的图形界面编辑器，TikZiT文件可以通过LaTeX直接包含在论文排版中。
@@ -167,8 +168,10 @@ In the spirit of open-source learning, this space serves as a collective archive
 * [J.S. Milne的博客](https://www.jmilne.org/math/):其主页上有很多关于代数以及代数几何，算术几何的内容。
 * [combinatorics and more](https://gilkalai.wordpress.com/):组合学家Gil Kalai的博客。
 * [清华大学博资考整理](https://cloud.tsinghua.edu.cn/d/2f75fc5f10f64c128e70/ )
-* [Mathematics Tripos Papers](https://questions.tripos.org/part-ii/all/) An archive of questions from the Cambridge Mathematics Tripos.
+* [Mathematics Tripos Papers](https://questions.tripos.org/part-ii/all/): An archive of questions from the Cambridge Mathematics Tripos.
 * [Pengzi Miao's homepage](https://www.math.miami.edu/~pengzim/):苗鹏子老师的个人主页，研究一些正质量问题等相关内容(Differential Geometry, Mathematical Relativity),我在听了一次报告后了解了一些内容,所以在这里附上链接。
+* [Man Chun LEE's homepage](https://www.math.cuhk.edu.hk/people/academic-staff/mclee):李文俊老师的个人主页，2026年3月23-27日本人有幸在南京大学辛壬楼听了4天的报告,其中李文俊老师做了3次题为“Rigidity of non-compact manifolds with nonnegative pinched curvature”的报告，了解到了不少有趣的结果。
+* [Richard Bamler's homepage](https://rbamler.github.io/):His field is geometric analysis, specifically geometric flows, such as Ricci flow and Mean Curvature Flow.
 * [Zuoqin Wang's homepage](http://staff.ustc.edu.cn/~wangzuoq/):王作勤老师的个人主页，上面更新一些课程讲义以及作业习题（如微分流形，黎曼几何，代数拓扑等）
 * [Shiping Liu's Home Page](http://staff.ustc.edu.cn/~spliu/):刘世平老师的个人主页，可参考微分几何与黎曼几何的笔记与作业布置。
 * [2020年南开暑期短期课程](http://www.cim.nankai.edu.cn/2020/0709/c11453a284191/page.htm):苏伟旭老师讲授Teichmüller空间简介内容，附带有课程回放与讲义。
