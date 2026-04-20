@@ -190,4 +190,4 @@ Please contact me if you find any mistake in my notes! Thanks in advance.
 
 ![](/Images/life/Tao1.jpg)
 
-![](https://komarev.com/ghpvc/?username=YijieMiao&style=flat-square)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https://yijiemiao.github.io/&label=Views&countColor=%23263238&style=glass)
