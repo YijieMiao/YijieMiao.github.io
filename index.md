@@ -188,9 +188,6 @@ yjmiao.seu@gmail.com
 
 Please contact me if you find any mistake in my notes! Thanks in advance.
 
-### Fun Corner
-* [塔罗牌小游戏（含解读与科普）](tarot.html)
-
 ![](/Images/life/Tao1.jpg)
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https://yijiemiao.github.io/&label=Views&countColor=%23263238&style=glass)
