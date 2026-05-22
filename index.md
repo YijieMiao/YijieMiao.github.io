@@ -1,10 +1,19 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on April 20, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on May 22, 2026*
 
 ![](Images\lantingxu.jpg)
 
 ### About Me
 Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: I-chieh Miao), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows, and my paper entitled "Two methods of gradient estimates for the Lichnerowicz equation and their comparison" has been accepted by the Taiwanese Journal of Math. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
+
+##### 近期活动
+
+6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校；
+
+8月初参加北京国际数学研究中心举办的微分几何暑期学校。
+
+-----
+
 
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的，并非浅尝辄止的。它就像徒步者对山川的眷恋，在踏遍每一寸土地后，心中燃起了征服珠穆朗玛峰的雄心。我无意于四处流连，也无心于沿途风景，只愿将全部心血毫无保留地倾注于此，以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙。
 
@@ -12,7 +21,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: I-chieh Mi
 ### Seminars
 * (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
-* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lectu·re notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
