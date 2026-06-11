@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on May 22, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on June 11, 2026*
 
 ![](Images\lantingxu.jpg)
 
@@ -9,6 +9,8 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: I-chieh Mi
 ##### 近期活动
 
 6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校；
+
+6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校；
 
 8月初参加北京国际数学研究中心举办的微分几何暑期学校。
 
