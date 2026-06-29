@@ -1,11 +1,12 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on June 11, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on June 29, 2026*
 
 ![](Images\lantingxu.jpg)
 
 ### About Me
 Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows, and my paper entitled "Two methods of gradient estimates for the Lichnerowicz equation and their comparison" has been accepted by the Taiwanese Journal of Math. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
+最近想学习阅读一些几何测度论以及谱几何方面的知识.
 ##### 近期活动
 
 6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校；
@@ -16,8 +17,10 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 -----
 
+不赴长安花事，只守山中雪声.
 
-该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的, 并非浅尝辄止的. 它就像徒步者对山川的眷恋, 在踏遍每一寸土地后, 心中燃起了征服珠穆朗玛峰的雄心. 我无意于四处流连, 也无心于沿途风景, 只愿将全部心血毫无保留地倾注于此, 以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙. 
+
+<!-- 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的, 并非浅尝辄止的. 它就像徒步者对山川的眷恋, 在踏遍每一寸土地后, 心中燃起了征服珠穆朗玛峰的雄心. 我无意于四处流连, 也无心于沿途风景, 只愿将全部心血毫无保留地倾注于此, 以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙. -->
 
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Seminars
