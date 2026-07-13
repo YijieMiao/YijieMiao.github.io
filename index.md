@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on June 29, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 13, 2026*
 
 ![](Images\lantingxu.jpg)
 
@@ -7,13 +7,6 @@ Updates on my research and expository papers, discussion of open problems, and o
 Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows, and my paper entitled "Two methods of gradient estimates for the Lichnerowicz equation and their comparison" has been accepted by the Taiwanese Journal of Math. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
 
 最近想学习阅读一些几何测度论以及谱几何方面的知识.
-##### 近期活动
-
-6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校；
-
-6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校；
-
-8月初参加北京国际数学研究中心举办的微分几何暑期学校. 
 
 -----
 
@@ -30,13 +23,28 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
-### Personal Course Notes
+### Personal Course Notes in SEU
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
 * [Here](notes\MA\MAIII.pdf) is my notes on Mathematical Analysis III.
 * [Here](notes\complex_analysis\complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
 * [Here](notes\real_analysis\real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
+
+##### 2026 Summer School
+
+6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校，笔记如下:
+* [Introduction to harmonic maps by Xin Zhou](/notes/Lecture_notes_summer_2026/Introduction%20to%20harmonic%20maps%20Xin%20Zhou.pdf)
+* [Minimal cones and asymptotic conic  minimal surfaces by Zhihan Wang](/notes/Lecture_notes_summer_2026/Minimal%20cones%20and%20asymptotic%20conic%20%20minimal%20surfaces%20Zhihan%20Wang.pdf)
+* [Regularity of Minimal surfaces, and Bernstein-type problems by Nick Edelen](/notes/Lecture_notes_summer_2026/Regularity%20of%20Minimal%20surfaces,%20and%20Bernstein-type%20problems%20Nick%20Edelen.pdf)
+* [Submanifolds in collapsing Einstein manifolds by Ruobing Zhang](/notes/Lecture_notes_summer_2026/Submanifolds%20in%20collapsing%20Einstein%20manifolds%20Ruobing%20Zhang.pdf)
+
+6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校，笔记如下：
+* [二阶椭圆型偏微分方程及应用 by 刘佳堃](/notes/Lecture_notes_summer_2026/二阶椭圆型偏微分方程及应用%20刘佳堃.pdf)
+* [热核估计 by 张振雷](/notes/Lecture_notes_summer_2026/热核估计%20张振雷.pdf)
+* [Volume of Kähler-Einstein Fano Varieties by 李驰](/notes/Lecture_notes_summer_2026/Volume%20of%20Kähler-Einstein%20Fano%20Varieties%20李驰.pdf)
+
+8月初参加北京国际数学研究中心举办的微分几何暑期学校. 
 
 
 ### Collaborative Study Materials 
