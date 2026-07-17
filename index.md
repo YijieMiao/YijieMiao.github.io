@@ -1,7 +1,7 @@
 ## Welcome to my homepage!
 Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 13, 2026*
 
-![](Images\lantingxu.jpg)
+![](Images/lantingxu.jpg)
 
 ### About Me
 Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows, and my paper entitled "Two methods of gradient estimates for the Lichnerowicz equation and their comparison" has been accepted by the Taiwanese Journal of Math. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
@@ -17,9 +17,9 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Seminars
-* (2025 Summer) [Here](notes\pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
-* (2025 Summer) [Here](notes\rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
-* (2025 Summer) [Here](notes\complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes/pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes/rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
+* (2025 Summer) [Here](notes/complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
@@ -27,9 +27,9 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
-* [Here](notes\MA\MAIII.pdf) is my notes on Mathematical Analysis III.
-* [Here](notes\complex_analysis\complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
-* [Here](notes\real_analysis\real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
+* [Here](notes/MA/MAIII.pdf) is my notes on Mathematical Analysis III.
+* [Here](notes/complex_analysis/complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
+* [Here](notes/real_analysis/real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
 
 ##### 2026 Summer School
 
@@ -147,8 +147,8 @@ In the spirit of open-source learning, this space serves as a collective archive
 
 | PART A | PART B | PART C |PART D
 | :--- | :--- | :--- |:--- |
-| [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU\Math-Jokes.pdf)|
-|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | [Notes on the Presentation](SEU/Presentation.md) | [数学笑话II](SEU\LSQ（647）的简介笑话合集.pdf)|
+| [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU/Math-Jokes.pdf)|
+|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | [Notes on the Presentation](SEU/Presentation.md) | [数学笑话II](SEU/LSQ（647）的简介笑话合集.pdf)|
 
 
 ### Links

@@ -1,6 +1,6 @@
 # 我在SEU-SAST的日子
 
-![](/Images\logo/SAST.png)
+![](/Images/logo/SAST.png)
 
 ## 社团介绍
 
@@ -564,4 +564,3 @@ N 张白纸（供专家随时记录用）
 6. 请参加答辩的人员将手机调成振动, 主动维护现场秩序. 
 
 [返回主页](https://yijiemiao.github.io/)
-

@@ -7,9 +7,9 @@ Hi, I'm Yijie Miao, a student in the Department of Mathematics at Southeast Univ
 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的, 并非浅尝辄止的. 它就像徒步者对山川的眷恋, 在踏遍每一寸土地后, 心中燃起了征服珠穆朗玛峰的雄心. 我无意于四处流连, 也无心于沿途风景, 只愿将全部心血毫无保留地倾注于此, 以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙. 
 
 ### Seminars
-* (2025 Summer) [Here](notes/Ricci_flow/Ricci_flow.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
-* (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
-* (2025 Summer) [Here](notes/Conformal/Conformal.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Summer) [Here](notes/pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Summer) [Here](notes/rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry.
+* (2025 Summer) [Here](notes/complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry.
 
 
 ### Personal notes
