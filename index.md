@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 13, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 19, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -8,6 +8,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 最近想学习阅读一些几何测度论以及谱几何方面的知识.
 
+##### 谱几何选用的教材是首师大 hzl 学长推荐的两本：[Topics in Spectral Geometry](/notes/Spectral_geometry/TSG230529.pdf) 和 [GTM 276](/notes/Spectral_geometry/GTM%20276%20Manfred%20Einsiedler,%20Thomas%20Ward%20-%20Functional%20Analysis,%20Spectral%20Theory,%20and%20Applications%20(2017,%20Springer)%20-%20libgen.li.pdf).
 -----
 
 “在碌碌无为和激动人心之间徘徊, 然后艰难曲折地前行, 是大部分研究者的心态.”
