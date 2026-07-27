@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 19, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 27, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -17,14 +17,14 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 <!-- 该如何描述我对基础数学的感觉呢? 我想会是深沉而执着的, 并非浅尝辄止的. 它就像徒步者对山川的眷恋, 在踏遍每一寸土地后, 心中燃起了征服珠穆朗玛峰的雄心. 我无意于四处流连, 也无心于沿途风景, 只愿将全部心血毫无保留地倾注于此, 以此作为叩开那扇通往数学圣殿的庄严大门的唯一钥匙. -->
 
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
-### Seminars
+### Notes
 * (2025 Summer) [Here](notes/pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * (2025 Summer) [Here](notes/rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * (2025 Summer) [Here](notes/complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
-### Personal Course Notes in SEU
+
 * [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
@@ -47,9 +47,28 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 8月初参加北京国际数学研究中心举办的微分几何暑期学校. 
 
+------
+### Research
+#### Pubilication
 
-### Collaborative Study Materials 
-In the spirit of open-source learning, this space serves as a collective archive for mathematical excellence. I welcome submissions of exceptional course notes and resources—help us fill the gaps or provide new insights for fellow students and researchers.
+-----
+
+#### 这里记录了我对一些数学问题的随想, 并非详尽的笔记(很多为我在阅读文献的过程中整理和推导的总结, 截至本次更新并没有上传)
+
+* [Aleksandrov-Bakelman-Pucci estimates]()
+* [Nash-Moser Iteration Method]()
+* [The Schauder Estimate]()
+* [Ricci Flow]()
+* [Minkowski Problem]()
+* [Capillary hypersurface]()
+* [Yau's conjectures]()
+* [Gradient estimates for the heat equation]()
+* [积分曲率条件下的梯度估计问题(在图上是否仍能类似考虑)]()
+* [球丛上的共形变换与Yamabe问题]()
+* [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture by Gang Liu]()
+
+### Resources
+<!--In the spirit of open-source learning, this space serves as a collective archive for mathematical excellence. I welcome submissions of exceptional course notes and resources—help us fill the gaps or provide new insights for fellow students and researchers.-->
 
 本专栏旨在收录整理各类高质量的数学课程资源, 涵盖本科、研究生课程, 以及部分专题研讨会和精选的在线课程(中科大的孙天阳学长整理了更多内容, 已附上链接, 这里更多的是我学习过或想了解的内容). 后续与链接相关内容的个人学习心得与整理将更新至此, 以便回顾与查阅. 这个专栏的成长离不开大家的支持. 如果你在学习过程中发现了任何优秀的课程（本校、外校、网络）, 都欢迎投稿给我. 让我们一起, 把这里变成一个汇集精华学习资源的宝地！再次感谢同学们的支持, 更要感谢所有讲授课程的老师们！(如有侵权或不宜上传的内容, 请及时邮件联系, 谢谢！)
 
@@ -126,31 +145,15 @@ In the spirit of open-source learning, this space serves as a collective archive
 * [【MSU】Symplectic Geometry and Quantization (2024)](https://www.bilibili.com/video/BV1Qf6SB4EFz/)
 * [量子力学的几何结构](https://www.bilibili.com/video/BV11G411p7Rn/)
 
+### Personal
 
+Notes on campus life and interests beyond mathematics.
 
-
-#### 这里记录了我对一些数学问题的随想, 并非详尽的笔记(很多为我在阅读文献的过程中整理和推导的总结, 截至本次更新并没有上传)
-
-* [Aleksandrov-Bakelman-Pucci estimates]()
-* [Nash-Moser Iteration Method]()
-* [The Schauder Estimate]()
-* [Ricci Flow]()
-* [Minkowski Problem]()
-* [Capillary hypersurface]()
-* [Yau's conjectures]()
-* [Gradient estimates for the heat equation]()
-* [积分曲率条件下的梯度估计问题(在图上是否仍能类似考虑)]()
-* [球丛上的共形变换与Yamabe问题]()
-* [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture by Gang Liu]()
-
-### SEU Diary
-我在东南大学的生活日常, 记录着那些摸鱼的快乐时光. 
-
-| PART A | PART B | PART C |PART D
-| :--- | :--- | :--- |:--- |
-| [我在SEU的求生日记](SEU/Diary.md) | [我在SEU-SAST的打工日志](SEU/Diary-SAST.md) | [我在SEU-Math的求学日记](SEU/Diary-Math.md) |[数学笑话I](SEU/Math-Jokes.pdf)|
-|[Miaoの书屋](SEU/Read.md) | [Miaoの观影记](SEU/Movie.md) | [Notes on the Presentation](SEU/Presentation.md) | [数学笑话II](SEU/LSQ（647）的简介笑话合集.pdf)|
-
+* [Journal](SEU/Diary.md) <!--* [Campus & Service](SEU/Diary-SAST.md)-->
+* [Miaoの书屋](SEU/Read.md)
+* [Miaoの观影记](SEU/Movie.md)
+* [Mathematical Humor I](SEU/Math-Jokes.pdf)
+* [Mathematical Humor II](SEU/LSQ（647）的简介笑话合集.pdf)
 
 ### Links
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库, 内容涵盖物理、数学、计算机等多领域, 可及时关注最新的进展(但文章为预印版, 尚未经过同行评议)
