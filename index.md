@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 27, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 28, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -211,7 +211,7 @@ Notes on campus life and interests beyond mathematics.
 
 
 ### Contact
-yjmiao.seu@gmail.com
+yijiemiao0420@gmail.com
 
 Please contact me if you find any mistake in my notes! Thanks in advance.
 
