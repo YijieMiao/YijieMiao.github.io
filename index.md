@@ -156,6 +156,7 @@ Notes on campus life and interests beyond mathematics.
 * [Mathematical Humor II](SEU/LSQ（647）的简介笑话合集.pdf)
 
 ### Links
+* [ICM Conjectures](https://icmconjectures.com/)：由董彬、居浩成和 Gergely Bérczi 发起的开放协作项目, 系统整理历届国际数学家大会（ICM）论文集中提出的重要猜想与开放问题, 并追踪其研究进展、相关文献及当前状态；同时也为数学 AI 的真实推理能力评测提供具有文献依据的基准.
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库, 内容涵盖物理、数学、计算机等多领域, 可及时关注最新的进展(但文章为预印版, 尚未经过同行评议)
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容, 比如说阅读论文中遇到的一些问题, 可以参考此网站. 
 * [MSC2020 database](https://mathscinet.ams.org/mathscinet/msc/msc2020.html):The current 2020 Mathematics Subject Classification (MSC2020) is a revision of the MSC2010 that has been used by MR and Zbl since 2010. MSC2020 is the result of a collaborative effort by the editors of MR and Zbl to update their shared classification. These editors acknowledge the many helpful suggestions from the mathematical community during the revision process over more than two years.
