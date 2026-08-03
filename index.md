@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on July 28, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on August 3, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -166,7 +166,7 @@ Notes on campus life and interests beyond mathematics.
 * [Mao Sheng](http://staff.ustc.edu.cn/~msheng/) 是盛茂老师在中科大的个人主页. 
 * [USTC STY](https://tysunseven.github.io/) 是中科大孙天阳学长的个人主页, 从中学到了很多, 也借鉴了不少网站资料, 如果想了解更多的内容, 可以点进学长的个人主页. 
 * [SEU LMX](https://liumengxuan04.github.io/) 是2022级东南大学软件学院的内蒙古老乡刘孟玄同学的个人主页, 十分优秀, 或许日后也会产出更多优质的内容. 
-* [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站[What's new](https://terrytao.wordpress.com/)上可以找到介绍他的工作的文章, 以及他的一些课程的讲义, 以及与数学有关的学习工作建议等内容. Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取.  [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/) 是陶哲轩在UCLA的个人主页. 
+* [Terence Tao](https://en.wikipedia.org/wiki/Terence_Tao):他的博客网站 [What's new](https://terrytao.wordpress.com/) 上可以找到介绍他的工作的文章, 以及他的一些课程的讲义, 以及与数学有关的学习工作建议等内容. [Here](/notes/age_of_ai_icm_2026.pdf) 是2026年 ICM 现场Tao做的报告PPT. Tao的一些相对不是那么正式的内容可以在[他的Mastodon社交媒体账号](https://mathstodon.xyz/@tao)上获取.  [math.ucla.edu/~tao/](https://www.math.ucla.edu/~tao/) 是陶哲轩在UCLA的个人主页. 
 * [Paul Minter](https://minterscompactness.wordpress.com/) 的个人主页, 他于 2022 年在剑桥大学完成博士学位, 研究兴趣集中在微分几何、几何分析和几何测度论等方面. 
 * [Graduate Students' Guide to Generals](https://web.math.princeton.edu/generals/) A database of the general examinations taken by graduate students in the Princeton University Mathematics Department.
 * [Pikachu345](https://space.bilibili.com/180947374?spm_id_from=333.337.0.0):Pikachu345在B站的主页, 他有很多学习的思路与思维, 我在听到后获益匪浅, 并向他学习了很多. 下面的不少链接都是他提供的, 我仅仅是作为搬运工便于自己查找. 
