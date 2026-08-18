@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on August 3, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on August 18, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -30,25 +30,25 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * [Here](notes/real_analysis/real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
 
 ##### 2025 Summer School
-8月线上参加北京国际数学研究中心举办的微分几何暑期学校，笔记如下：
+8月线上参加北京国际数学研究中心举办的微分几何暑期学校, 笔记如下：
 * [二阶线性椭圆型偏微分方程选讲 by 李奇睿](notes/pde.pdf)
 * [黎曼几何 by 王雨生](notes/rg.pdf)
 * [复几何初步 by 韩骥原](notes/complexgeometry.pdf)
 
 ##### 2026 Summer School
 
-6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校，笔记如下:
+6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校, 笔记如下:
 * [Introduction to harmonic maps by Xin Zhou](/notes/Lecture_notes_summer_2026/introduction-to-harmonic-maps-xin-zhou.pdf)
 * [Minimal cones and asymptotic conic minimal surfaces by Zhihan Wang](/notes/Lecture_notes_summer_2026/minimal-cones-asymptotic-conic-minimal-surfaces-zhihan-wang.pdf)
 * [Regularity of Minimal surfaces, and Bernstein-type problems by Nick Edelen](/notes/Lecture_notes_summer_2026/regularity-minimal-surfaces-bernstein-problems-nick-edelen.pdf)
 * [Submanifolds in collapsing Einstein manifolds by Ruobing Zhang](/notes/Lecture_notes_summer_2026/submanifolds-collapsing-einstein-manifolds-ruobing-zhang.pdf)
 
-6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校，笔记如下：
+6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校, 笔记如下：
 * [二阶椭圆型偏微分方程及应用 by 刘佳堃](/notes/Lecture_notes_summer_2026/second-order-elliptic-pde-liu-jiakun.pdf)
 * [热核估计 by 张振雷](/notes/Lecture_notes_summer_2026/heat-kernel-estimates-zhang-zhenlei.pdf)
 * [Volume of Kähler-Einstein Fano Varieties by 李驰](/notes/Lecture_notes_summer_2026/volume-kahler-einstein-fano-varieties-li-chi.pdf)
 
-8月初参加北京国际数学研究中心举办的微分几何暑期学校，笔记如下：
+8月初参加北京国际数学研究中心举办的微分几何暑期学校, 笔记如下：
 * [二阶线性椭圆型偏微分方程选讲 by 邱国寰](/notes/Lecture_notes_summer_2026/second-order-linear-elliptic-pde-guohuan-qiu.pdf)
 * [黎曼几何 by 邓宇星](/notes/Lecture_notes_summer_2026/riemannian-geometry-deng-yuxing.pdf)
 * [复几何初步 by 傅鑫](/notes/Lecture_notes_summer_2026/complex-geometry-fu-xin.pdf)
