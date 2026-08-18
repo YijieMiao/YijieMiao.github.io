@@ -8,7 +8,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 最近想学习阅读一些几何测度论以及谱几何方面的知识.
 
-##### 谱几何选用的教材是首师大 hzl 学长推荐的两本：[Topics in Spectral Geometry](/notes/Spectral_geometry/TSG230529.pdf) 和 [GTM 276](/notes/Spectral_geometry/GTM%20276%20Manfred%20Einsiedler,%20Thomas%20Ward%20-%20Functional%20Analysis,%20Spectral%20Theory,%20and%20Applications%20(2017,%20Springer)%20-%20libgen.li.pdf).
+##### 谱几何选用的教材是首师大 hzl 学长推荐的两本：[Topics in Spectral Geometry](/notes/Spectral_geometry/TSG230529.pdf) 和 [GTM 276](/notes/Spectral_geometry/functional-analysis-spectral-theory-applications-einsiedler-ward.pdf).
 -----
 
 “在碌碌无为和激动人心之间徘徊, 然后艰难曲折地前行, 是大部分研究者的心态.”
@@ -25,8 +25,8 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
 
-* [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
-* [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
+* [Here](notes/some_tools/convergence-relations-on-finite-measure-spaces.pdf) is my note about Several convergence relations in the context of limited measures.
+* [Here](notes/some_tools/latex-formula-writing-tips.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
 * [Here](notes/MA/MAIII.pdf) is my notes on Mathematical Analysis III.
 * [Here](notes/complex_analysis/complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
@@ -35,17 +35,20 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 ##### 2026 Summer School
 
 6月底参加国家天元数学东南中心与厦门大学举办的微分几何暑期学校，笔记如下:
-* [Introduction to harmonic maps by Xin Zhou](/notes/Lecture_notes_summer_2026/Introduction%20to%20harmonic%20maps%20Xin%20Zhou.pdf)
-* [Minimal cones and asymptotic conic  minimal surfaces by Zhihan Wang](/notes/Lecture_notes_summer_2026/Minimal%20cones%20and%20asymptotic%20conic%20%20minimal%20surfaces%20Zhihan%20Wang.pdf)
-* [Regularity of Minimal surfaces, and Bernstein-type problems by Nick Edelen](/notes/Lecture_notes_summer_2026/Regularity%20of%20Minimal%20surfaces,%20and%20Bernstein-type%20problems%20Nick%20Edelen.pdf)
-* [Submanifolds in collapsing Einstein manifolds by Ruobing Zhang](/notes/Lecture_notes_summer_2026/Submanifolds%20in%20collapsing%20Einstein%20manifolds%20Ruobing%20Zhang.pdf)
+* [Introduction to harmonic maps by Xin Zhou](/notes/Lecture_notes_summer_2026/introduction-to-harmonic-maps-xin-zhou.pdf)
+* [Minimal cones and asymptotic conic minimal surfaces by Zhihan Wang](/notes/Lecture_notes_summer_2026/minimal-cones-asymptotic-conic-minimal-surfaces-zhihan-wang.pdf)
+* [Regularity of Minimal surfaces, and Bernstein-type problems by Nick Edelen](/notes/Lecture_notes_summer_2026/regularity-minimal-surfaces-bernstein-problems-nick-edelen.pdf)
+* [Submanifolds in collapsing Einstein manifolds by Ruobing Zhang](/notes/Lecture_notes_summer_2026/submanifolds-collapsing-einstein-manifolds-ruobing-zhang.pdf)
 
 6月底-7月中旬参见南京大学数学学院“几何分析学术年”活动 2026 几何分析暑期学校，笔记如下：
-* [二阶椭圆型偏微分方程及应用 by 刘佳堃](/notes/Lecture_notes_summer_2026/二阶椭圆型偏微分方程及应用%20刘佳堃.pdf)
-* [热核估计 by 张振雷](/notes/Lecture_notes_summer_2026/热核估计%20张振雷.pdf)
-* [Volume of Kähler-Einstein Fano Varieties by 李驰](/notes/Lecture_notes_summer_2026/Volume%20of%20Kähler-Einstein%20Fano%20Varieties%20李驰.pdf)
+* [二阶椭圆型偏微分方程及应用 by 刘佳堃](/notes/Lecture_notes_summer_2026/second-order-elliptic-pde-liu-jiakun.pdf)
+* [热核估计 by 张振雷](/notes/Lecture_notes_summer_2026/heat-kernel-estimates-zhang-zhenlei.pdf)
+* [Volume of Kähler-Einstein Fano Varieties by 李驰](/notes/Lecture_notes_summer_2026/volume-kahler-einstein-fano-varieties-li-chi.pdf)
 
-8月初参加北京国际数学研究中心举办的微分几何暑期学校. 
+8月初参加北京国际数学研究中心举办的微分几何暑期学校，笔记如下：
+* [二阶线性椭圆型偏微分方程选讲 by 邱国寰](/notes/Lecture_notes_summer_2026/second-order-linear-elliptic-pde-guohuan-qiu.pdf)
+* [黎曼几何 by 邓宇星](/notes/Lecture_notes_summer_2026/riemannian-geometry-deng-yuxing.pdf)
+* [复几何初步 by 傅鑫](/notes/Lecture_notes_summer_2026/complex-geometry-fu-xin.pdf)
 
 ------
 ### Research
@@ -153,7 +156,7 @@ Notes on campus life and interests beyond mathematics.
 * [Miaoの书屋](SEU/Read.md)
 * [Miaoの观影记](SEU/Movie.md)
 * [Mathematical Humor I](SEU/Math-Jokes.pdf)
-* [Mathematical Humor II](SEU/LSQ（647）的简介笑话合集.pdf)
+* [Mathematical Humor II](SEU/math-jokes-lsq-647.pdf)
 
 ### Links
 * [ICM Conjectures](https://icmconjectures.com/)：由董彬、居浩成和 Gergely Bérczi 发起的开放协作项目, 系统整理历届国际数学家大会（ICM）论文集中提出的重要猜想与开放问题, 并追踪其研究进展、相关文献及当前状态；同时也为数学 AI 的真实推理能力评测提供具有文献依据的基准. [Here](/notes/Geometry_at_the_ICM_Problems.pdf) 是使用 GPT 5.6 Sol 整理出的几何部分，当前收录 278 个问题.

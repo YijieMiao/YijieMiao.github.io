@@ -2,7 +2,7 @@
 
 这里的书目, 是我的精神休憩之地. 长时间沉浸于数学的抽象世界和严谨逻辑之后, 我总要回到人间, 透过这些人文、社科和文学作品, 去感知世界的广阔、情感的细腻与生活的真实样貌. 它们是我在理性与感性之间, 寻找平衡的坐标. 
 ![](/Images/logo/hangz1.jpg)
-* [纳瓦尔宝典](/read/纳瓦尔宝典_埃里克_乔根森.pdf)
+* [纳瓦尔宝典](/read/almanack-of-naval-ravikant-jorgenson.pdf)
 
 在时代的洪流中, 我们常常会陷入一种近乎荒诞的悖论：明明在拼命奔跑, 却仿佛踩在静止的跑步机上. 你是否也曾有过这样的困惑？从清晨忙碌至深夜, 却发现收入的增幅永远赶不上焦虑的蔓延；你觉得自己已经足够努力, 却始终无法赚到认知以外的钱, 甚至在“无效忙碌”的怪圈里反复空转. 当周围人取得成功的消息传来, 那种对自己长期方向的迷茫便如潮水般涌来, 将人吞没. 
 
@@ -105,7 +105,7 @@
 
 ---
 
-* [寂寞的游戏](/read/寂寞的游戏_袁哲生.pdf)
+* [寂寞的游戏](/read/a-game-for-the-lonely-yuan-che-sheng.pdf)
 
 阳光升起的时候, 我仿佛在微光里看到了那一声来自文字深处的叹息. 这种叹息不是哀鸣, 而是一种穿透了时间、空间, 最终落在书页上的沉重回响. 初读完袁哲生的《寂寞的游戏》, 那种如潮水般涌来的、巨大的压抑感, 几乎让人窒息. 在读完后的整整两天时间里, 我依然沉浸在一种近乎真空的情绪里. 我试图去梳理、去概括, 却发现自己依然处于一种“不知道他想表达什么, 却依然备受震撼”的混沌状态中. 这种震撼并非来自于某种情节的跌宕, 而是来自于作者用手术刀般的精准, 切开了我们日常生活中那层名为“社交”与“意义”的温情表象, 露出了底下深不可测、冷峻如冰的寂寞内核. 
 
@@ -122,28 +122,28 @@
 阳光依然会升起, 依然会从树枝间穿过. 我们依然会在某些瞬间感到压抑, 依然会对着这个混乱的世界感到困惑. 但只要我们还拥有那份感知阳光落在手心的敏锐, 只要我们还愿意在寂寞中去直视那个赤裸的自我, 那么这一场并不轻松的人生游戏, 或许也就有了它继续玩下去的微弱理由. 世界原本如此, 寂寞也原本如此. 在那个不被关注的角落里, 我们终于可以不再逃避, 而是安静地坐下来, 听听自己内心的声音, 然后对着那份必然到来的终局, 说一声：没什么大不了. 
 
 ----
-* [巴斯-拉格：帕迪多街车站](/read/巴斯_拉格_帕迪多街车站_米耶维.pdf)
-* [美的历程](/read/美的历程_李泽厚.pdf)
-* [狩猎愉快](/read/狩猎愉快_刘宇昆.pdf)
-* [海德格尔导论](/read/海德格尔导论_彼得_特拉夫尼.pdf)
-* [不能承受的生命之轻](/read/不能承受的生命之轻_米兰_昆德拉.pdf)
-* [仿生人会梦见电子羊吗](/read/仿生人会梦见电子羊吗_菲利普迪克.pdf)
-* [冷到下雪](/read/冷到下雪_欧健梅.epub)
-* [历史研究](/read/历史研究_阿诺德_汤因比.pdf)
-* [幻灭三部曲](/read/幻灭三部曲_马沙多_德_阿西斯.pdf)
-* [旧制度与大革命](/read/旧制度与大革命_托克维尔.pdf)
-* [树犹如此](/read/树犹如此_白先勇.pdf)
-* [毛姆作品集](/read/毛姆作品集.pdf)
-* [泡沫通缩时期的日本经济与经济政策——国际经济环境的变化与日本经济](/read/泡沫通缩时期的日本经济与经济政策.pdf)
-* [游戏的终结](/read/游戏的终结_胡里奥_科塔萨尔.pdf)
-* [献给阿尔吉侬的花束](/read/献给阿尔吉侬的花束_凯斯.pdf)
-* [王氏之死](/read/王氏之死_史景迁.epub)
-* [现代日本小说集](/read/现代日本小说集_鲁迅.pdf)
-* [纳博科夫短篇小说全集](/read/纳博科夫短篇小说全集.pdf)
-* [萨拉·沃特斯维多利亚三部曲](/read/萨拉·沃特斯维多利亚三部曲.pdf)
-* [论美国的民主](/read/论美国的民主_托克维尔.pdf)
-* [阅读是一座随身携带的避难 毛姆读书随笔](/read/阅读是一座随身携带的避难所_毛姆.pdf)
-* [阿特伍德作品集](/read/阿特伍德作品集.pdf)
-* [非此即彼 一个生命的残片 上](/read/非此即彼_一个生命的残片_上_克尔凯郭尔.pdf)
-* [非此即彼 一个生命的残片 下](/read/非此即彼_一个生命的残片_下_克尔凯郭尔.pdf)
+* [巴斯-拉格：帕迪多街车站](/read/perdido-street-station-mieville.pdf)
+* [美的历程](/read/path-of-beauty-li-zehou.pdf)
+* [狩猎愉快](/read/good-hunting-ken-liu.pdf)
+* [海德格尔导论](/read/introduction-to-heidegger-trawny.pdf)
+* [不能承受的生命之轻](/read/unbearable-lightness-of-being-kundera.pdf)
+* [仿生人会梦见电子羊吗](/read/do-androids-dream-of-electric-sheep-philip-k-dick.pdf)
+* [冷到下雪](/read/cold-enough-for-snow-jessica-au.epub)
+* [历史研究](/read/study-of-history-toynbee.pdf)
+* [幻灭三部曲](/read/trilogy-of-disillusionment-machado-de-assis.pdf)
+* [旧制度与大革命](/read/old-regime-and-revolution-tocqueville.pdf)
+* [树犹如此](/read/shu-you-ru-ci-bai-xianyong.pdf)
+* [毛姆作品集](/read/maugham-works.pdf)
+* [泡沫通缩时期的日本经济与经济政策——国际经济环境的变化与日本经济](/read/japan-bubble-deflation-economy-policy.pdf)
+* [游戏的终结](/read/end-of-the-game-cortazar.pdf)
+* [献给阿尔吉侬的花束](/read/flowers-for-algernon-keyes.pdf)
+* [王氏之死](/read/death-of-woman-wang-spence.epub)
+* [现代日本小说集](/read/modern-japanese-fiction-lu-xun.pdf)
+* [纳博科夫短篇小说全集](/read/nabokov-short-stories.pdf)
+* [萨拉·沃特斯维多利亚三部曲](/read/sarah-waters-victorian-trilogy.pdf)
+* [论美国的民主](/read/democracy-in-america-tocqueville.pdf)
+* [阅读是一座随身携带的避难 毛姆读书随笔](/read/reading-as-refuge-maugham.pdf)
+* [阿特伍德作品集](/read/atwood-works.pdf)
+* [非此即彼 一个生命的残片 上](/read/either-or-vol-1-kierkegaard.pdf)
+* [非此即彼 一个生命的残片 下](/read/either-or-vol-2-kierkegaard.pdf)
 * [上海交通大学生存手册](https://survivesjtu.gitbook.io/survivesjtumanual) 于08年由一群交大本科生写就, 12年过去了无数交大学子受益于它, 但有些内容可能已经过时, 由于原作者团队主要属于出国攻读博士群体, 本手册在国内深造、国内就业等方面存在欠缺. 本项目旨在将它制作成gitbook发布, 并长期维护该项目, 希望能给未来的交大在读和入学新生同学带来微小的帮助, 尤其感谢本书原版的作者们！(摘自原网址)

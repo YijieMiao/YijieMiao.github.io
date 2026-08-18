@@ -13,8 +13,8 @@ Hi, I'm Yijie Miao, a student in the Department of Mathematics at Southeast Univ
 
 
 ### Personal notes
-* [Here](notes/some_tools/有限测度当中各种收敛方式之间的关系.pdf) is my note about Several convergence relations in the context of limited measures.
-* [Here](notes/some_tools/让你写Tex数学公式提速的妙招.pdf) is some usage methods for LaTeX that I updated.
+* [Here](notes/some_tools/convergence-relations-on-finite-measure-spaces.pdf) is my note about Several convergence relations in the context of limited measures.
+* [Here](notes/some_tools/latex-formula-writing-tips.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
 
 ### Study Materials
