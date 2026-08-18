@@ -18,9 +18,6 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Notes
-* (2025 Summer) [Here](notes/pde.pdf) are the lecture notes about P.D.E I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
-* (2025 Summer) [Here](notes/rg.pdf) are the lecture notes about Riemannian Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
-* (2025 Summer) [Here](notes/complexgeometry.pdf) are the lecture notes about Complex Geometry I took when I attended the 2025 Summer School on Differential Geometry, Beijing International Center for Mathematical Research.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
 * (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
@@ -31,6 +28,12 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * [Here](notes/MA/MAIII.pdf) is my notes on Mathematical Analysis III.
 * [Here](notes/complex_analysis/complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
 * [Here](notes/real_analysis/real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
+
+##### 2025 Summer School
+8月线上参加北京国际数学研究中心举办的微分几何暑期学校，笔记如下：
+* [二阶线性椭圆型偏微分方程选讲 by 李奇睿](notes/pde.pdf)
+* [黎曼几何 by 王雨生](notes/rg.pdf)
+* [复几何初步 by 韩骥原](notes/complexgeometry.pdf)
 
 ##### 2026 Summer School
 
