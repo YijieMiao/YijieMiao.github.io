@@ -58,7 +58,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 ------
 ### Research
 #### Preprints
-[Yijie Miao and Bin Shen. Shi-type and Hamilton-type gradient estimates for a general parabolic equation under compact Finsler CD(−K,N). arXiv:2506.14776.](https://arxiv.org/abs/2506.14776)
+[Yijie Miao and Bin Shen. Shi-type and Hamilton-type gradient estimates for a general parabolic equation under compact Finsler CD(−K,N). arXiv:2506.14776.](https://arxiv.org/abs/2506.14776) A lot of modifications have been made so far.
 
 #### Pubilications
 
