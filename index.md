@@ -1,10 +1,12 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on August 18, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on September 18, 2026*
 
 ![](Images/lantingxu.jpg)
 
 ### About Me
-Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows, and my paper entitled "Two methods of gradient estimates for the Lichnerowicz equation and their comparison" has been accepted by the Taiwanese Journal of Math. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. Specifically, I also enjoy playing Chinese chess, Go, and tennis.
+Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I like puzzles, manga, Chinese chess, Go, and tennis.
+<!-- I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. -->
+
 
 最近想学习阅读一些几何测度论以及谱几何方面的知识.
 
@@ -55,7 +57,12 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 ------
 ### Research
-#### Pubilication
+#### Preprints
+[Yijie Miao and Bin Shen. Shi-type and Hamilton-type gradient estimates for a general parabolic equation under compact Finsler CD(−K,N). arXiv:2506.14776.](https://arxiv.org/abs/2506.14776)
+
+#### Pubilications
+
+[Yijie Miao and Bin Shen. Two Methods of Gradient Estimates for the Lichnerowicz Equation and Their Comparison. Taiwanese J. Math. Advance Publication 1 - 26, 2026.](https://doi.org/10.11650/tjm/260401)
 
 -----
 
