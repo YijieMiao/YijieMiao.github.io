@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on September 18, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on September 29, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -8,7 +8,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 <!-- I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. -->
 
 
-最近想学习阅读一些几何测度论以及谱几何方面的知识.
+最近想学习阅读一些 Geometric Measure Theory, Spectral Geometry and Scalar Curvture 方面的内容.
 
 ##### 谱几何选用的教材是首师大 hzl 学长推荐的两本：[Topics in Spectral Geometry](/notes/Spectral_geometry/TSG230529.pdf) 和 [GTM 276](/notes/Spectral_geometry/functional-analysis-spectral-theory-applications-einsiedler-ward.pdf).
 -----
@@ -21,9 +21,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Notes
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
-* (2025 Nov. ) [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
-* (2026 Spring) [2026.Mar. Optimal transport and curvature-dimension theory](), [2026. Mar.Rigidity of non-compact manifolds with nonnegative pinched curvature](), and [2026.Mar. Spectrum asympotically hyperbolic manifolds]() represent the lecture notes I took while attending presentations at Nanjing University. As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
-
+* [Here](notes/pde_by_Miao.pdf) is my note about PDE.
 * [Here](notes/some_tools/convergence-relations-on-finite-measure-spaces.pdf) is my note about Several convergence relations in the context of limited measures.
 * [Here](notes/some_tools/latex-formula-writing-tips.pdf) is some usage methods for LaTeX that I updated.
 * [Here](notes/O.D.E/O.D.E.pdf) is the ordinary differential equation notes I took when I was an undergraduate.
@@ -31,11 +29,24 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 * [Here](notes/complex_analysis/complex_analysis.pdf) is my notes on Undergraduate Complex Functions.
 * [Here](notes/real_analysis/real_analysis_exercises.pdf) is part of the exercises on real-variable functions from Junxiang Xu that I have organized.
 
+
 ##### 2025 Summer School
 8月线上参加北京国际数学研究中心举办的微分几何暑期学校, 笔记如下：
 * [二阶线性椭圆型偏微分方程选讲 by 李奇睿](notes/pde.pdf)
 * [黎曼几何 by 王雨生](notes/rg.pdf)
 * [复几何初步 by 韩骥原](notes/complexgeometry.pdf)
+
+##### 2025 Nov. Online Mini-course 
+* [Online Mini-course: Convergence of Riemannian Manifolds with Lower Scalar Curvature Bounds](https://math.lzu.edu.cn/info/1065/5583.htm) 
+
+##### 2026 Mar. Nanjing University Mini-courses
+* [Optimal transport and curvature-dimension theory by Bangxian Han](notes/Optimal_transport_and_curvature_dimension_theory.pdf) 
+* [Rigidity of non-compact manifolds with nonnegative pinched curvature by Man Chun Lee](notes/Rigidity_of_Noncompact_Mnfd_With_Nonnegative_Piched_Curvature_%20Man_Chun_Lee.pdf)
+* [Spectrum asympotically hyperbolic manifolds by Fang Wang](notes/Spectrum_for_asymptotically_hyperbolic_manifolds.pdf) 
+
+As my understanding of the content covered in these three presentations is not comprehensive, my notes likely contain numerous errors or instances of misunderstanding. If anyone identifies any mistakes or wishes to discuss these topics with me, please feel free to reach out via email. Thank you.
+
+
 
 ##### 2026 Summer School
 
