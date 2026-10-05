@@ -1,10 +1,12 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on September 29, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 5, 2026*
 
 ![](Images/lantingxu.jpg)
 
 ### About Me
 Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chieh), a student in [the Department of Mathematics at Southeast University](https://math.seu.edu.cn/). I like puzzles, manga, Chinese chess, Go, and tennis.
+
+天降工位（东南大学九龙湖校区人文社科综合楼 5楼 5A-9-18），友友们可以找我聊天 or 出去玩.
 <!-- I have conducted some research on gradient estimates in general metric spaces and nonlinear equations under different geometric flows. Simultaneously, I have also gained in-depth knowledge and understanding of parabolic equations under curvature flows, the Moser iteration method, and improvements to gradient estimation methods based on integral curvature. -->
 
 
