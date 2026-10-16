@@ -1,7 +1,7 @@
 'use strict';
 const $ = id => document.getElementById(id);
 let batch, selected = '', requestNumber = 0, shown = 40, archiveDates = [], currentScope = '';
-const names = {'math.DG':['Differential Geometry','微分几何'],'math.MG':['Metric Geometry','度量几何'],'math.GT':['Geometric Topology','几何拓扑'],'math.AP':['Analysis of PDEs','偏微分方程'],'math.KT':['K-Theory and Homology','K 理论与同调'],'math.MP':['Mathematical Physics','数学物理']};
+const names = {'math.DG':'Differential Geometry','math.MG':'Metric Geometry','math.GT':'Geometric Topology','math.AP':'Analysis of PDEs','math.KT':'K-Theory and Homology','math.MP':'Mathematical Physics'};
 
 function element(tag, text, cls) { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (cls) el.className = cls; return el; }
 function link(text, url) { const el = element('a', text); el.href = url; el.target = '_blank'; el.rel = 'noopener noreferrer'; return el; }
@@ -22,9 +22,9 @@ function normalize(value) { return value.normalize('NFKD').replace(/[\u0300-\u03
 function followed(paper) { return personal.authors.some(author => normalize(paper.authors).includes(normalize(author))); }
 function subjects() {
   $('subjects').replaceChildren();
-  for (const [code, [en, zh]] of Object.entries(names)) {
+  for (const [code, en] of Object.entries(names)) {
     const el = button('', () => { selected = selected === code ? '' : code; shown = 40; subjects(); render(); }); el.className = 'subject'; el.setAttribute('aria-pressed', String(selected === code));
-    el.append(element('span', code, 'code'), element('span', zh, 'zh'), element('span', en, 'en'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length} 篇 ↗`, 'total')); $('subjects').append(el);
+    el.append(element('span', code, 'code'), element('span', en, 'en'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length} 篇 ↗`, 'total')); $('subjects').append(el);
   }
 }
 function filtered() {
@@ -37,7 +37,7 @@ function filtered() {
 function render() {
   if (!batch) return;
   const papers = filtered();
-  $('list-title').textContent = selected ? names[selected][1] : '全部方向';
+  $('list-title').textContent = selected ? names[selected] : '全部方向';
   $('count').textContent = `${papers.length} 篇 · 已去重`;
   $('status').textContent = papers.length ? `${currentScope === 'all' ? '全部已归档批次' : '当前公告批次'} · ${$('type').selectedOptions[0].textContent} · 展示 ${Math.min(shown, papers.length)} / ${papers.length} 篇` : '没有匹配论文。可切换到“全部历史”、选择“全部公告”或重置筛选。';
   if (window.MathJax?.typesetClear) window.MathJax.typesetClear([$('papers')]);
@@ -125,5 +125,4 @@ $('export-reading').onclick = async () => {
     if (Date.now() - date.getTime() > 48*3600000) el.append(element('span', ' · 已超过 48 小时未记录成功检查，请查看任务状态。'));
     if (status.empty) el.append(element('span',' · 本次没有公告，保留上一非空批次。'));
   } catch { el.textContent = '暂时无法读取最近成功抓取时间。'; }
-  el.append(document.createTextNode(' '), link('查看更新任务 ↗','https://github.com/YijieMiao/YijieMiao.github.io/actions/workflows/math-daily.yml'));
 })();
