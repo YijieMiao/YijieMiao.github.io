@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="六个数学方向的 arXiv 每日论文、英文摘要与永久批次归档。">
+<title>Math Daily · 数学论文每日速览</title>
+<link rel="stylesheet" href="style.css">
+<script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="./">M<span>∂</span> / Math Daily</a><a href="/">Yijie Miao ↗</a></header>
+<main>
+<section class="intro"><div class="eyebrow">THE MATHEMATICS READING ROOM</div><h1 id="verse-first">行到水穷处，</h1><p id="verse-second" class="verse-second">坐看云起时。</p><p id="verse-source" class="verse-source">王维 ·《终南别业》</p><div class="edition"><span class="dot"></span><span id="edition">正在读取最新批次…</span></div></section>
+<section aria-label="学科分类"><div class="section-head"><h2>选择研究方向</h2><span>06 SUBJECTS</span></div><div id="subjects" class="subjects"></div></section>
+<section class="reading" aria-label="论文列表"><div class="section-head"><h2 id="list-title">全部论文</h2><span id="count" aria-live="polite"></span></div>
+<div class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜索标题、作者、摘要或 arXiv ID" aria-label="搜索论文"></label><label>批次 <select id="archive" aria-label="历史批次"><option value="">最新批次</option></select></label><label>类型 <select id="type"><option value="all">全部公告</option><option value="new">新论文（含交叉）</option><option value="replace">修订论文</option></select></label></div>
+<p id="status" role="status">正在加载论文…</p><div id="papers"></div></section>
+<aside><h2>关于这间阅览室</h2><p>数据来自 arXiv 官方 RSS，包含新论文、交叉列表和修订公告。同一批次内跨学科论文合并展示，历史批次持续保留。日期以 arXiv 公告批次为准，周末及休刊日可能没有新公告。搜索作用于当前批次。</p><p>本站保存论文元数据与摘要；全文通过 arXiv / PDF 链接阅读。中文学科名称仅用于导航，标题与摘要保留作者原文。</p></aside>
+</main><footer><span>Math Daily · 数学论文每日速览</span><a href="https://arxiv.org">Data from arXiv ↗</a></footer>
+<noscript>请启用 JavaScript 查看论文，或直接浏览 <a href="data/latest.json">最新论文数据</a>。</noscript>
+</body></html>
