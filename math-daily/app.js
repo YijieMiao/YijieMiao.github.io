@@ -2,17 +2,7 @@
 const $ = id => document.getElementById(id);
 let batch, selected = '', requestNumber = 0, shown = 40, archiveDates = [], currentScope = '';
 const names = {'math.DG':['Differential Geometry','微分几何'],'math.MG':['Metric Geometry','度量几何'],'math.GT':['Geometric Topology','几何拓扑'],'math.AP':['Analysis of PDEs','偏微分方程'],'math.KT':['K-Theory and Homology','K 理论与同调'],'math.MP':['Mathematical Physics','数学物理']};
-const topics = {
-  '标量曲率': ['scalar curvature', 'yamabe'],
-  'Ricci 流与曲率': ['ricci', 'curvature flow'],
-  '极小曲面与几何测度论': ['minimal surface', 'minimal hypersurface', 'minimal submanifold', 'geometric measure', 'varifold', 'mean curvature', 'finite perimeter'],
-  '谱几何': ['spectral', 'eigenvalue', 'laplacian', 'heat kernel'],
-  '度量与最优传输': ['metric measure', 'optimal transport', 'wasserstein', 'ricci limit', 'gromov', 'alexandrov'],
-  '几何拓扑': ['manifold', 'knot', 'cobordism', 'heegaard', 'floer'],
-  '几何分析与 PDE': ['elliptic', 'parabolic', 'sobolev', 'regularity', 'harmonic map'],
-  'K 理论与同调': ['k-theory', 'k theory', 'homology', 'algebraic k', 'hochschild'],
-  '数学物理': ['quantum', 'schrödinger', 'schrodinger', 'gauge', 'yang-mills', 'dirac'],
-};
+
 function element(tag, text, cls) { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (cls) el.className = cls; return el; }
 function link(text, url) { const el = element('a', text); el.href = url; el.target = '_blank'; el.rel = 'noopener noreferrer'; return el; }
 function button(text, action) { const el = element('button', text); el.type = 'button'; el.onclick = action; return el; }
@@ -29,7 +19,6 @@ function persist() {
 $('authors').value = personal.authors.join('\n');
 function toggle(key, id) { personal[key] = personal[key].includes(id) ? personal[key].filter(x => x !== id) : [...personal[key], id]; persist(); render(); }
 function normalize(value) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[{}\\$]/g,'').toLowerCase(); }
-function matches(paper, words) { const text = normalize(`${paper.title} ${paper.abstract}`); return words.filter(word => text.includes(normalize(word))); }
 function followed(paper) { return personal.authors.some(author => normalize(paper.authors).includes(normalize(author))); }
 function subjects() {
   $('subjects').replaceChildren();
@@ -39,11 +28,10 @@ function subjects() {
   }
 }
 function filtered() {
-  const query = normalize($('search').value.trim()), type = $('type').value, shelf = $('shelf').value, topic = $('topic').value;
+  const query = normalize($('search').value.trim()), type = $('type').value, shelf = $('shelf').value;
   return batch.papers.filter(p => (!selected || p.feeds.includes(selected)) &&
     (type === 'all' || (type === 'new' ? !p.announce_type.includes('replace') : p.announce_type.includes('replace'))) &&
     normalize(`${p.title} ${p.authors} ${p.abstract} ${p.id}`).includes(query) &&
-    (!topic || matches(p, topics[topic]).length) &&
     (shelf === 'all' || (shelf === 'saved' && personal.saved.includes(p.id)) || (shelf === 'unread' && !personal.read.includes(p.id)) || (shelf === 'followed' && followed(p))));
 }
 function render() {
@@ -70,7 +58,6 @@ function render() {
     const details = element('details'), abstract = element('p', p.abstract, 'abstract'); details.append(element('summary', '展开英文摘要'), abstract);
     details.addEventListener('toggle', () => { if (details.open && window.MathJax?.typesetPromise) window.MathJax.typesetPromise([abstract]).catch(console.error); });
     article.append(meta, title, element('p', p.authors, 'authors'), links);
-    if ($('topic').value) article.append(element('p', `关键词匹配：${matches(p, topics[$('topic').value]).join(' · ')}`, 'match-reason'));
     article.append(details);
     if (p.occurrences?.length > 1) {
       const history = element('details'); history.append(element('summary', `收录记录 · ${p.occurrences.length} 个批次`));
@@ -96,11 +83,11 @@ async function load(scope = '') {
     const url = new URL(location.href); scope ? url.searchParams.set('date', scope) : url.searchParams.delete('date'); history.replaceState(null, '', url);
   } catch (error) { if (current === requestNumber) { $('status').textContent = '论文数据加载失败。请刷新重试或选择其他批次。'; console.error(error); } }
 }
-for (const id of ['search','type','topic']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
+for (const id of ['search','type']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
 $('archive').addEventListener('change', () => load($('archive').value));
 $('shelf').addEventListener('change', () => { shown = 40; if (['saved','followed'].includes($('shelf').value)) { $('type').value = 'all'; $('archive').value = 'all'; load('all'); } else render(); });
 $('load-more').onclick = () => { shown += 40; render(); };
-$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('topic').value = ''; $('shelf').value = 'all'; shown = 40; if (batch) { subjects(); render(); } };
+$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('shelf').value = 'all'; shown = 40; if (batch) { subjects(); render(); } };
 $('save-authors').onclick = () => { personal.authors = $('authors').value.split('\n').map(s => s.trim()).filter(Boolean).slice(0,500); persist(); render(); };
 function download(name, content, type) { const url = URL.createObjectURL(new Blob([content], {type})); const a = element('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
 $('export-data').onclick = () => download('math-daily-personal.json', JSON.stringify(personal,null,2), 'application/json');
@@ -121,7 +108,6 @@ $('export-reading').onclick = async () => {
     download('math-daily-reading.md',content,'text/markdown'); $('personal-status').textContent = `已导出 ${saved.length} 篇收藏，可发给师兄弟共同选读。`;
   } catch { $('personal-status').textContent = '导出失败，请稍后重试。'; }
 };
-for (const topic of Object.keys(topics)) { const option = element('option', topic); option.value = topic; $('topic').append(option); }
 (async () => {
   try {
     archiveDates = await json('data/archive.json');
