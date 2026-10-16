@@ -1,0 +1,937 @@
+[
+  {
+    "text": "行到水穷处，",
+    "continuation": "坐看云起时。",
+    "translation": "",
+    "author": "王维",
+    "work": "终南别业",
+    "language": "zh",
+    "id": "q001"
+  },
+  {
+    "text": "明月松间照，",
+    "continuation": "清泉石上流。",
+    "translation": "",
+    "author": "王维",
+    "work": "山居秋暝",
+    "language": "zh",
+    "id": "q002"
+  },
+  {
+    "text": "江流天地外，",
+    "continuation": "山色有无中。",
+    "translation": "",
+    "author": "王维",
+    "work": "汉江临泛",
+    "language": "zh",
+    "id": "q003"
+  },
+  {
+    "text": "返景入深林，",
+    "continuation": "复照青苔上。",
+    "translation": "",
+    "author": "王维",
+    "work": "鹿柴",
+    "language": "zh",
+    "id": "q004"
+  },
+  {
+    "text": "深林人不知，",
+    "continuation": "明月来相照。",
+    "translation": "",
+    "author": "王维",
+    "work": "竹里馆",
+    "language": "zh",
+    "id": "q005"
+  },
+  {
+    "text": "大漠孤烟直，",
+    "continuation": "长河落日圆。",
+    "translation": "",
+    "author": "王维",
+    "work": "使至塞上",
+    "language": "zh",
+    "id": "q006"
+  },
+  {
+    "text": "山随平野尽，",
+    "continuation": "江入大荒流。",
+    "translation": "",
+    "author": "李白",
+    "work": "渡荆门送别",
+    "language": "zh",
+    "id": "q007"
+  },
+  {
+    "text": "相看两不厌，",
+    "continuation": "只有敬亭山。",
+    "translation": "",
+    "author": "李白",
+    "work": "独坐敬亭山",
+    "language": "zh",
+    "id": "q008"
+  },
+  {
+    "text": "长风破浪会有时，",
+    "continuation": "直挂云帆济沧海。",
+    "translation": "",
+    "author": "李白",
+    "work": "行路难·其一",
+    "language": "zh",
+    "id": "q009"
+  },
+  {
+    "text": "天生我材必有用，",
+    "continuation": "千金散尽还复来。",
+    "translation": "",
+    "author": "李白",
+    "work": "将进酒",
+    "language": "zh",
+    "id": "q010"
+  },
+  {
+    "text": "星垂平野阔，",
+    "continuation": "月涌大江流。",
+    "translation": "",
+    "author": "杜甫",
+    "work": "旅夜书怀",
+    "language": "zh",
+    "id": "q011"
+  },
+  {
+    "text": "随风潜入夜，",
+    "continuation": "润物细无声。",
+    "translation": "",
+    "author": "杜甫",
+    "work": "春夜喜雨",
+    "language": "zh",
+    "id": "q012"
+  },
+  {
+    "text": "会当凌绝顶，",
+    "continuation": "一览众山小。",
+    "translation": "",
+    "author": "杜甫",
+    "work": "望岳",
+    "language": "zh",
+    "id": "q013"
+  },
+  {
+    "text": "江碧鸟逾白，",
+    "continuation": "山青花欲燃。",
+    "translation": "",
+    "author": "杜甫",
+    "work": "绝句二首·其二",
+    "language": "zh",
+    "id": "q014"
+  },
+  {
+    "text": "此中有真意，",
+    "continuation": "欲辨已忘言。",
+    "translation": "",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "language": "zh",
+    "id": "q015"
+  },
+  {
+    "text": "采菊东篱下，",
+    "continuation": "悠然见南山。",
+    "translation": "",
+    "author": "陶渊明",
+    "work": "饮酒·其五",
+    "language": "zh",
+    "id": "q016"
+  },
+  {
+    "text": "微雨从东来，",
+    "continuation": "好风与之俱。",
+    "translation": "",
+    "author": "陶渊明",
+    "work": "读山海经·其一",
+    "language": "zh",
+    "id": "q017"
+  },
+  {
+    "text": "奇文共欣赏，",
+    "continuation": "疑义相与析。",
+    "translation": "",
+    "author": "陶渊明",
+    "work": "移居二首·其一",
+    "language": "zh",
+    "id": "q018"
+  },
+  {
+    "text": "山光悦鸟性，",
+    "continuation": "潭影空人心。",
+    "translation": "",
+    "author": "常建",
+    "work": "题破山寺后禅院",
+    "language": "zh",
+    "id": "q019"
+  },
+  {
+    "text": "掬水月在手，",
+    "continuation": "弄花香满衣。",
+    "translation": "",
+    "author": "于良史",
+    "work": "春山夜月",
+    "language": "zh",
+    "id": "q020"
+  },
+  {
+    "text": "问渠那得清如许？",
+    "continuation": "为有源头活水来。",
+    "translation": "",
+    "author": "朱熹",
+    "work": "观书有感二首·其一",
+    "language": "zh",
+    "id": "q021"
+  },
+  {
+    "text": "等闲识得东风面，",
+    "continuation": "万紫千红总是春。",
+    "translation": "",
+    "author": "朱熹",
+    "work": "春日",
+    "language": "zh",
+    "id": "q022"
+  },
+  {
+    "text": "纸上得来终觉浅，",
+    "continuation": "绝知此事要躬行。",
+    "translation": "",
+    "author": "陆游",
+    "work": "冬夜读书示子聿",
+    "language": "zh",
+    "id": "q023"
+  },
+  {
+    "text": "山重水复疑无路，",
+    "continuation": "柳暗花明又一村。",
+    "translation": "",
+    "author": "陆游",
+    "work": "游山西村",
+    "language": "zh",
+    "id": "q024"
+  },
+  {
+    "text": "不识庐山真面目，",
+    "continuation": "只缘身在此山中。",
+    "translation": "",
+    "author": "苏轼",
+    "work": "题西林壁",
+    "language": "zh",
+    "id": "q025"
+  },
+  {
+    "text": "竹杖芒鞋轻胜马，",
+    "continuation": "谁怕？一蓑烟雨任平生。",
+    "translation": "",
+    "author": "苏轼",
+    "work": "定风波·莫听穿林打叶声",
+    "language": "zh",
+    "id": "q026"
+  },
+  {
+    "text": "人间有味是清欢。",
+    "continuation": "",
+    "translation": "",
+    "author": "苏轼",
+    "work": "浣溪沙·细雨斜风作晓寒",
+    "language": "zh",
+    "id": "q027"
+  },
+  {
+    "text": "小舟从此逝，",
+    "continuation": "江海寄余生。",
+    "translation": "",
+    "author": "苏轼",
+    "work": "临江仙·夜饮东坡醒复醉",
+    "language": "zh",
+    "id": "q028"
+  },
+  {
+    "text": "海上生明月，",
+    "continuation": "天涯共此时。",
+    "translation": "",
+    "author": "张九龄",
+    "work": "望月怀远",
+    "language": "zh",
+    "id": "q029"
+  },
+  {
+    "text": "春江潮水连海平，",
+    "continuation": "海上明月共潮生。",
+    "translation": "",
+    "author": "张若虚",
+    "work": "春江花月夜",
+    "language": "zh",
+    "id": "q030"
+  },
+  {
+    "text": "野旷天低树，",
+    "continuation": "江清月近人。",
+    "translation": "",
+    "author": "孟浩然",
+    "work": "宿建德江",
+    "language": "zh",
+    "id": "q031"
+  },
+  {
+    "text": "落霞与孤鹜齐飞，",
+    "continuation": "秋水共长天一色。",
+    "translation": "",
+    "author": "王勃",
+    "work": "滕王阁序",
+    "language": "zh",
+    "id": "q032"
+  },
+  {
+    "text": "仰观宇宙之大，",
+    "continuation": "俯察品类之盛。",
+    "translation": "",
+    "author": "王羲之",
+    "work": "兰亭集序",
+    "language": "zh",
+    "id": "q033"
+  },
+  {
+    "text": "天地有大美而不言。",
+    "continuation": "",
+    "translation": "",
+    "author": "庄子",
+    "work": "庄子·知北游",
+    "language": "zh",
+    "id": "q034"
+  },
+  {
+    "text": "吾生也有涯，",
+    "continuation": "而知也无涯。",
+    "translation": "",
+    "author": "庄子",
+    "work": "庄子·养生主",
+    "language": "zh",
+    "id": "q035"
+  },
+  {
+    "text": "知之者不如好之者，",
+    "continuation": "好之者不如乐之者。",
+    "translation": "",
+    "author": "孔子",
+    "work": "论语·雍也",
+    "language": "zh",
+    "id": "q036"
+  },
+  {
+    "text": "知之为知之，",
+    "continuation": "不知为不知，是知也。",
+    "translation": "",
+    "author": "孔子",
+    "work": "论语·为政",
+    "language": "zh",
+    "id": "q037"
+  },
+  {
+    "text": "千里之行，",
+    "continuation": "始于足下。",
+    "translation": "",
+    "author": "老子",
+    "work": "道德经·第六十四章",
+    "language": "zh",
+    "id": "q038"
+  },
+  {
+    "text": "博学之，审问之，",
+    "continuation": "慎思之，明辨之，笃行之。",
+    "translation": "",
+    "author": "《礼记》",
+    "work": "中庸",
+    "language": "zh",
+    "id": "q039"
+  },
+  {
+    "text": "大明终始，",
+    "continuation": "六位时成。",
+    "translation": "",
+    "author": "《周易》",
+    "work": "乾·彖传",
+    "language": "zh",
+    "id": "q040"
+  },
+  {
+    "text": "We are such stuff as dreams are made on.",
+    "continuation": "",
+    "translation": "我们是与梦同质的存在。",
+    "author": "William Shakespeare",
+    "work": "The Tempest",
+    "language": "en",
+    "id": "q041",
+    "source_url": "https://www.gutenberg.org/ebooks/23042"
+  },
+  {
+    "text": "What's past is prologue.",
+    "continuation": "",
+    "translation": "过去只是序章。",
+    "author": "William Shakespeare",
+    "work": "The Tempest",
+    "language": "en",
+    "id": "q042",
+    "source_url": "https://www.gutenberg.org/ebooks/23042"
+  },
+  {
+    "text": "The readiness is all.",
+    "continuation": "",
+    "translation": "要紧的是准备好。",
+    "author": "William Shakespeare",
+    "work": "Hamlet",
+    "language": "en",
+    "id": "q043",
+    "source_url": "https://www.gutenberg.org/ebooks/1524"
+  },
+  {
+    "text": "This above all: to thine own self be true.",
+    "continuation": "",
+    "translation": "最要紧的，是忠于你自己。",
+    "author": "William Shakespeare",
+    "work": "Hamlet",
+    "language": "en",
+    "id": "q044",
+    "source_url": "https://www.gutenberg.org/ebooks/1524"
+  },
+  {
+    "text": "There is nothing either good or bad, but thinking makes it so.",
+    "continuation": "",
+    "translation": "事物本无好坏，是思考赋予它分别。",
+    "author": "William Shakespeare",
+    "work": "Hamlet",
+    "language": "en",
+    "id": "q045",
+    "source_url": "https://www.gutenberg.org/ebooks/1524"
+  },
+  {
+    "text": "All the world's a stage.",
+    "continuation": "",
+    "translation": "整个世界都是舞台。",
+    "author": "William Shakespeare",
+    "work": "As You Like It",
+    "language": "en",
+    "id": "q046",
+    "source_url": "https://www.gutenberg.org/ebooks/1523"
+  },
+  {
+    "text": "Our doubts are traitors.",
+    "continuation": "",
+    "translation": "我们的疑虑，是背叛我们的内应。",
+    "author": "William Shakespeare",
+    "work": "Measure for Measure",
+    "language": "en",
+    "id": "q047",
+    "source_url": "https://www.gutenberg.org/ebooks/23045"
+  },
+  {
+    "text": "The course of true love never did run smooth.",
+    "continuation": "",
+    "translation": "真爱的道路，从来不会平坦。",
+    "author": "William Shakespeare",
+    "work": "A Midsummer Night's Dream",
+    "language": "en",
+    "id": "q048",
+    "source_url": "https://www.gutenberg.org/ebooks/1514"
+  },
+  {
+    "text": "I am no bird; and no net ensnares me.",
+    "continuation": "",
+    "translation": "我不是鸟，也没有罗网能困住我。",
+    "author": "Charlotte Brontë",
+    "work": "Jane Eyre",
+    "language": "en",
+    "id": "q049",
+    "source_url": "https://www.gutenberg.org/ebooks/1260"
+  },
+  {
+    "text": "I would always rather be happy than dignified.",
+    "continuation": "",
+    "translation": "我总愿选择快乐，而非端着体面。",
+    "author": "Charlotte Brontë",
+    "work": "Jane Eyre",
+    "language": "en",
+    "id": "q050",
+    "source_url": "https://www.gutenberg.org/ebooks/1260"
+  },
+  {
+    "text": "Whatever our souls are made of, his and mine are the same.",
+    "continuation": "",
+    "translation": "无论灵魂由什么构成，他的与我的都一样。",
+    "author": "Emily Brontë",
+    "work": "Wuthering Heights",
+    "language": "en",
+    "id": "q051",
+    "source_url": "https://www.gutenberg.org/ebooks/768"
+  },
+  {
+    "text": "I cannot live without my life! I cannot live without my soul!",
+    "continuation": "",
+    "translation": "没有我的生命，我如何活着；没有我的灵魂，我如何活着。",
+    "author": "Emily Brontë",
+    "work": "Wuthering Heights",
+    "language": "en",
+    "id": "q052",
+    "source_url": "https://www.gutenberg.org/ebooks/768"
+  },
+  {
+    "text": "There is no charm equal to tenderness of heart.",
+    "continuation": "",
+    "translation": "没有什么魅力，能胜过一颗温柔的心。",
+    "author": "Jane Austen",
+    "work": "Emma",
+    "language": "en",
+    "id": "q053",
+    "source_url": "https://www.gutenberg.org/ebooks/158"
+  },
+  {
+    "text": "I declare after all there is no enjoyment like reading!",
+    "continuation": "",
+    "translation": "说到底，没有什么快乐比得上阅读。",
+    "author": "Jane Austen",
+    "work": "Pride and Prejudice（人物台词）",
+    "language": "en",
+    "id": "q054",
+    "source_url": "https://www.gutenberg.org/ebooks/1342"
+  },
+  {
+    "text": "It was the best of times, it was the worst of times.",
+    "continuation": "",
+    "translation": "那是最好的时代，也是最坏的时代。",
+    "author": "Charles Dickens",
+    "work": "A Tale of Two Cities",
+    "language": "en",
+    "id": "q055",
+    "source_url": "https://www.gutenberg.org/ebooks/98"
+  },
+  {
+    "text": "wisdom of the Head, and that there is a wisdom of the Heart.",
+    "continuation": "",
+    "translation": "有头脑的智慧，也有心的智慧。",
+    "author": "Charles Dickens",
+    "work": "Hard Times",
+    "language": "en",
+    "id": "q056",
+    "source_url": "https://www.gutenberg.org/ebooks/786"
+  },
+  {
+    "text": "Never do tomorrow what you can do today.",
+    "continuation": "",
+    "translation": "今天能做的事，不要留到明天。",
+    "author": "Charles Dickens",
+    "work": "David Copperfield",
+    "language": "en",
+    "id": "q057",
+    "source_url": "https://www.gutenberg.org/ebooks/766"
+  },
+  {
+    "text": "I’m not afraid of storms, for I’m learning how to sail my ship.",
+    "continuation": "",
+    "translation": "我不怕风暴，因为我正在学习掌舵。",
+    "author": "Louisa May Alcott",
+    "work": "Little Women",
+    "language": "en",
+    "id": "q058",
+    "source_url": "https://www.gutenberg.org/ebooks/514"
+  },
+  {
+    "text": "I like good strong words that mean something.",
+    "continuation": "",
+    "translation": "我喜欢有分量、言之有物的话。",
+    "author": "Louisa May Alcott",
+    "work": "Little Women",
+    "language": "en",
+    "id": "q059",
+    "source_url": "https://www.gutenberg.org/ebooks/514"
+  },
+  {
+    "text": "Tomorrow is a new day with no mistakes in it yet.",
+    "continuation": "",
+    "translation": "明天是新的一天，尚没有任何错误。",
+    "author": "L. M. Montgomery",
+    "work": "Anne of Green Gables",
+    "language": "en",
+    "id": "q060",
+    "source_url": "https://www.gutenberg.org/ebooks/45"
+  },
+  {
+    "text": "My life is a perfect graveyard of buried hopes.",
+    "continuation": "",
+    "translation": "我的人生是一座埋葬希望的墓园。",
+    "author": "L. M. Montgomery",
+    "work": "Anne of Green Gables",
+    "language": "en",
+    "id": "q061",
+    "source_url": "https://www.gutenberg.org/ebooks/45"
+  },
+  {
+    "text": "it’s no use going back to yesterday, because I was a different person then.",
+    "continuation": "",
+    "translation": "回到昨天已经无益，因为那时的我已不是现在的我。",
+    "author": "Lewis Carroll",
+    "work": "Alice's Adventures in Wonderland",
+    "language": "en",
+    "id": "q062",
+    "source_url": "https://www.gutenberg.org/ebooks/11"
+  },
+  {
+    "text": "We're all mad here.",
+    "continuation": "",
+    "translation": "我们这里的人，都有些疯狂。",
+    "author": "Lewis Carroll",
+    "work": "Alice's Adventures in Wonderland",
+    "language": "en",
+    "id": "q063",
+    "source_url": "https://www.gutenberg.org/ebooks/11"
+  },
+  {
+    "text": "Curiouser and curiouser!",
+    "continuation": "",
+    "translation": "越来越奇妙了！",
+    "author": "Lewis Carroll",
+    "work": "Alice's Adventures in Wonderland",
+    "language": "en",
+    "id": "q064",
+    "source_url": "https://www.gutenberg.org/ebooks/11"
+  },
+  {
+    "text": "I wanted to live deep and suck out all the marrow of life.",
+    "continuation": "",
+    "translation": "我要活得深切，汲尽生命的精髓。",
+    "author": "Henry David Thoreau",
+    "work": "Walden",
+    "language": "en",
+    "id": "q065",
+    "source_url": "https://www.gutenberg.org/ebooks/205"
+  },
+  {
+    "text": "Rather than love, than money, than fame, give me truth.",
+    "continuation": "",
+    "translation": "比起爱情、金钱和名声，我更愿得到真实。",
+    "author": "Henry David Thoreau",
+    "work": "Walden",
+    "language": "en",
+    "id": "q066",
+    "source_url": "https://www.gutenberg.org/ebooks/205"
+  },
+  {
+    "text": "I am large, I contain multitudes.",
+    "continuation": "",
+    "translation": "我辽阔，我容纳万千。",
+    "author": "Walt Whitman",
+    "work": "Song of Myself",
+    "language": "en",
+    "id": "q067",
+    "source_url": "https://www.gutenberg.org/ebooks/1322"
+  },
+  {
+    "text": "I exist as I am, that is enough.",
+    "continuation": "",
+    "translation": "我如其所是地存在，这就足够。",
+    "author": "Walt Whitman",
+    "work": "Song of Myself",
+    "language": "en",
+    "id": "q068",
+    "source_url": "https://www.gutenberg.org/ebooks/1322"
+  },
+  {
+    "text": "I dwell in Possibility —",
+    "continuation": "",
+    "translation": "我栖居于可能之中。",
+    "author": "Emily Dickinson",
+    "work": "I dwell in Possibility",
+    "language": "en",
+    "id": "q069"
+  },
+  {
+    "text": "Forever — is composed of Nows —",
+    "continuation": "",
+    "translation": "永恒，由一个个此刻组成。",
+    "author": "Emily Dickinson",
+    "work": "Forever — is composed of Nows",
+    "language": "en",
+    "id": "q070"
+  },
+  {
+    "text": "Beauty is truth, truth beauty.",
+    "continuation": "",
+    "translation": "美即真，真即美。",
+    "author": "John Keats",
+    "work": "Ode on a Grecian Urn",
+    "language": "en",
+    "id": "q071"
+  },
+  {
+    "text": "A thing of beauty is a joy for ever.",
+    "continuation": "",
+    "translation": "美的事物，是永恒的喜悦。",
+    "author": "John Keats",
+    "work": "Endymion",
+    "language": "en",
+    "id": "q072"
+  },
+  {
+    "text": "If Winter comes, can Spring be far behind?",
+    "continuation": "",
+    "translation": "冬天来了，春天还会远吗？",
+    "author": "Percy Bysshe Shelley",
+    "work": "Ode to the West Wind",
+    "language": "en",
+    "id": "q073"
+  },
+  {
+    "text": "To see a World in a Grain of Sand.",
+    "continuation": "",
+    "translation": "从一粒沙中，看见一个世界。",
+    "author": "William Blake",
+    "work": "Auguries of Innocence",
+    "language": "en",
+    "id": "q074"
+  },
+  {
+    "text": "Hold Infinity in the palm of your hand.",
+    "continuation": "",
+    "translation": "将无穷握在掌心。",
+    "author": "William Blake",
+    "work": "Auguries of Innocence",
+    "language": "en",
+    "id": "q075"
+  },
+  {
+    "text": "The Child is father of the Man.",
+    "continuation": "",
+    "translation": "孩子，是成人的父亲。",
+    "author": "William Wordsworth",
+    "work": "My Heart Leaps Up",
+    "language": "en",
+    "id": "q076"
+  },
+  {
+    "text": "I wandered lonely as a cloud.",
+    "continuation": "",
+    "translation": "我独自漫游，如一朵云。",
+    "author": "William Wordsworth",
+    "work": "I Wandered Lonely as a Cloud",
+    "language": "en",
+    "id": "q077"
+  },
+  {
+    "text": "Hope is the thing with feathers.",
+    "continuation": "",
+    "translation": "希望，是那有羽翼的事物。",
+    "author": "Emily Dickinson",
+    "work": "“Hope” is the thing with feathers",
+    "language": "en",
+    "id": "q078"
+  },
+  {
+    "text": "Was mich nicht umbringt, macht mich stärker.",
+    "continuation": "",
+    "translation": "未能摧毁我的，使我更坚强。",
+    "author": "Friedrich Nietzsche",
+    "work": "Götzen-Dämmerung · Sprüche und Pfeile §8",
+    "language": "de",
+    "id": "q079"
+  },
+  {
+    "text": "Grau, teurer Freund, ist alle Theorie, und grün des Lebens goldner Baum.",
+    "continuation": "",
+    "translation": "亲爱的朋友，理论是灰色的，而生命的金树常青。",
+    "author": "Johann Wolfgang von Goethe",
+    "work": "Faust · Erster Teil",
+    "language": "de",
+    "id": "q080"
+  },
+  {
+    "text": "古池や 蛙飛びこむ 水の音",
+    "continuation": "",
+    "translation": "古池寂寂，蛙跃其中，一声水响。",
+    "author": "松尾芭蕉",
+    "work": "古池や",
+    "language": "ja",
+    "id": "q081"
+  },
+  {
+    "text": "閑さや 岩にしみ入る 蝉の声",
+    "continuation": "",
+    "translation": "万籁俱寂，蝉声渗入岩石。",
+    "author": "松尾芭蕉",
+    "work": "おくのほそ道",
+    "language": "ja",
+    "id": "q082"
+  },
+  {
+    "text": "夏草や 兵どもが 夢の跡",
+    "continuation": "",
+    "translation": "夏草蔓蔓，武士们的梦，已成遗迹。",
+    "author": "松尾芭蕉",
+    "work": "おくのほそ道",
+    "language": "ja",
+    "id": "q083"
+  },
+  {
+    "text": "五月雨を あつめて早し 最上川",
+    "continuation": "",
+    "translation": "汇聚五月雨，最上川奔流而下。",
+    "author": "松尾芭蕉",
+    "work": "おくのほそ道",
+    "language": "ja",
+    "id": "q084"
+  },
+  {
+    "text": "荒海や 佐渡によこたふ 天河",
+    "continuation": "",
+    "translation": "惊涛之上，银河横卧佐渡。",
+    "author": "松尾芭蕉",
+    "work": "おくのほそ道",
+    "language": "ja",
+    "id": "q085"
+  },
+  {
+    "text": "旅に病んで 夢は枯野を かけ廻る",
+    "continuation": "",
+    "translation": "旅中病卧，梦仍奔向荒野。",
+    "author": "松尾芭蕉",
+    "work": "旅に病んで",
+    "language": "ja",
+    "id": "q086"
+  },
+  {
+    "text": "月日は百代の過客にして、行きかふ年も又旅人也。",
+    "continuation": "",
+    "translation": "日月是百代过客，往来的岁月也是旅人。",
+    "author": "松尾芭蕉",
+    "work": "おくのほそ道",
+    "language": "ja",
+    "id": "q087"
+  },
+  {
+    "text": "菜の花や 月は東に 日は西に",
+    "continuation": "",
+    "translation": "油菜花间，月在东，日在西。",
+    "author": "与謝蕪村",
+    "work": "菜の花や",
+    "language": "ja",
+    "id": "q088"
+  },
+  {
+    "text": "春の海 ひねもすのたり のたりかな",
+    "continuation": "",
+    "translation": "春日的海，终日悠悠，荡荡漾漾。",
+    "author": "与謝蕪村",
+    "work": "春の海",
+    "language": "ja",
+    "id": "q089"
+  },
+  {
+    "text": "やせ蛙 まけるな一茶 これにあり",
+    "continuation": "",
+    "translation": "瘦青蛙，别认输，一茶在这里。",
+    "author": "小林一茶",
+    "work": "やせ蛙",
+    "language": "ja",
+    "id": "q090"
+  },
+  {
+    "text": "露の世は 露の世ながら さりながら",
+    "continuation": "",
+    "translation": "露水的世间，虽是露水的世间，却仍然……",
+    "author": "小林一茶",
+    "work": "おらが春",
+    "language": "ja",
+    "id": "q091"
+  },
+  {
+    "text": "雪とけて 村いっぱいの 子どもかな",
+    "continuation": "",
+    "translation": "冰雪消融，村里满是孩子。",
+    "author": "小林一茶",
+    "work": "雪とけて",
+    "language": "ja",
+    "id": "q092"
+  },
+  {
+    "text": "柿くへば 鐘が鳴るなり 法隆寺",
+    "continuation": "",
+    "translation": "吃着柿子，钟声响起，来自法隆寺。",
+    "author": "正岡子規",
+    "work": "柿くへば",
+    "language": "ja",
+    "id": "q093"
+  },
+  {
+    "text": "山路を登りながら、こう考えた。",
+    "continuation": "",
+    "translation": "沿着山路攀登，我这样想着。",
+    "author": "夏目漱石",
+    "work": "草枕",
+    "language": "ja",
+    "id": "q094",
+    "source_url": "https://www.aozora.gr.jp/cards/000148/files/776_14941.html"
+  },
+  {
+    "text": "智に働けば角が立つ。情に棹させば流される。",
+    "continuation": "",
+    "translation": "以理智行事难免生棱角，任感情泛舟又会随波逐流。",
+    "author": "夏目漱石",
+    "work": "草枕",
+    "language": "ja",
+    "id": "q095",
+    "source_url": "https://www.aozora.gr.jp/cards/000148/files/776_14941.html"
+  },
+  {
+    "text": "May the Force be with you.",
+    "continuation": "",
+    "translation": "愿原力与你同在。",
+    "author": "Star Wars",
+    "work": "1977 · 电影",
+    "language": "en",
+    "id": "q096",
+    "source_url": "https://www.afi.com/afis-100-years-100-movie-quotes/"
+  },
+  {
+    "text": "There's no place like home.",
+    "continuation": "",
+    "translation": "没有什么地方比得上家。",
+    "author": "The Wizard of Oz",
+    "work": "1939 · 电影",
+    "language": "en",
+    "id": "q097",
+    "source_url": "https://www.afi.com/afis-100-years-100-movie-quotes/"
+  },
+  {
+    "text": "We'll always have Paris.",
+    "continuation": "",
+    "translation": "我们永远拥有巴黎。",
+    "author": "Casablanca",
+    "work": "1942 · 电影",
+    "language": "en",
+    "id": "q098",
+    "source_url": "https://www.afi.com/afis-100-years-100-movie-quotes/"
+  },
+  {
+    "text": "After all, tomorrow is another day!",
+    "continuation": "",
+    "translation": "毕竟，明天又是新的一天！",
+    "author": "Gone with the Wind",
+    "work": "1939 · 电影",
+    "language": "en",
+    "id": "q099",
+    "source_url": "https://www.afi.com/afis-100-years-100-movie-quotes/"
+  },
+  {
+    "text": "Carpe diem.",
+    "continuation": "",
+    "translation": "把握今天。",
+    "author": "Dead Poets Society",
+    "work": "1989 · 电影",
+    "language": "en",
+    "id": "q100",
+    "source_url": "https://www.afi.com/afis-100-years-100-movie-quotes/"
+  }
+]

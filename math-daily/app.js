@@ -1,25 +1,5 @@
 'use strict';
 const $ = id => document.getElementById(id);
-// Public-domain verses; choose again on each visit and avoid consecutive repeats.
-const verses = [
-  ['行到水穷处，', '坐看云起时。', '王维 ·《终南别业》'],
-  ['问渠那得清如许？', '为有源头活水来。', '朱熹 ·《观书有感二首·其一》'],
-  ['此中有真意，', '欲辨已忘言。', '陶渊明 ·《饮酒·其五》'],
-  ['微雨从东来，', '好风与之俱。', '陶渊明 ·《读山海经·其一》'],
-  ['山光悦鸟性，', '潭影空人心。', '常建 ·《题破山寺后禅院》'],
-  ['掬水月在手，', '弄花香满衣。', '于良史 ·《春山夜月》'],
-  ['大明终始，', '六位时成。', '《周易·乾·彖传》'],
-  ['仰观宇宙之大，', '俯察品类之盛。', '王羲之 ·《兰亭集序》'],
-];
-let previousVerse = -1;
-try { previousVerse = Number(localStorage.getItem('math-daily-verse') ?? -1); } catch {}
-const choices = verses.map((_, index) => index).filter(index => index !== previousVerse);
-const verseIndex = choices[Math.floor(Math.random() * choices.length)];
-const [firstLine, secondLine, attribution] = verses[verseIndex];
-$('verse-first').textContent = firstLine;
-$('verse-second').textContent = secondLine;
-$('verse-source').textContent = attribution;
-try { localStorage.setItem('math-daily-verse', String(verseIndex)); } catch {}
 let batch, selected = '', requestNumber = 0, shown = 40, archiveDates = [], currentScope = '';
 const names = {'math.DG':['Differential Geometry','微分几何'],'math.MG':['Metric Geometry','度量几何'],'math.GT':['Geometric Topology','几何拓扑'],'math.AP':['Analysis of PDEs','偏微分方程'],'math.KT':['K-Theory and Homology','K 理论与同调'],'math.MP':['Mathematical Physics','数学物理']};
 const topics = {

@@ -4,15 +4,16 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="六个数学方向的 arXiv 每日论文、英文摘要与永久批次归档。">
 <title>Math Daily · 数学论文每日速览</title>
-<link rel="stylesheet" href="style.css?v=reading-2">
+<link rel="stylesheet" href="style.css?v=quotes-100">
 <script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script defer src="app.js?v=reading-2"></script>
+<script defer src="quotes.js?v=quotes-100"></script>
+<script defer src="app.js?v=quotes-100"></script>
 </head>
 <body>
 <header><a class="brand" href="./">M<span>∂</span> / Math Daily</a><a href="/">Yijie Miao ↗</a></header>
 <main>
-<section class="intro"><div class="eyebrow">THE MATHEMATICS READING ROOM</div><h1 id="verse-first">行到水穷处，</h1><p id="verse-second" class="verse-second">坐看云起时。</p><p id="verse-source" class="verse-source">王维 ·《终南别业》</p><div class="edition"><span class="dot"></span><span id="edition">正在读取最新批次…</span></div></section>
+<section class="intro"><div class="eyebrow">THE MATHEMATICS READING ROOM</div><h1 id="verse-first" lang="zh">行到水穷处，</h1><p id="verse-second" class="verse-second">坐看云起时。</p><p id="verse-source" class="verse-source">王维 ·《终南别业》</p><div class="quote-tools"><button id="next-quote" type="button" hidden>换一句 ↻</button><span id="quote-note"></span></div><div class="edition"><span class="dot"></span><span id="edition">正在读取最新批次…</span></div></section>
 <div id="update-status" class="update-status" role="status">正在读取更新状态…</div><section aria-label="学科分类"><div class="section-head"><h2>选择研究方向</h2><span>06 SUBJECTS</span></div><div id="subjects" class="subjects"></div></section>
 <section class="reading" aria-label="论文列表"><div class="section-head"><h2 id="list-title">全部论文</h2><span id="count" aria-live="polite"></span></div>
 <div class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜索标题、作者、摘要或 arXiv ID" aria-label="搜索论文"></label><label>批次 <select id="archive" aria-label="历史批次"><option value="">最新批次</option><option value="all">全部历史</option></select></label><label>类型 <select id="type"><option value="new">新论文（含交叉）</option><option value="all">全部公告</option><option value="replace">修订论文</option></select></label></div>
