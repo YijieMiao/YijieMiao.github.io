@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/update_math_daily.py'
       - '.github/workflows/math-daily.yml'
+      - 'tests/test_math_daily.py'
 permissions:
   contents: write
 concurrency:
@@ -21,6 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m unittest discover -s tests -p test_math_daily.py
       - run: python scripts/update_math_daily.py
       - name: Commit archive
         run: |

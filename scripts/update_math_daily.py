@@ -61,6 +61,17 @@ def write_json(path, value):
     temp.replace(path)
 
 
+def rebuild_library():
+    """Newest metadata wins; retain each occurrence and its announcement kind."""
+    library = {}
+    for path in sorted((ROOT / 'archive').glob('*.json'), reverse=True):
+        stored = json.loads(path.read_text(encoding='utf-8'))
+        for paper in stored['papers']:
+            entry = library.setdefault(paper['id'], dict(paper, occurrences=[]))
+            entry['occurrences'].append(dict(date=stored['date'], announce_type=paper['announce_type'], feeds=paper['feeds']))
+    write_json(ROOT / 'library.json', dict(papers=list(library.values())))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--feed-dir', type=Path, help='Read CATEGORY.xml fixtures instead of the network')
@@ -84,6 +95,7 @@ def main():
     archive = ROOT / 'archive' / f'{date}.json'
     # Empty weekend feeds must not replace an existing nonempty announcement batch.
     if not papers:
+        write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=True))
         print('No announcements; preserving latest batch.')
         return
     write_json(archive, batch)
@@ -94,6 +106,8 @@ def main():
     latest = json.loads((ROOT / 'archive' / f"{batches[0]['date']}.json").read_text(encoding='utf-8'))
     write_json(ROOT / 'latest.json', latest)
     write_json(ROOT / 'archive.json', batches)
+    rebuild_library()
+    write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=False))
     print(f"Archived {date}: {len(papers)} unique papers; {len(batches)} batches retained.")
 
 
