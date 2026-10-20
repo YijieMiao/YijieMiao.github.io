@@ -41,7 +41,7 @@ class LibraryTests(unittest.TestCase):
                     '2610.2':dict(announcement_date='2026-10-16',version_id='2610.2v1',full_text=True,status='explicit')}))
                 daily.rebuild_trends()
                 row=json.loads((daily.ROOT/'trends.json').read_text())['days'][0]
-                self.assertEqual(row['groups']['all'],dict(total=2,new=1,revised=1,explicit=1,checked=1))
+                self.assertEqual(row['groups']['all'],dict(total=2,new=1,revised=1,explicit=1,checked=1,new_explicit=1,new_checked=1))
                 self.assertEqual(row['groups']['math.DG']['total'],2)
                 self.assertEqual(row['groups']['math.AP']['total'],2)
                 self.assertEqual(row['groups']['math.MG']['total'],0)

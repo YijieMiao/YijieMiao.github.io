@@ -82,7 +82,7 @@ def rebuild_trends():
         groups = {}
         for code in ['all', *CATEGORIES]:
             papers = {p['id']: p for p in batch['papers'] if code == 'all' or code in p['feeds']}
-            counts = dict(total=len(papers), new=0, revised=0, explicit=0, checked=0)
+            counts = dict(total=len(papers), new=0, revised=0, explicit=0, checked=0, new_explicit=0, new_checked=0)
             for paper in papers.values():
                 counts['revised' if 'replace' in paper['announce_type'] else 'new'] += 1
                 record = audits.get(paper['id'], {})
@@ -90,6 +90,9 @@ def rebuild_trends():
                 if record.get('announcement_date') == batch['date'] and same_version and record.get('full_text'):
                     counts['checked'] += 1
                     counts['explicit'] += record['status'] == 'explicit'
+                    if 'replace' not in paper['announce_type']:
+                        counts['new_checked'] += 1
+                        counts['new_explicit'] += record['status'] == 'explicit'
             groups[code] = counts
         rows.append(dict(date=batch['date'], groups=groups))
     write_json(ROOT / 'trends.json', dict(days=rows))
