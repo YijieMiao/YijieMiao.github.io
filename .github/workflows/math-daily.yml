@@ -37,5 +37,6 @@ jobs:
           git add math-daily/data
           if ! git diff --cached --quiet; then
             git commit -m 'Update arXiv mathematics archive'
+            git pull --rebase origin main
             git push
           fi
