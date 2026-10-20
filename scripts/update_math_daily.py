@@ -31,7 +31,7 @@ def parse_feed(xml):
             raise ValueError(f'Unexpected paper URL: {url}')
         description = item.findtext('description', '')
         papers.append(dict(
-            id=url.split('/abs/')[1], title=' '.join(item.findtext('title', '').split()),
+            id=url.split('/abs/')[1], version_id=item.findtext('guid', '').removeprefix('oai:arXiv.org:') or url.split('/abs/')[1], title=' '.join(item.findtext('title', '').split()),
             authors=item.findtext('dc:creator', '', NS),
             abstract=description.partition('Abstract:')[2].strip() or description,
             categories=[c.text for c in item.findall('category')],

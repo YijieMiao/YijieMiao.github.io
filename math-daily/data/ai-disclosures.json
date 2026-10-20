@@ -1,0 +1,473 @@
+{
+  "records": {
+    "2610.22629": {
+      "checked_at": "2026-10-20T05:58:40.560584+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.22629v1",
+      "version_id": "2610.22629v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22759": {
+      "checked_at": "2026-10-20T05:58:46.144076+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.22759v1",
+      "version_id": "2610.22759v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22969": {
+      "checked_at": "2026-10-20T05:58:52.140609+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.22969v1",
+      "version_id": "2610.22969v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23000": {
+      "checked_at": "2026-10-20T05:58:55.028807+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23000v1",
+      "version_id": "2610.23000v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23008": {
+      "checked_at": "2026-10-20T05:58:58.131104+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23008v1",
+      "version_id": "2610.23008v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23011": {
+      "checked_at": "2026-10-20T05:59:01.410833+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23011v1",
+      "version_id": "2610.23011v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23412": {
+      "checked_at": "2026-10-20T05:59:04.564597+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23412v1",
+      "version_id": "2610.23412v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23417": {
+      "checked_at": "2026-10-20T05:59:07.399693+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23417v1",
+      "version_id": "2610.23417v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23552": {
+      "checked_at": "2026-10-20T05:59:16.574746+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23552v1",
+      "version_id": "2610.23552v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23629": {
+      "checked_at": "2026-10-20T05:59:19.890243+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23629v1",
+      "version_id": "2610.23629v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23648": {
+      "checked_at": "2026-10-20T05:59:23.507090+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23648v1",
+      "version_id": "2610.23648v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22712": {
+      "checked_at": "2026-10-20T05:59:33.227472+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.22712v1",
+      "version_id": "2610.22712v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23752": {
+      "checked_at": "2026-10-20T05:59:47.017592+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23752v1",
+      "version_id": "2610.23752v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23848": {
+      "checked_at": "2026-10-20T05:59:58.804645+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2610.23848v1",
+      "version_id": "2610.23848v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2508.12848": {
+      "checked_at": "2026-10-20T06:00:05.181094+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2508.12848v2",
+      "version_id": "2508.12848v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2604.20695": {
+      "checked_at": "2026-10-20T06:00:08.065255+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2604.20695v3",
+      "version_id": "2604.20695v3",
+      "method": "html",
+      "full_text": true
+    },
+    "2607.16719": {
+      "checked_at": "2026-10-20T06:00:11.015575+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2607.16719v2",
+      "version_id": "2607.16719v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2608.21911": {
+      "checked_at": "2026-10-20T06:00:14.095317+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2608.21911v2",
+      "version_id": "2608.21911v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22941": {
+      "checked_at": "2026-10-20T06:00:51.810212+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "candidate",
+      "excerpt": "This work was carried out with the assistance of ChatGPT, which contributed to discussions of the arguments and to the preparation and revision of …",
+      "location": "S1.SS3.p8.1",
+      "source_url": "https://arxiv.org/html/2610.22941v1",
+      "version_id": "2610.22941v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23441": {
+      "checked_at": "2026-10-20T06:00:57.261643+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "In preparing this paper, I used conversations with ChatGPT (OpenAI; GPT-5.6 Sol, GPT-6.1 Sol, and GPT-6 Astra models, accessed through a ChatGPT Plus subscription) …",
+      "location": "S1.p10.1",
+      "roles": [
+        "writing"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23441v1",
+      "version_id": "2610.23441v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23481": {
+      "checked_at": "2026-10-20T06:01:00.624654+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "Generative artificial intelligence tools, specifically ChatGPT and WorkBuddy, were used during the preparation of this manuscript as auxiliary aids for language editing, improving exposition …",
+      "location": "S3.p11.1",
+      "roles": [
+        "writing"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23481v1",
+      "version_id": "2610.23481v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22524": {
+      "checked_at": "2026-10-20T06:01:02.950698+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "Tool and computational resource disclosure: ChatGPT 6-Astra was used to perform literature review and as an adversarial reader and improve writing of the arguments.",
+      "location": "S1.SS2.p4.1",
+      "roles": [
+        "research",
+        "writing",
+        "code"
+      ],
+      "source_url": "https://arxiv.org/html/2610.22524v1",
+      "version_id": "2610.22524v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22592": {
+      "checked_at": "2026-10-20T06:01:08.131846+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "During subsequent revisions, OpenAI ChatGPT was used to assist in checking mathematical proofs, identifying and removing unnecessary assumptions, and improving grammar and exposition.",
+      "location": "Sx2.p1.1",
+      "roles": [
+        "research",
+        "writing"
+      ],
+      "source_url": "https://arxiv.org/html/2610.22592v2",
+      "version_id": "2610.22592v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23069": {
+      "checked_at": "2026-10-20T06:01:10.765656+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "The authors used AI-assisted tools, principally ChatGPT/Codex, for brainstorming, literature searches, manuscript editing and complete computer assistant part.",
+      "location": "S1.SSx2.p1.1",
+      "roles": [
+        "writing",
+        "code"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23069v1",
+      "version_id": "2610.23069v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23505": {
+      "checked_at": "2026-10-20T06:01:13.819725+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "The author used ChatGPT for language editing and other editional assistance in preparing the manuscript.",
+      "location": "S1.SS4.p1.1",
+      "roles": [
+        "writing"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23505v1",
+      "version_id": "2610.23505v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23594": {
+      "checked_at": "2026-10-20T06:01:16.320296+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "In addition, the author used LLM tools for literature searches, proofreading, figure creation, and proof checking.",
+      "location": "S1.p32.1",
+      "roles": [
+        "research"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23594v1",
+      "version_id": "2610.23594v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23794": {
+      "checked_at": "2026-10-20T06:01:20.081156+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "candidate",
+      "excerpt": "… proofs of Theorem 4.8 and Theorem 5.24 were found by ChatGPT 6.",
+      "location": "A1.SS3.p4.1",
+      "source_url": "https://arxiv.org/html/2610.23794v1",
+      "version_id": "2610.23794v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23797": {
+      "checked_at": "2026-10-20T06:01:23.396787+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "candidate",
+      "excerpt": "Finally, the recent AI-assisted paper of Gan, Guo and Oh [15] gives a sharp counting result for curves in ℝn\\mathbb{R}^{n}, n≥4n\\geq 4, with the …",
+      "location": "S1.SS3.p6.1",
+      "source_url": "https://arxiv.org/html/2610.23797v1",
+      "version_id": "2610.23797v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.23836": {
+      "checked_at": "2026-10-20T06:01:26.426738+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "Precisely, we used ChatGPT 6 Astra, Deepseek V4.1-Flash for the mathematical part and the writing, checking and graphing.",
+      "location": "S1.SSx1.p1.1",
+      "roles": [
+        "writing"
+      ],
+      "source_url": "https://arxiv.org/html/2610.23836v1",
+      "version_id": "2610.23836v1",
+      "method": "html",
+      "full_text": true
+    },
+    "2410.08571": {
+      "checked_at": "2026-10-20T06:01:28.989999+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "… preparing version 3 of this paper, I used conversations with ChatGPT (OpenAI) for help with revising the manuscript.",
+      "location": "S1.p14.1",
+      "roles": [],
+      "source_url": "https://arxiv.org/html/2410.08571v3",
+      "version_id": "2410.08571v3",
+      "method": "html",
+      "full_text": true
+    },
+    "2403.12304": {
+      "checked_at": "2026-10-20T06:01:32.632107+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2403.12304v2",
+      "version_id": "2403.12304v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2510.09026": {
+      "checked_at": "2026-10-20T06:01:34.604599+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2510.09026v3",
+      "version_id": "2510.09026v3",
+      "method": "html",
+      "full_text": true
+    },
+    "2609.07158": {
+      "checked_at": "2026-10-20T06:01:38.482354+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "not_found",
+      "excerpt": "",
+      "location": "",
+      "source_url": "https://arxiv.org/html/2609.07158v2",
+      "version_id": "2609.07158v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.10413": {
+      "checked_at": "2026-10-20T06:01:41.481001+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "Claude Opus 5.5 (Anthropic) was used for literature research and proofreading.",
+      "location": "S1.SS4.p2.1",
+      "roles": [
+        "research"
+      ],
+      "source_url": "https://arxiv.org/html/2610.10413v3",
+      "version_id": "2610.10413v3",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.14468": {
+      "checked_at": "2026-10-20T06:01:44.893347+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "We used AI language models Claude Fable 5.1 and Chatgpt 5.6 in preparing this paper.",
+      "location": "S1.SS7.p1.1",
+      "roles": [],
+      "source_url": "https://arxiv.org/html/2610.14468v2",
+      "version_id": "2610.14468v2",
+      "method": "html",
+      "full_text": true
+    },
+    "2610.22622": {
+      "checked_at": "2026-10-20T06:01:48.184998+00:00",
+      "rule_version": 1,
+      "announcement_date": "2026-10-19",
+      "status": "explicit",
+      "excerpt": "Throughout this period I used Claude Opus 4.8 (Anthropic) as a research assistant.",
+      "location": "Sx1.p1.1",
+      "roles": [
+        "research"
+      ],
+      "source_url": "https://arxiv.org/html/2610.22622v1",
+      "version_id": "2610.22622v1",
+      "method": "html",
+      "full_text": true
+    }
+  },
+  "updated_at": "2026-10-20T06:01:50.787935+00:00"
+}

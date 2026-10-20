@@ -27,15 +27,35 @@ function subjects() {
     el.append(element('span', code, 'code'), element('span', en, 'en'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length} 篇 ↗`, 'total')); $('subjects').append(el);
   }
 }
-function filtered() {
+let aiRecords = {};
+const aiLabels = {explicit:'检出 AI 使用声明', candidate:'AI 相关表述待核对', not_found:'已检索未发现 AI 披露', pending:'AI 披露尚未核查', unavailable:'AI 披露未完成核查'};
+function aiInfo(p) {
+  const record = aiRecords[p.id];
+  const date = p.occurrences?.[0]?.date || batch?.date;
+  if (!record || record.announcement_date !== date || (p.version_id && /v\d+$/.test(p.version_id) && p.version_id !== record.version_id)) return {status:'pending'};
+  return record;
+}
+function aiStats(papers) {
+  const counts = Object.fromEntries(Object.keys(aiLabels).map(key => [key,0]));
+  for (const p of papers) counts[aiInfo(p).status]++;
+  const total = papers.length, checked = counts.explicit + counts.candidate + counts.not_found;
+  const el = $('ai-stats'); el.replaceChildren();
+  const percent = total ? `${(100*counts.explicit/total).toFixed(1)}%` : '—';
+  el.append(element('strong',`检出明确 AI 使用声明：${counts.explicit} / ${total} 篇 · ${percent}`));
+  el.append(element('p',`已完成文字检索 ${checked} / ${total}（${total ? (100*checked/total).toFixed(1) : "—"}%） · 相关表述待核对 ${counts.candidate} · 未检出披露 ${counts.not_found} · 尚未核查 ${counts.pending} · 提取未完成 ${counts.unavailable}`));
+  el.append(element('p', checked < total ? '核查尚未覆盖全部论文，以上是已发现声明占当前列表的比例，不是实际 AI 使用率。' : '以上是检出的披露比例，不是实际 AI 使用率。未披露或未检出不等于未使用。'));
+}
+function filtered(applyAI = true) {
   const query = normalize($('search').value.trim()), type = $('type').value, shelf = $('shelf').value;
   return batch.papers.filter(p => (!selected || p.feeds.includes(selected)) &&
     (type === 'all' || (type === 'new' ? !p.announce_type.includes('replace') : p.announce_type.includes('replace'))) &&
     normalize(`${p.title} ${p.authors} ${p.abstract} ${p.id}`).includes(query) &&
+    (!applyAI || $('ai-filter').value === 'all' || aiInfo(p).status === $('ai-filter').value) &&
     (shelf === 'all' || (shelf === 'saved' && personal.saved.includes(p.id)) || (shelf === 'unread' && !personal.read.includes(p.id)) || (shelf === 'followed' && followed(p))));
 }
 function render() {
   if (!batch) return;
+  aiStats(filtered(false));
   const papers = filtered();
   $('list-title').textContent = selected ? names[selected] : '全部方向';
   $('count').textContent = `${papers.length} 篇 · 已去重`;
@@ -47,6 +67,7 @@ function render() {
     const meta = element('div', undefined, 'paper-top');
     const kind = p.announce_type.includes('replace') ? '修订' : p.announce_type === 'cross' ? '交叉新论文' : '新论文';
     meta.append(element('span', `arXiv:${p.id}`), element('span', kind, 'tag'));
+    const ai = aiInfo(p); meta.append(element('span', aiLabels[ai.status], `tag ai-tag ai-${ai.status}`));
     if (p.occurrences?.length) meta.append(element('span', p.occurrences[0].date));
     for (const c of p.categories) meta.append(element('span', c, 'tag'));
     if (followed(p)) meta.append(element('span', '关注作者', 'tag interest'));
@@ -59,6 +80,20 @@ function render() {
     details.addEventListener('toggle', () => { if (details.open && window.MathJax?.typesetPromise) window.MathJax.typesetPromise([abstract]).catch(console.error); });
     article.append(meta, title, element('p', p.authors, 'authors'), links);
     article.append(details);
+    if (ai.status !== 'pending') {
+      const audit = element('details', undefined, 'ai-evidence'); audit.append(element('summary','AI 披露核查依据'));
+      audit.append(element('p',`${aiLabels[ai.status]} · ${ai.version_id || '版本未确认'} · ${ai.method === 'html' ? 'HTML 全文文字' : ai.method === 'pdf' ? 'PDF 全部页面文字' : '全文未能完整提取'}`));
+      if (ai.checked_at) audit.append(element('p', `核查时间：${new Date(ai.checked_at).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间）`));
+      if (ai.excerpt) audit.append(element('blockquote',ai.excerpt));
+      const roles = {research:'研究思路 / 证明相关',writing:'写作 / 排版相关',code:'代码 / 计算相关'};
+      if (ai.roles?.length) audit.append(element('p',`声明中出现的用途关键词：${ai.roles.map(role => roles[role]).join('、')}（可能重叠）`));
+      if (ai.source_url?.startsWith('https://arxiv.org/')) {
+        const fragment = ai.location ? (ai.method === 'pdf' ? '#page='+ai.location : '#'+ai.location) : '';
+        audit.append(link('查看所检索版本 / 原文位置 ↗',ai.source_url+fragment));
+      }
+      audit.append(element('p',ai.status === 'explicit' ? '规则检出作者使用声明，请结合原文判断用途；不据此推算 AI 完成了多少内容。' : ai.status === 'candidate' ? '可能是研究对象、引用、否定声明或使用声明；未计入明确披露的分子。' : ai.status === 'not_found' ? '仅表示文字检索未命中披露，不能证明没有使用 AI。' : '无法完整提取文字，未据此判断是否使用 AI。'));
+      article.append(audit);
+    }
     if (p.occurrences?.length > 1) {
       const history = element('details'); history.append(element('summary', `收录记录 · ${p.occurrences.length} 个批次`));
       for (const occurrence of p.occurrences) history.append(element('p', `${occurrence.date} · ${occurrence.announce_type} · ${occurrence.feeds.join(', ')}`, 'history-entry'));
@@ -83,11 +118,14 @@ async function load(scope = '') {
     const url = new URL(location.href); scope ? url.searchParams.set('date', scope) : url.searchParams.delete('date'); history.replaceState(null, '', url);
   } catch (error) { if (current === requestNumber) { $('status').textContent = '论文数据加载失败。请刷新重试或选择其他批次。'; console.error(error); } }
 }
-for (const id of ['search','type']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
+const requestedAI = new URLSearchParams(location.search).get('ai');
+if (requestedAI && Object.hasOwn(aiLabels, requestedAI)) $('ai-filter').value = requestedAI;
+$('ai-filter').addEventListener('change', () => { const url = new URL(location.href); $('ai-filter').value === 'all' ? url.searchParams.delete('ai') : url.searchParams.set('ai',$('ai-filter').value); history.replaceState(null,'',url); });
+for (const id of ['search','type','ai-filter']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
 $('archive').addEventListener('change', () => load($('archive').value));
 $('shelf').addEventListener('change', () => { shown = 40; if (['saved','followed'].includes($('shelf').value)) { $('type').value = 'all'; $('archive').value = 'all'; load('all'); } else render(); });
 $('load-more').onclick = () => { shown += 40; render(); };
-$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('shelf').value = 'all'; shown = 40; if (batch) { subjects(); render(); } };
+$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('ai-filter').value = 'all'; const clearURL = new URL(location.href); clearURL.searchParams.delete('ai'); history.replaceState(null,'',clearURL); $('shelf').value = 'all'; shown = 40; if (batch) { subjects(); render(); } };
 $('save-authors').onclick = () => { personal.authors = $('authors').value.split('\n').map(s => s.trim()).filter(Boolean).slice(0,500); persist(); render(); };
 function download(name, content, type) { const url = URL.createObjectURL(new Blob([content], {type})); const a = element('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
 $('export-data').onclick = () => download('math-daily-personal.json', JSON.stringify(personal,null,2), 'application/json');
@@ -125,4 +163,10 @@ $('export-reading').onclick = async () => {
     if (Date.now() - date.getTime() > 48*3600000) el.append(element('span', ' · 已超过 48 小时未记录成功检查，请查看任务状态。'));
     if (status.empty) el.append(element('span',' · 本次没有公告，保留上一非空批次。'));
   } catch { el.textContent = '暂时无法读取最近成功抓取时间。'; }
+})();
+
+(async () => {
+  try { const data = await json('data/ai-disclosures.json'); aiRecords = data.records || {}; }
+  catch { /* Missing audits remain explicitly pending; the paper list still works. */ }
+  render();
 })();

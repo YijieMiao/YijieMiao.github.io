@@ -7,6 +7,8 @@ on:
     branches: [master, main]
     paths:
       - 'scripts/update_math_daily.py'
+      - 'scripts/check_ai_disclosures.py'
+      - 'tests/test_ai_disclosures.py'
       - '.github/workflows/math-daily.yml'
       - 'tests/test_math_daily.py'
 permissions:
@@ -22,8 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m unittest discover -s tests -p test_math_daily.py
+      - run: python -m unittest discover -s tests -p 'test_*.py'
       - run: python scripts/update_math_daily.py
+      - name: Install PDF text extraction
+        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - name: Search AI disclosures
+        run: python scripts/check_ai_disclosures.py --limit 200
       - name: Commit archive
         run: |
           git config user.name 'github-actions[bot]'
