@@ -32,7 +32,7 @@ const aiLabels = {explicit:'检出 AI 使用声明', candidate:'AI 相关表述�
 function aiInfo(p) {
   const record = aiRecords[p.id];
   const date = p.occurrences?.[0]?.date || batch?.date;
-  if (!record || record.announcement_date !== date || (p.version_id && /v\d+$/.test(p.version_id) && p.version_id !== record.version_id)) return {status:'pending'};
+  if (!record || record.announcement_date !== date || (p.version_id && record.version_id && /v\d+$/.test(p.version_id) && p.version_id !== record.version_id)) return {status:'pending'};
   return record;
 }
 function aiStats(papers) {
