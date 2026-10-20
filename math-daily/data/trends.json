@@ -1,0 +1,112 @@
+{
+  "days": [
+    {
+      "date": "2026-10-16",
+      "groups": {
+        "all": {
+          "total": 200,
+          "new": 120,
+          "revised": 80,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.DG": {
+          "total": 44,
+          "new": 30,
+          "revised": 14,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.MG": {
+          "total": 14,
+          "new": 8,
+          "revised": 6,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.GT": {
+          "total": 23,
+          "new": 11,
+          "revised": 12,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.AP": {
+          "total": 84,
+          "new": 59,
+          "revised": 25,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.KT": {
+          "total": 2,
+          "new": 0,
+          "revised": 2,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.MP": {
+          "total": 67,
+          "new": 34,
+          "revised": 33,
+          "explicit": 0,
+          "checked": 0
+        }
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "groups": {
+        "all": {
+          "total": 174,
+          "new": 110,
+          "revised": 64,
+          "explicit": 12,
+          "checked": 36
+        },
+        "math.DG": {
+          "total": 35,
+          "new": 25,
+          "revised": 10,
+          "explicit": 11,
+          "checked": 35
+        },
+        "math.MG": {
+          "total": 12,
+          "new": 8,
+          "revised": 4,
+          "explicit": 1,
+          "checked": 1
+        },
+        "math.GT": {
+          "total": 14,
+          "new": 9,
+          "revised": 5,
+          "explicit": 2,
+          "checked": 2
+        },
+        "math.AP": {
+          "total": 71,
+          "new": 48,
+          "revised": 23,
+          "explicit": 5,
+          "checked": 9
+        },
+        "math.KT": {
+          "total": 3,
+          "new": 1,
+          "revised": 2,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.MP": {
+          "total": 54,
+          "new": 30,
+          "revised": 24,
+          "explicit": 1,
+          "checked": 2
+        }
+      }
+    }
+  ]
+}

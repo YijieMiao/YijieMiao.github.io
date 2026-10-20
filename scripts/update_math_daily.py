@@ -72,6 +72,29 @@ def rebuild_library():
     write_json(ROOT / 'library.json', dict(papers=list(library.values())))
 
 
+def rebuild_trends():
+    """Keep original announcement totals and version-matched disclosure counts."""
+    audit_path = ROOT / 'ai-disclosures.json'
+    audits = json.loads(audit_path.read_text()).get('records', {}) if audit_path.exists() else {}
+    rows = []
+    for path in sorted((ROOT / 'archive').glob('*.json')):
+        batch = json.loads(path.read_text())
+        groups = {}
+        for code in ['all', *CATEGORIES]:
+            papers = {p['id']: p for p in batch['papers'] if code == 'all' or code in p['feeds']}
+            counts = dict(total=len(papers), new=0, revised=0, explicit=0, checked=0)
+            for paper in papers.values():
+                counts['revised' if 'replace' in paper['announce_type'] else 'new'] += 1
+                record = audits.get(paper['id'], {})
+                same_version = not paper.get('version_id') or not record.get('version_id') or paper['version_id'] == record['version_id']
+                if record.get('announcement_date') == batch['date'] and same_version and record.get('full_text'):
+                    counts['checked'] += 1
+                    counts['explicit'] += record['status'] == 'explicit'
+            groups[code] = counts
+        rows.append(dict(date=batch['date'], groups=groups))
+    write_json(ROOT / 'trends.json', dict(days=rows))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--feed-dir', type=Path, help='Read CATEGORY.xml fixtures instead of the network')
@@ -107,6 +130,7 @@ def main():
     write_json(ROOT / 'latest.json', latest)
     write_json(ROOT / 'archive.json', batches)
     rebuild_library()
+    rebuild_trends()
     write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=False))
     print(f"Archived {date}: {len(papers)} unique papers; {len(batches)} batches retained.")
 

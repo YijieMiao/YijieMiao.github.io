@@ -30,6 +30,8 @@ jobs:
         run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
       - name: Search AI disclosures
         run: python scripts/check_ai_disclosures.py --limit 200
+      - name: Rebuild trend statistics
+        run: python -c "import sys; sys.path.insert(0, 'scripts'); from update_math_daily import rebuild_trends; rebuild_trends()"
       - name: Commit archive
         run: |
           git config user.name 'github-actions[bot]'
