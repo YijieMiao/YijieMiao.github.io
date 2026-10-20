@@ -23,8 +23,8 @@ function followed(paper) { return personal.authors.some(author => normalize(pape
 function subjects() {
   $('subjects').replaceChildren();
   for (const [code, en] of Object.entries(names)) {
-    const el = button('', () => { selected = selected === code ? '' : code; shown = 40; subjects(); render(); }); el.className = 'subject'; el.setAttribute('aria-pressed', String(selected === code));
-    el.append(element('span', code, 'code'), element('span', en, 'en'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length} 篇 ↗`, 'total')); $('subjects').append(el);
+    const el = button('', () => { selected = selected === code ? '' : code; shown = 40; subjects(); render(); }); el.className = 'subject'; el.title = en; el.setAttribute('aria-label', `${code} · ${en}`); el.setAttribute('aria-pressed', String(selected === code));
+    el.append(element('span', code, 'code'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length}`, 'total')); $('subjects').append(el);
   }
 }
 let aiRecords = {};
