@@ -61,15 +61,15 @@
           "total": 174,
           "new": 110,
           "revised": 64,
-          "explicit": 12,
-          "checked": 36
+          "explicit": 11,
+          "checked": 35
         },
         "math.DG": {
           "total": 35,
           "new": 25,
           "revised": 10,
-          "explicit": 11,
-          "checked": 35
+          "explicit": 10,
+          "checked": 34
         },
         "math.MG": {
           "total": 12,
@@ -105,6 +105,60 @@
           "revised": 24,
           "explicit": 1,
           "checked": 2
+        }
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "groups": {
+        "all": {
+          "total": 373,
+          "new": 233,
+          "revised": 140,
+          "explicit": 60,
+          "checked": 198
+        },
+        "math.DG": {
+          "total": 97,
+          "new": 58,
+          "revised": 39,
+          "explicit": 26,
+          "checked": 95
+        },
+        "math.MG": {
+          "total": 29,
+          "new": 17,
+          "revised": 12,
+          "explicit": 12,
+          "checked": 29
+        },
+        "math.GT": {
+          "total": 27,
+          "new": 17,
+          "revised": 10,
+          "explicit": 9,
+          "checked": 27
+        },
+        "math.AP": {
+          "total": 156,
+          "new": 105,
+          "revised": 51,
+          "explicit": 18,
+          "checked": 73
+        },
+        "math.KT": {
+          "total": 9,
+          "new": 5,
+          "revised": 4,
+          "explicit": 0,
+          "checked": 0
+        },
+        "math.MP": {
+          "total": 101,
+          "new": 59,
+          "revised": 42,
+          "explicit": 5,
+          "checked": 11
         }
       }
     }
