@@ -1,7 +1,7 @@
 'use strict';
 const $ = id => document.getElementById(id);
 let batch, selected = '', requestNumber = 0, shown = 40, archiveDates = [], currentScope = '';
-const names = {'math.DG':'Differential Geometry','math.MG':'Metric Geometry','math.GT':'Geometric Topology','math.AP':'Analysis of PDEs','math.KT':'K-Theory and Homology','math.MP':'Mathematical Physics'};
+const names = MathSubjects.names;
 
 function element(tag, text, cls) { const el = document.createElement(tag); if (text !== undefined) el.textContent = text; if (cls) el.className = cls; return el; }
 function link(text, url) { const el = element('a', text); el.href = url; el.target = '_blank'; el.rel = 'noopener noreferrer'; return el; }
@@ -22,7 +22,7 @@ function normalize(value) { return value.normalize('NFKD').replace(/[\u0300-\u03
 function followed(paper) { return personal.authors.some(author => normalize(paper.authors).includes(normalize(author))); }
 function subjects() {
   $('subjects').replaceChildren();
-  for (const [code, en] of Object.entries(names)) {
+  for (const [code, en] of Object.entries(names).filter(([code]) => MathSubjects.selected.includes(code))) {
     const el = button('', () => { selected = selected === code ? '' : code; shown = 40; subjects(); render(); }); el.className = 'subject'; el.title = en; el.setAttribute('aria-label', `${code} · ${en}`); el.setAttribute('aria-pressed', String(selected === code));
     el.append(element('span', code, 'code'), element('span', `${batch.papers.filter(p => p.feeds.includes(code)).length}`, 'total')); $('subjects').append(el);
   }
@@ -47,7 +47,7 @@ function aiStats(papers) {
 }
 function filtered(applyAI = true) {
   const query = normalize($('search').value.trim()), type = $('type').value, shelf = $('shelf').value;
-  return batch.papers.filter(p => (!selected || p.feeds.includes(selected)) &&
+  return batch.papers.filter(p => p.feeds.some(code => MathSubjects.selected.includes(code)) && (!selected || p.feeds.includes(selected)) &&
     (type === 'all' || (type === 'new' ? !p.announce_type.includes('replace') : p.announce_type.includes('replace'))) &&
     normalize(`${p.title} ${p.authors} ${p.abstract} ${p.id}`).includes(query) &&
     (!applyAI || $('ai-filter').value === 'all' || aiInfo(p).status === $('ai-filter').value) &&
@@ -57,7 +57,7 @@ function render() {
   if (!batch) return;
   aiStats(filtered(false));
   const papers = filtered();
-  $('list-title').textContent = selected ? names[selected] : '全部方向';
+  $('list-title').textContent = selected ? names[selected] : '我的研究方向';
   $('count').textContent = `${papers.length} 篇 · 已去重`;
   $('status').textContent = papers.length ? `${currentScope === 'all' ? '全部已归档批次' : '当前公告批次'} · ${$('type').selectedOptions[0].textContent} · 展示 ${Math.min(shown, papers.length)} / ${papers.length} 篇` : '没有匹配论文。可切换到“全部历史”、选择“全部公告”或重置筛选。';
   if (window.MathJax?.typesetClear) window.MathJax.typesetClear([$('papers')]);
@@ -113,8 +113,8 @@ async function load(scope = '') {
     const data = await json(scope === 'all' ? 'data/library.json' : scope ? `data/archive/${scope}.json` : 'data/latest.json');
     if (current !== requestNumber) return;
     batch = data; currentScope = scope; shown = 40;
-    $('edition').textContent = scope === 'all' ? `全部历史 · ${archiveDates.length} 个批次 · ${batch.papers.length} 篇论文` : `arXiv 公告批次 ${batch.date} · ${batch.papers.length} 篇论文 · 六个方向`;
-    subjects(); render();
+    $('edition').textContent = scope === 'all' ? `全部历史 · ${archiveDates.length} 个批次 · ${batch.papers.length} 篇论文` : `arXiv 公告批次 ${batch.date} · ${batch.papers.length} 篇论文`;
+    subjects(); render(); updateSubjectSummary();
     const url = new URL(location.href); scope ? url.searchParams.set('date', scope) : url.searchParams.delete('date'); history.replaceState(null, '', url);
   } catch (error) { if (current === requestNumber) { $('status').textContent = '论文数据加载失败。请刷新重试或选择其他批次。'; console.error(error); } }
 }
@@ -170,3 +170,21 @@ $('export-reading').onclick = async () => {
   catch { /* Missing audits remain explicitly pending; the paper list still works. */ }
   render();
 })();
+
+function updateSubjectSummary() {
+  if(!batch)return;
+  const available = batch.coverage || Object.keys(batch.categories || {});
+  const missing = currentScope === 'all' ? [] : MathSubjects.selected.filter(code=>!available.includes(code));
+  $('subject-summary').textContent = MathSubjects.selected.length ? `已选 ${MathSubjects.selected.length} 个方向 · 多方向论文合并去重` + (missing.length ? ` · 本批次未收录：${missing.join('、')}` : '') : '尚未选择方向，请打开“自选方向”勾选。';
+}
+for(const [code,name] of Object.entries(names)) {
+  const label=element('label'), input=element('input');input.type='checkbox';input.value=code;input.checked=MathSubjects.selected.includes(code);
+  label.append(input,element('strong',code),element('span',name));$('subject-options').append(label);
+}
+$('edit-subjects').onclick=()=>{$('subject-picker').open=!$('subject-picker').open;};
+$('subject-defaults').onclick=()=>{for(const input of $('subject-options').querySelectorAll('input'))input.checked=MathSubjects.defaults.includes(input.value);};
+$('subject-save').onclick=()=>{
+  const codes=[...$('subject-options').querySelectorAll('input:checked')].map(input=>input.value);
+  const saved=MathSubjects.save(codes);$('subject-save-status').textContent=saved?'已保存在此浏览器。':'浏览器无法保存，当前选择仅在本页有效。';$('subject-picker').open=false;
+};
+window.addEventListener('math-subjects-change',()=>{selected='';shown=40;if(batch){subjects();render();updateSubjectSummary();}});

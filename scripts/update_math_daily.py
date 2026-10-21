@@ -10,14 +10,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1] / 'math-daily' / 'data'
-CATEGORIES = {
-    'math.DG': ['Differential Geometry', '微分几何'],
-    'math.MG': ['Metric Geometry', '度量几何'],
-    'math.GT': ['Geometric Topology', '几何拓扑'],
-    'math.AP': ['Analysis of PDEs', '偏微分方程'],
-    'math.KT': ['K-Theory and Homology', 'K 理论与同调'],
-    'math.MP': ['Mathematical Physics', '数学物理'],
-}
+CATEGORIES = {'math.AC': ['Commutative Algebra'], 'math.AG': ['Algebraic Geometry'], 'math.AP': ['Analysis of PDEs'], 'math.AT': ['Algebraic Topology'], 'math.CA': ['Classical Analysis and ODEs'], 'math.CO': ['Combinatorics'], 'math.CT': ['Category Theory'], 'math.CV': ['Complex Variables'], 'math.DG': ['Differential Geometry'], 'math.DS': ['Dynamical Systems'], 'math.FA': ['Functional Analysis'], 'math.GM': ['General Mathematics'], 'math.GN': ['General Topology'], 'math.GR': ['Group Theory'], 'math.GT': ['Geometric Topology'], 'math.HO': ['History and Overview'], 'math.IT': ['Information Theory'], 'math.KT': ['K-Theory and Homology'], 'math.LO': ['Logic'], 'math.MG': ['Metric Geometry'], 'math.MP': ['Mathematical Physics'], 'math.NA': ['Numerical Analysis'], 'math.NT': ['Number Theory'], 'math.OA': ['Operator Algebras'], 'math.OC': ['Optimization and Control'], 'math.PR': ['Probability'], 'math.QA': ['Quantum Algebra'], 'math.RA': ['Rings and Algebras'], 'math.RT': ['Representation Theory'], 'math.SG': ['Symplectic Geometry'], 'math.SP': ['Spectral Theory'], 'math.ST': ['Statistics Theory']}
+
 NS = {'dc': 'http://purl.org/dc/elements/1.1/', 'arxiv': 'http://arxiv.org/schemas/atom'}
 
 
@@ -80,7 +74,7 @@ def rebuild_trends():
     for path in sorted((ROOT / 'archive').glob('*.json')):
         batch = json.loads(path.read_text())
         groups = {}
-        for code in ['all', *CATEGORIES]:
+        for code in ['all', *(batch.get('coverage') or batch.get('categories') or {c:None for p in batch['papers'] for c in p['feeds']})]:
             papers = {p['id']: p for p in batch['papers'] if code == 'all' or code in p['feeds']}
             counts = dict(total=len(papers), new=0, revised=0, explicit=0, checked=0, new_explicit=0, new_checked=0)
             for paper in papers.values():
@@ -102,22 +96,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--feed-dir', type=Path, help='Read CATEGORY.xml fixtures instead of the network')
     args = parser.parse_args()
-    feeds = {}
-    # Fetch and validate all six before modifying any published data.
-    for category in CATEGORIES:
-        feeds[category] = parse_feed((args.feed_dir / (category + '.xml')).read_bytes()) if args.feed_dir else fetch(category)
-        if not args.feed_dir:
-            time.sleep(3)
-    dates = {date for date, _ in feeds.values()}
-    if len(dates) != 1:
-        raise ValueError(f'Feeds have different announcement dates; retry later: {dates}')
-    date = dates.pop()
+    # A single mathematics-wide RSS request serves every reader's preferences.
+    date, entries = parse_feed((args.feed_dir / 'math.xml').read_bytes()) if args.feed_dir else fetch('math')
     papers = {}
-    for category, (_, entries) in feeds.items():
-        for entry in entries:
-            paper = papers.setdefault(entry['id'], dict(entry, feeds=[]))
-            paper['feeds'].append(category)
-    batch = dict(date=date, categories=CATEGORIES, papers=list(papers.values()))
+    for entry in entries:
+        feeds = [code for code in entry['categories'] if code in CATEGORIES]
+        if feeds:
+            papers.setdefault(entry['id'], dict(entry, feeds=feeds))
+    batch = dict(date=date, categories=CATEGORIES, coverage=list(CATEGORIES), papers=list(papers.values()))
     archive = ROOT / 'archive' / f'{date}.json'
     # Empty weekend feeds must not replace an existing nonempty announcement batch.
     if not papers:

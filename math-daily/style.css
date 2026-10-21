@@ -42,3 +42,10 @@ aside{border-left-color:#c2b2ce}footer{border-top-color:#e0e4ef}
 .subject[aria-pressed=true] .total{background:#dce3f2;color:#424a64}
 .reading{margin-top:30px}
 .trends{margin-bottom:48px}
+
+.subject-summary{font-size:12px;color:var(--muted);margin:0 0 12px}
+#edit-subjects,.subject-actions button{font:inherit;font-size:12px;padding:7px 12px;border:1px solid #cdd5e4;border-radius:8px;background:#ffffffb8;color:var(--ink);cursor:pointer}
+.subject-picker{margin-top:14px;font-size:12px}.subject-picker summary{cursor:pointer;color:var(--green)}
+.subject-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px;margin:15px 0;max-height:380px;overflow:auto;padding:4px}
+.subject-options label{display:grid;grid-template-columns:20px 70px 1fr;align-items:center;gap:6px;padding:9px;border:1px solid #dce2ec;border-radius:8px;background:#ffffff9c;cursor:pointer}
+.subject-options input{accent-color:var(--green)}.subject-options span{font-size:11px;line-height:1.4;color:var(--muted)}.subject-actions{display:flex;gap:10px}
