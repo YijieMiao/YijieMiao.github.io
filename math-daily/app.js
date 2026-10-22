@@ -159,7 +159,7 @@ $('export-reading').onclick = async () => {
   try {
     const status = await json('data/status.json'); const date = new Date(status.last_success);
     if (!Number.isFinite(date.getTime())) throw Error('invalid timestamp');
-    el.replaceChildren(element('span', `最近成功抓取：${date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间） · 每日 12:00 自动检查`));
+    el.replaceChildren(element('span', `最近成功抓取：${date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间） · 每日 12:00、17:00 自动检查`));
     if (Date.now() - date.getTime() > 48*3600000) el.append(element('span', ' · 已超过 48 小时未记录成功检查，请查看任务状态。'));
     if (status.empty) el.append(element('span',' · 本次没有公告，保留上一非空批次。'));
   } catch { el.textContent = '暂时无法读取最近成功抓取时间。'; }

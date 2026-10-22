@@ -1,7 +1,7 @@
 name: Update mathematics papers
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4,9 * * *'
   workflow_dispatch:
   push:
     branches: [master, main]
