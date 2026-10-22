@@ -1,0 +1,38 @@
+name: Check mathematics AI disclosures
+on:
+  workflow_run:
+    workflows: ['Update mathematics papers']
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: math-ai-disclosures
+  cancel-in-progress: false
+jobs:
+  audit:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF text extraction
+        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - name: Search AI disclosures
+        run: python scripts/check_ai_disclosures.py --limit 200
+      - name: Rebuild trend statistics
+        run: python -c "import sys; sys.path.insert(0, 'scripts'); from update_math_daily import rebuild_trends; rebuild_trends()"
+      - name: Commit disclosure results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add math-daily/data/ai-disclosures.json math-daily/data/trends.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update mathematics AI disclosure checks'
+            git pull --rebase origin main
+            git push
+          fi

@@ -26,12 +26,6 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -p 'test_*.py'
       - run: python scripts/update_math_daily.py
-      - name: Install PDF text extraction
-        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
-      - name: Search AI disclosures
-        run: python scripts/check_ai_disclosures.py --limit 200
-      - name: Rebuild trend statistics
-        run: python -c "import sys; sys.path.insert(0, 'scripts'); from update_math_daily import rebuild_trends; rebuild_trends()"
       - name: Commit archive
         run: |
           git config user.name 'github-actions[bot]'

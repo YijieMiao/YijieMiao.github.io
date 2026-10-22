@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   workflow_run:
-    workflows: ['Update mathematics papers']
+    workflows: ['Update mathematics papers', 'Check mathematics AI disclosures']
     types: [completed]
   workflow_dispatch:
 permissions:
