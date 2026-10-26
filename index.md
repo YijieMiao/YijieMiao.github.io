@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 5, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 26, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -182,7 +182,7 @@ Notes on campus life and interests beyond mathematics.
 * [Mathematical Humor II](SEU/math-jokes-lsq-647.pdf)
 
 ### Links
-* [Math Daily](/math-daily/)：每日更新 Differential Geometry、Metric Geometry、Geometric Topology、Analysis of PDEs、K-Theory and Homology、Mathematical Physics 六个方向的 arXiv 论文，支持历史检索与个人收藏。
+* [Math Daily](/math-daily/)：我搭建的 arXiv 数学论文阅览室，可按研究兴趣自选数学分类，持续追踪新论文与修订动态，支持历史检索、收藏与已读管理、作者关注及 RSS 订阅，并提供论文动态统计与 AI 使用声明检索。
 * [ICM Conjectures](https://icmconjectures.com/)：由董彬、居浩成和 Gergely Bérczi 发起的开放协作项目, 系统整理历届国际数学家大会（ICM）论文集中提出的重要猜想与开放问题, 并追踪其研究进展、相关文献及当前状态；同时也为数学 AI 的真实推理能力评测提供具有文献依据的基准. [Here](/notes/Geometry_at_the_ICM_Problems.pdf) 是使用 GPT 5.6 Sol 整理出的几何部分，当前收录 278 个问题.
 * [AI Safety For Mathematicians](https://mathforaisafety.org/). A starting point for mathematicians who want to engage with AI safety.
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库, 内容涵盖物理、数学、计算机等多领域, 可及时关注最新的进展(但文章为预印版, 尚未经过同行评议)
