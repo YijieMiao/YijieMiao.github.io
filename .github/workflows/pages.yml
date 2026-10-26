@@ -37,15 +37,14 @@ jobs:
           if test -f math-daily/reader-tools.js; then node tests/test_reader_tools.cjs; fi
           python scripts/validate_math_release.py
       - uses: actions/configure-pages@v5
+      - name: Record release revision
+        run: git rev-parse HEAD > math-daily/release.txt
       - uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
       - name: Check built math release
         run: python scripts/validate_math_release.py --root _site/math-daily
-      - name: Record release revision
-        run: |
-          git rev-parse HEAD > _site/math-daily/release.txt
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
