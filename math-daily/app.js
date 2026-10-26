@@ -17,7 +17,7 @@ function persist() {
   catch { $('personal-status').textContent = '浏览器无法保存数据；当前操作只在本页有效，请导出备份。'; }
 }
 $('authors').value = personal.authors.join('\n');
-function toggle(key, id) { personal[key] = personal[key].includes(id) ? personal[key].filter(x => x !== id) : [...personal[key], id]; persist(); render(); }
+function toggle(key, id) { personal[key] = personal[key].includes(id) ? personal[key].filter(x => x !== id) : [...personal[key], id]; persist(); render(); if(sharedPaper)showSharedPaper(sharedPaper); }
 function normalize(value) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[{}\\$]/g,'').toLowerCase(); }
 function followed(paper) { return personal.authors.some(author => normalize(paper.authors).includes(normalize(author))); }
 function subjects() {
@@ -56,13 +56,17 @@ function filtered(applyAI = true) {
 function render() {
   if (!batch) return;
   aiStats(filtered(false));
-  const papers = filtered();
+  const papers = MathReader.sort(filtered(),$('sort').value,followed,batch.date);
   $('list-title').textContent = selected ? names[selected] : '我的研究方向';
   $('count').textContent = `${papers.length} 篇 · 已去重`;
-  $('status').textContent = papers.length ? `${currentScope === 'all' ? '全部已归档批次' : '当前公告批次'} · ${$('type').selectedOptions[0].textContent} · 展示 ${Math.min(shown, papers.length)} / ${papers.length} 篇` : '没有匹配论文。可切换到“全部历史”、选择“全部公告”或重置筛选。';
+  $('status').textContent = papers.length ? `${currentScope === 'all' ? '全部已归档批次' : '当前公告批次'} · ${$('type').selectedOptions[0].textContent} · 展示 ${Math.min(shown, papers.length)} / ${papers.length} 篇` : !MathSubjects.selected.length ? '请先选择研究方向。' : '没有匹配论文。可切换到“全部历史”、选择“全部公告”或重置筛选。';
   if (window.MathJax?.typesetClear) window.MathJax.typesetClear([$('papers')]);
   $('papers').replaceChildren();
-  for (const p of papers.slice(0, shown)) {
+  for (const p of papers.slice(0, shown)) $('papers').append(createPaper(p));
+  $('load-more').hidden = papers.length <= shown;
+  if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([...$('papers').querySelectorAll('h3')]).catch(console.error);
+}
+function createPaper(p) {
     const article = element('article', undefined, 'paper'); article.id = `paper-${p.id.replace(/[^\w-]/g,'-')}`;
     const meta = element('div', undefined, 'paper-top');
     const kind = p.announce_type.includes('replace') ? '修订' : p.announce_type === 'cross' ? '交叉新论文' : '新论文';
@@ -75,7 +79,9 @@ function render() {
     const links = element('div', undefined, 'links'); links.append(link('arXiv ↗', p.url), link('PDF ↗', p.pdf));
     const saved = button(personal.saved.includes(p.id) ? '★ 已收藏' : '☆ 收藏', () => toggle('saved', p.id)); saved.setAttribute('aria-pressed', String(personal.saved.includes(p.id))); saved.setAttribute('aria-label', `收藏：${p.title}`);
     const read = button(personal.read.includes(p.id) ? '✓ 已读' : '标记已读', () => toggle('read', p.id)); read.setAttribute('aria-pressed', String(personal.read.includes(p.id))); read.setAttribute('aria-label', `已读：${p.title}`);
-    links.append(saved, read);
+    const share=button('分享',async()=>{await shareURL(MathReader.cleanLink(location.href,{paper:p.id}));share.textContent='分享链接已生成';});
+    share.setAttribute('aria-label',`分享：${p.title}`);
+    links.append(saved, read, share);
     const details = element('details'), abstract = element('p', p.abstract, 'abstract'); details.append(element('summary', '展开英文摘要'), abstract);
     details.addEventListener('toggle', () => { if (details.open && window.MathJax?.typesetPromise) window.MathJax.typesetPromise([abstract]).catch(console.error); });
     article.append(meta, title, element('p', p.authors, 'authors'), links);
@@ -99,10 +105,7 @@ function render() {
       for (const occurrence of p.occurrences) history.append(element('p', `${occurrence.date} · ${occurrence.announce_type} · ${occurrence.feeds.join(', ')}`, 'history-entry'));
       article.append(history);
     }
-    $('papers').append(article);
-  }
-  $('load-more').hidden = papers.length <= shown;
-  if (window.MathJax?.typesetPromise) window.MathJax.typesetPromise([...$('papers').querySelectorAll('h3')]).catch(console.error);
+    return article;
 }
 async function json(url) { const response = await fetch(url, {cache:'no-cache'}); if (!response.ok) throw Error(`HTTP ${response.status}`); return response.json(); }
 async function load(scope = '') {
@@ -121,11 +124,11 @@ async function load(scope = '') {
 const requestedAI = new URLSearchParams(location.search).get('ai');
 if (requestedAI && Object.hasOwn(aiLabels, requestedAI)) $('ai-filter').value = requestedAI;
 $('ai-filter').addEventListener('change', () => { const url = new URL(location.href); $('ai-filter').value === 'all' ? url.searchParams.delete('ai') : url.searchParams.set('ai',$('ai-filter').value); history.replaceState(null,'',url); });
-for (const id of ['search','type','ai-filter']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
+for (const id of ['search','type','ai-filter','sort']) $(id).addEventListener(id === 'search' ? 'input' : 'change', () => { shown = 40; render(); });
 $('archive').addEventListener('change', () => load($('archive').value));
 $('shelf').addEventListener('change', () => { shown = 40; if (['saved','followed'].includes($('shelf').value)) { $('type').value = 'all'; $('archive').value = 'all'; load('all'); } else render(); });
 $('load-more').onclick = () => { shown += 40; render(); };
-$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('ai-filter').value = 'all'; const clearURL = new URL(location.href); clearURL.searchParams.delete('ai'); history.replaceState(null,'',clearURL); $('shelf').value = 'all'; shown = 40; if (batch) { subjects(); render(); } };
+$('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('ai-filter').value = 'all'; const clearURL = new URL(location.href); clearURL.searchParams.delete('ai'); history.replaceState(null,'',clearURL); $('shelf').value = 'all'; $('sort').value='latest'; shown = 40; if (batch) { subjects(); render(); } };
 $('save-authors').onclick = () => { personal.authors = $('authors').value.split('\n').map(s => s.trim()).filter(Boolean).slice(0,500); persist(); render(); };
 function download(name, content, type) { const url = URL.createObjectURL(new Blob([content], {type})); const a = element('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
 $('export-data').onclick = () => download('math-daily-personal.json', JSON.stringify(personal,null,2), 'application/json');
@@ -154,24 +157,37 @@ $('export-reading').onclick = async () => {
     $('archive').value = scope; await load(scope);
   } catch (error) { $('status').textContent = '归档目录加载失败，请刷新重试。'; console.error(error); }
 })();
-(async () => {
-  const el = $('update-status');
+async function refreshUpdateStatus() {
+  const el=$('update-status');
   try {
-    const status = await json('data/status.json'); const date = new Date(status.last_success);
-    if (!Number.isFinite(date.getTime())) throw Error('invalid timestamp');
-    el.replaceChildren(element('span', `最近成功抓取：${date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}（北京时间） · 每日 12:00、17:00 自动检查`));
-    if (Date.now() - date.getTime() > 48*3600000) el.append(element('span', ' · 已超过 48 小时未记录成功检查，请查看任务状态。'));
-    if (status.empty) el.append(element('span',' · 本次没有公告，保留上一非空批次。'));
-  } catch { el.textContent = '暂时无法读取最近成功抓取时间。'; }
-})();
+    const [status,archives]=await Promise.all([json('data/status.json'),json('data/archive.json')]);
+    const latest=archives[0] || {date:'暂无公告'};
+    const format=value=>{const date=new Date(value);return Number.isFinite(date.getTime())?date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}):'暂无记录';};
+    el.replaceChildren(element('strong',MathReader.updateMessage(status)),element('span',`最近成功检查：${format(status.last_success)}（北京时间）`),element('span',`最新公告：${latest.date} · 每日北京时间 12:00、17:00 检查，定时可能延迟`));
+    if(status.result==='error')el.append(element('span',`最近失败检查：${format(status.last_attempt)}`));
+    // Public status only; API failure must never be mistaken for a failed feed check.
+    try {
+      const response=await fetch('https://api.github.com/repos/YijieMiao/YijieMiao.github.io/actions/workflows/math-daily.yml/runs?per_page=1',{signal:AbortSignal.timeout(5000)});
+      if(!response.ok)throw Error('Task state unavailable');
+      const run=(await response.json()).workflow_runs?.[0];
+      if(run && Date.parse(run.created_at)>Date.parse(status.last_success || '1970-01-01')){
+        if(['in_progress','queued','pending','waiting','requested'].includes(run.status))el.firstChild.textContent='更新任务进行中，当前显示最近已发布的归档。';
+        else if(['failure','timed_out','action_required','cancelled'].includes(run.conclusion))el.firstChild.textContent='最近更新任务未成功，仍显示上次成功归档。';
+        else if(run.conclusion==='success')el.firstChild.textContent='最近任务已完成；当前显示的公告以已发布归档为准。';
+      }
+    }catch{el.append(element('span','实时任务状态暂不可用；以上为已发布记录。'));}
+  }catch{el.textContent='更新状态暂时加载失败，请稍后刷新；不能据此判断是否有新论文。';}
+}
+refreshUpdateStatus();
 
 (async () => {
   try { const data = await json('data/ai-disclosures.json'); aiRecords = data.records || {}; }
   catch { /* Missing audits remain explicitly pending; the paper list still works. */ }
-  render();
+  render(); if(sharedPaper)showSharedPaper(sharedPaper);
 })();
 
 function updateSubjectSummary() {
+  refreshSubjectTools();
   if(!batch)return;
   const available = batch.coverage || Object.keys(batch.categories || {});
   const missing = currentScope === 'all' ? [] : MathSubjects.selected.filter(code=>!available.includes(code));
@@ -185,6 +201,46 @@ $('edit-subjects').onclick=()=>{$('subject-picker').open=!$('subject-picker').op
 $('subject-defaults').onclick=()=>{for(const input of $('subject-options').querySelectorAll('input'))input.checked=MathSubjects.defaults.includes(input.value);};
 $('subject-save').onclick=()=>{
   const codes=[...$('subject-options').querySelectorAll('input:checked')].map(input=>input.value);
-  const saved=MathSubjects.save(codes);$('subject-save-status').textContent=saved?'已保存在此浏览器。':'浏览器无法保存，当前选择仅在本页有效。';$('subject-picker').open=false;
+  const saved=MathSubjects.save(codes);$('subject-save-status').textContent=saved?'已保存在此浏览器。':'浏览器无法保存，当前选择仅在本页有效。';$('subject-picker').open=false;$('welcome').hidden=true;
 };
 window.addEventListener('math-subjects-change',()=>{selected='';shown=40;if(batch){subjects();render();updateSubjectSummary();}});
+
+// Sharing never transmits a reader's saved papers, read history or followed authors.
+async function shareURL(url) {
+  $('share-result').hidden=false;$('share-output').value=url;
+  try { await navigator.clipboard.writeText(url);$('share-message').textContent='链接已复制，可直接分享。'; }
+  catch { $('share-message').textContent='请选中上方链接手动复制。';$('share-output').focus();$('share-output').select(); }
+}
+function refreshSubjectTools(){
+  const codes=MathSubjects.selected,url=MathReader.rss(codes);
+  document.querySelector('.reading[aria-label="论文列表"]').hidden=!MathSubjects.hasSaved;
+  document.querySelector('.trends').hidden=!MathSubjects.hasSaved;
+  $('share-subjects').disabled=!codes.length;$('open-rss').disabled=!codes.length;
+  $('rss-link').hidden=!url;$('rss-link').href=url || '#';$('rss-url').value=url;$('copy-rss').disabled=!url;
+  $('rss-message').textContent=codes.length?`当前订阅：${codes.join('、')}`:'请先选择研究方向。';
+  $('share-result').hidden=true;
+}
+$('share-subjects').onclick=()=>shareURL(MathReader.cleanLink(location.href,{subjects:MathSubjects.selected.join(',')}));
+$('open-rss').onclick=()=>{$('rss-panel').open=!$('rss-panel').open;$('open-rss').setAttribute('aria-expanded',String($('rss-panel').open));};
+$('rss-panel').addEventListener('toggle',()=>$('open-rss').setAttribute('aria-expanded',String($('rss-panel').open)));
+$('copy-rss').onclick=async()=>{try{await navigator.clipboard.writeText($('rss-url').value);$('rss-message').textContent='订阅地址已复制。';}catch{$('rss-url').focus();$('rss-url').select();$('rss-message').textContent='请选中订阅地址手动复制。';}};
+const incoming=MathReader.parseSubjects(new URLSearchParams(location.search).get('subjects'),names);
+function dismissIncoming(){ $('incoming-subjects').hidden=true;const url=new URL(location.href);url.searchParams.delete('subjects');history.replaceState(null,'',url); }
+if(incoming.length){
+  $('incoming-subjects').hidden=false;$('incoming-description').textContent=`有人分享了这些方向：${incoming.join('、')}。是否采用？你的收藏和已读记录会保留。`;
+  $('apply-shared-subjects').onclick=()=>{const saved=MathSubjects.save(incoming);for(const input of $('subject-options').querySelectorAll('input'))input.checked=incoming.includes(input.value);$('subject-save-status').textContent=saved?'已采用并保存分享的方向。':'已采用；浏览器无法保存，下次需重新选择。';$('welcome').hidden=true;$('subject-picker').open=false;dismissIncoming();};
+  $('dismiss-shared-subjects').onclick=dismissIncoming;
+}
+if(!MathSubjects.hasSaved){$('welcome').hidden=false;$('subject-picker').open=true;}
+refreshSubjectTools();
+let sharedPaper=null;
+function showSharedPaper(p){const article=createPaper(p);article.id='shared-'+article.id;$('shared-paper-content').replaceChildren(article);}
+(async()=>{
+  const id=new URLSearchParams(location.search).get('paper');if(!id)return;
+  $('shared-paper').hidden=false;
+  if(!/^[\w./-]{1,80}$/.test(id)){$('shared-paper-status').textContent='分享链接中的论文编号无效。';return;}
+  $('shared-paper-status').textContent='正在打开分享的论文…';
+  try{const data=await json('data/library.json');const paper=data.papers.find(p=>p.id===id);if(!paper){$('shared-paper-status').textContent='本站尚未归档这篇论文。';return;}
+    sharedPaper=paper;showSharedPaper(paper);$('shared-paper-status').textContent='此论文独立展示，不会改变你的方向选择和列表筛选。';$('shared-paper').scrollIntoView({block:'start'});
+  }catch{$('shared-paper-status').textContent='分享的论文加载失败，请刷新重试。';}
+})();

@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' || (github.event.workflow_run.name == 'Update mathematics papers' && github.event.workflow_run.conclusion == 'failure')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

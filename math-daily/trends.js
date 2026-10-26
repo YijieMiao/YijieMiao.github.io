@@ -28,7 +28,7 @@
     if(!data.length){byId('trend-note').textContent='目前还没有可用的历史统计。';return;}
     byId('trend-title').textContent=`${period==='week'?'每周':'每日'}${ai?' AI 披露占比':'发文趋势'}`;
     for(const s of subjects)byId('trend-toggle-'+s.code).setAttribute('aria-pressed',String(enabled.has(s.code)));
-    if(!active.length){byId('trend-point').textContent='点击上方方向按钮，选择要显示的曲线。';return;}
+    if(!active.length){byId('trend-point').textContent=subjects.length?'点击上方方向按钮，选择要显示的曲线。':'请先选择研究方向。';byId('trend-note').textContent='只展示所选方向的已归档数据。';return;}
     const width=Math.max(220,Math.min(1000,host.clientWidth || 800)),height=280,left=40,right=22,top=22,bottom=44;
     const value=(row,s)=>{const g=row.groups[s.code];return !g.available?null:ai?(g.checked && g.count?100*g.explicit/g.count:null):g.count;};
     const max=ai?100:Math.max(4,Math.ceil(Math.max(...data.flatMap(r=>active.map(s=>value(r,s)||0)))/4)*4);

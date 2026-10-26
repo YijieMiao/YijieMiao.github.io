@@ -68,6 +68,20 @@ class LibraryTests(unittest.TestCase):
         finally:
             daily.ROOT = original
 
+    def test_failed_check_keeps_last_success(self):
+        original = daily.ROOT
+        try:
+            with tempfile.TemporaryDirectory() as folder:
+                daily.ROOT = Path(folder)
+                daily.write_json(daily.ROOT/'status.json',dict(last_success='2026-10-23T04:00:00Z',feed_date='2026-10-23',empty=False))
+                daily.record_failure()
+                status = json.loads((daily.ROOT/'status.json').read_text())
+                self.assertEqual(status['last_success'],'2026-10-23T04:00:00Z')
+                self.assertEqual(status['result'],'error')
+                self.assertIn('last_attempt',status)
+        finally:
+            daily.ROOT = original
+
     def test_feed_rejects_unexpected_paper_link(self):
         xml = '<rss><channel><pubDate>Fri, 16 Oct 2026 04:00:00 GMT</pubDate><item><link>https://example.com/abs/123</link></item></channel></rss>'
         with self.assertRaises(ValueError):

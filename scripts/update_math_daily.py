@@ -97,6 +97,8 @@ def main():
     parser.add_argument('--feed-dir', type=Path, help='Read CATEGORY.xml fixtures instead of the network')
     args = parser.parse_args()
     # A single mathematics-wide RSS request serves every reader's preferences.
+    previous_path = ROOT / 'latest.json'
+    previous = json.loads(previous_path.read_text()) if previous_path.exists() else {}
     date, entries = parse_feed((args.feed_dir / 'math.xml').read_bytes()) if args.feed_dir else fetch('math')
     papers = {}
     for entry in entries:
@@ -107,7 +109,7 @@ def main():
     archive = ROOT / 'archive' / f'{date}.json'
     # Empty weekend feeds must not replace an existing nonempty announcement batch.
     if not papers:
-        write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=True))
+        write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=True, result='no_new'))
         print('No announcements; preserving latest batch.')
         return
     write_json(archive, batch)
@@ -120,9 +122,20 @@ def main():
     write_json(ROOT / 'archive.json', batches)
     rebuild_library()
     rebuild_trends()
-    write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=False))
+    write_json(ROOT / 'status.json', dict(last_success=dt.datetime.now(dt.timezone.utc).isoformat(), feed_date=date, empty=False, result='updated' if previous.get('date') != date or previous.get('papers') != batch['papers'] else 'no_new'))
     print(f"Archived {date}: {len(papers)} unique papers; {len(batches)} batches retained.")
 
 
+def record_failure():
+    path = ROOT / 'status.json'
+    status = json.loads(path.read_text()) if path.exists() else {}
+    status.update(last_attempt=dt.datetime.now(dt.timezone.utc).isoformat(), result='error')
+    write_json(path, status)
+
+
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception:
+        record_failure()
+        raise
