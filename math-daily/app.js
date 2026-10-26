@@ -9,15 +9,18 @@ function button(text, action) { const el = element('button', text); el.type = 'b
 let personal = {saved: [], read: [], authors: []};
 function validatePersonal(value) {
   if (!value || !['saved','read','authors'].every(k => Array.isArray(value[k]) && value[k].length <= 20000 && value[k].every(x => typeof x === 'string' && x.length <= 500))) throw Error('个人数据格式不正确');
-  return Object.fromEntries(['saved','read','authors'].map(k => [k, [...new Set(value[k])]]));
+  if(value.schemaVersion !== undefined && value.schemaVersion !== 1)throw Error('此数据版本较新，请先刷新网站，原始数据不会覆盖');
+  return {...value,...Object.fromEntries(['saved','read','authors'].map(k => [k, [...new Set(value[k])]]))};
 }
-try { const stored = localStorage.getItem('math-daily-personal'); if (stored) personal = validatePersonal(JSON.parse(stored)); } catch { $('personal-status').textContent = '无法读取已有个人数据；当前使用临时设置。'; }
+const personalStore=MathStorage.open('math-daily-personal',validatePersonal,personal);
+personal=personalStore.value;
+if(personalStore.message)$('personal-status').textContent=personalStore.message;
 function persist() {
-  try { localStorage.setItem('math-daily-personal', JSON.stringify(personal)); $('personal-status').textContent = '已保存在此浏览器。'; }
-  catch { $('personal-status').textContent = '浏览器无法保存数据；当前操作只在本页有效，请导出备份。'; }
+  try { personal=personalStore.write(personal,MathStorage.mergePersonal);$('personal-status').textContent='已保存在此浏览器；已有记录会在覆盖前保留一份备份。'; }
+  catch(error){$('personal-status').textContent=`未覆盖已有数据：${error.message} 当前操作仅在本页有效，请导出备份。`;}
 }
 $('authors').value = personal.authors.join('\n');
-function toggle(key, id) { personal[key] = personal[key].includes(id) ? personal[key].filter(x => x !== id) : [...personal[key], id]; persist(); render(); if(sharedPaper)showSharedPaper(sharedPaper); }
+function toggle(key, id) { personal={...personal,[key]: personal[key].includes(id) ? personal[key].filter(x => x !== id) : [...personal[key], id]}; persist(); render(); if(sharedPaper)showSharedPaper(sharedPaper); }
 function normalize(value) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[{}\\$]/g,'').toLowerCase(); }
 function followed(paper) { return personal.authors.some(author => normalize(paper.authors).includes(normalize(author))); }
 function subjects() {
@@ -129,16 +132,19 @@ $('archive').addEventListener('change', () => load($('archive').value));
 $('shelf').addEventListener('change', () => { shown = 40; if (['saved','followed'].includes($('shelf').value)) { $('type').value = 'all'; $('archive').value = 'all'; load('all'); } else render(); });
 $('load-more').onclick = () => { shown += 40; render(); };
 $('clear-filters').onclick = () => { selected = ''; $('search').value = ''; $('type').value = 'all'; $('ai-filter').value = 'all'; const clearURL = new URL(location.href); clearURL.searchParams.delete('ai'); history.replaceState(null,'',clearURL); $('shelf').value = 'all'; $('sort').value='latest'; shown = 40; if (batch) { subjects(); render(); } };
-$('save-authors').onclick = () => { personal.authors = $('authors').value.split('\n').map(s => s.trim()).filter(Boolean).slice(0,500); persist(); render(); };
+$('save-authors').onclick = () => { personal={...personal,authors:$('authors').value.split('\n').map(s => s.trim()).filter(Boolean).slice(0,500)}; persist(); render(); };
 function download(name, content, type) { const url = URL.createObjectURL(new Blob([content], {type})); const a = element('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
-$('export-data').onclick = () => download('math-daily-personal.json', JSON.stringify(personal,null,2), 'application/json');
+$('export-data').onclick = () => download('math-daily-personal.json', JSON.stringify({...personal,schemaVersion:1,subjects:MathSubjects.selected},null,2), 'application/json');
 $('import-data').onchange = async event => {
   try {
     const file = event.target.files[0]; if (!file) return;
     if (file.size > 5000000) throw Error('请选择小于 5 MB 的个人数据文件');
     const imported = validatePersonal(JSON.parse(await file.text()));
-    for (const key of ['saved','read','authors']) personal[key] = [...new Set([...personal[key], ...imported[key]])];
-    $('authors').value = personal.authors.join('\n'); persist(); render();
+    if(imported.subjects !== undefined && (!Array.isArray(imported.subjects) || imported.subjects.some(code=>!Object.hasOwn(names,code))))throw Error('方向备份格式不正确');
+    personal={...personal,...Object.fromEntries(['saved','read','authors'].map(key=>[key,[...new Set([...personal[key],...imported[key]])]]))};
+    $('authors').value = personal.authors.join('\n'); persist();
+    if(imported.subjects){MathSubjects.save([...new Set([...MathSubjects.selected,...imported.subjects])]);for(const input of $('subject-options').querySelectorAll('input'))input.checked=MathSubjects.selected.includes(input.value);}
+    render();
   } catch (error) { $('personal-status').textContent = `导入失败：${error.message}`; }
   event.target.value = '';
 };
@@ -233,6 +239,8 @@ if(incoming.length){
 }
 if(!MathSubjects.hasSaved){$('welcome').hidden=false;$('subject-picker').open=true;}
 refreshSubjectTools();
+if(MathSubjects.warning){$('subject-save-status').textContent=MathSubjects.warning;$('subject-picker').open=true;}
+$('restore-subject-backup').onclick=()=>{try{MathSubjects.restore();for(const input of $('subject-options').querySelectorAll('input'))input.checked=MathSubjects.selected.includes(input.value);$('subject-save-status').textContent='已恢复上次方向设置。';}catch(error){$('subject-save-status').textContent=error.message;}};
 let sharedPaper=null;
 function showSharedPaper(p){const article=createPaper(p);article.id='shared-'+article.id;$('shared-paper-content').replaceChildren(article);}
 (async()=>{
@@ -244,3 +252,12 @@ function showSharedPaper(p){const article=createPaper(p);article.id='shared-'+ar
     sharedPaper=paper;showSharedPaper(paper);$('shared-paper-status').textContent='此论文独立展示，不会改变你的方向选择和列表筛选。';$('shared-paper').scrollIntoView({block:'start'});
   }catch{$('shared-paper-status').textContent='分享的论文加载失败，请刷新重试。';}
 })();
+
+$('export-raw-backup').onclick=()=>{
+  try{const records={};for(const key of ['math-daily-personal','math-daily-subjects']){records[key]=localStorage.getItem(key);records[key+'-backup']=localStorage.getItem(key+'-backup');}download('math-daily-browser-backup.json',JSON.stringify({format:'math-daily-raw-backup',version:1,records},null,2),'application/json');$('personal-status').textContent='已导出浏览器原始记录，请妥善保存。';}
+  catch{$('personal-status').textContent='浏览器禁止读取本地记录，无法导出原始备份。';}
+};
+$('restore-local-backup').onclick=()=>{
+  try{personal=personalStore.restore();$('authors').value=personal.authors.join('\n');render();if(sharedPaper)showSharedPaper(sharedPaper);$('personal-status').textContent='已恢复上次写入前的收藏、已读与作者设置。';}
+  catch(error){$('personal-status').textContent=`未恢复：${error.message}`;}
+};

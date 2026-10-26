@@ -1,0 +1,46 @@
+name: Restore Math Daily frontend
+on:
+  workflow_dispatch:
+    inputs:
+      revision:
+        description: 'Verified previous release commit SHA (paper archives stay current)'
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: math-daily-restore
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore only the reviewed frontend
+        env:
+          MATH_RELEASE_REVISION: ${{ inputs.revision }}
+        run: python scripts/restore_math_frontend.py "$MATH_RELEASE_REVISION" --apply
+      - name: Validate restored code with current archives
+        run: |
+          for file in math-daily/*.js; do node --check "$file"; done
+          if test -f math-daily/reader-tools.js; then node tests/test_reader_tools.cjs; fi
+          python scripts/validate_math_release.py
+      - name: Save frontend restoration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add math-daily
+          if ! git diff --cached --quiet; then
+            git commit -m 'Restore reviewed Math Daily frontend (preserve archives)'
+            git pull --rebase origin main
+            git push
+          fi

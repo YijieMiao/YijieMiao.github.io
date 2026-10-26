@@ -102,3 +102,12 @@ python3 -m http.server 8765
 - 状态分别展示最近成功检查、最新公告日期、空批次/未变更、检查失败；实时任务查询不可用时明确说明，不据此判断没有新公告。失败时保留上次成功日期和归档，独立记录最近失败时间。
 
 前端回归检查：`node tests/test_reader_tools.cjs`。后台检查：`python3 -m unittest discover -s tests -p 'test_*.py'`。
+
+
+## 安全发布与回退
+
+发布前必须通过后台单元测试、JavaScript 语法/阅读功能/本地存储兼容测试、页面引用资源与 DOM 接线检查，以及归档日期、去重、最新批次和曲线总量一致性检查。Jekyll 构建后会对输出再次检查；任何步骤失败均不上传发布新站点。Pages 的 Source 必须为 GitHub Actions，避免旧分支自动发布绕过检查。界面修改先在本地预览检查，再推送。
+
+每次成功发布将代码 SHA 写入 `/math-daily/release.txt`，并在部署任务总结与 `math-daily-successful-release` 构件中保留记录（构件 90 天；Git 历史仍保留）。需要回退时，在 Actions 手动运行 **Restore Math Daily frontend**，填入之前成功版本的 SHA。它只恢复 `math-daily` 下的前端资源，不恢复 `math-daily/data`；校验旧前端与当前归档后，提交恢复并触发带检查的发布。不要用整仓库 reset 或覆盖旧数据文件来回退界面。回退任务不会自动触发，只有明确决定回退时运行。
+
+本地排查可先执行 `python3 scripts/restore_math_frontend.py <SHA>` 查看受影响文件，确认后加 `--apply`；需先保存工作区改动。浏览器仍使用原有 `math-daily-personal` 对象和 `math-daily-subjects` 数组，不静默迁移或改名。修改前保留一份 `-backup`，格式损坏或版本过新时阻止覆盖；个人数据未知字段保留，多标签页按操作差异合并。备份只在当前浏览器，清除网站数据会同时清除备份。用户可在“我的阅读设置与数据”导出个人数据/原始备份，或恢复上次本地备份；方向管理里可恢复上次方向设置。原始备份用于诊断，常规导入使用“导出个人数据”生成的文件。
