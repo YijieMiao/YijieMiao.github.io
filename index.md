@@ -1,5 +1,5 @@
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 26, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 27, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -22,6 +22,8 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Notes
+* [Functional Analysis — Lecture Notes of Zuoqin Wang](notes/functional-analysis.pdf)：根据王作勤老师 2015 年泛函分析课程的手写讲义整理的 TeX 版本，共三十讲，涵盖拓扑向量空间、泛函分析基本定理、弱拓扑、算子理论与谱定理，并附习题、补充材料及课堂测验解答。
+* [Laplace Eigenvalues and Pólya's Conjecture](notes/laplace-eigenvalues-polya-conjecture.pdf)：我在王作勤老师同名短课期间记录并整理的笔记，从 Laplace 算子的基本谱理论、特征值比较与 Weyl 定律出发，介绍平铺区域、乘积区域、薄乘积区域及带小孔区域上的 Pólya 猜想与相关不等式。
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * [Here](notes/pde_by_Miao.pdf) is my note about PDE.
 * [Here](notes/some_tools/convergence-relations-on-finite-measure-spaces.pdf) is my note about Several convergence relations in the context of limited measures.
