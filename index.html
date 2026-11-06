@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I-chieh Miao · Academic Homepage</title>
+<style>body{margin:0;background:#fcfaf5}#miao-globe{max-width:1120px;margin:auto}</style>
+</head>
+<body>
+<section id="miao-globe">
+  <header><span>I.-C. MIAO</span><span>ACADEMIC HOMEPAGE</span></header>
+  <div class="hero">
+    <div class="profile">
+      <p class="eyebrow">DEPARTMENT OF MATHEMATICS · SOUTHEAST UNIVERSITY</p>
+      <h1>I-chieh Miao</h1>
+      <p class="name">Differential Geometry</p>
+      <nav aria-label="Homepage sections">
+        <a href="/profile.html#about-me">About Me</a>
+        <a href="/profile.html#notes">Notes</a>
+        <a href="/profile.html#research">Research</a>
+        <a href="/profile.html#links">Links</a>
+      </nav>
+    </div>
+    <div class="atlas">
+      <canvas role="img" aria-label="Projected curves in a Fermat quintic slice, with flowing mathematics keywords"></canvas>
+      <p class="caption">CALABI–YAU · FERMAT QUINTIC SLICE</p>
+    </div>
+  </div>
+  <footer><a href="mailto:yijiemiao0420@gmail.com">yijiemiao0420@gmail.com</a></footer>
+</section>
+<style>
+#miao-globe{color-scheme:light;color:#252339;background:#fcfaf5;padding:clamp(18px,4vw,48px);font:15px system-ui}
+#miao-globe header{display:flex;justify-content:space-between;border-bottom:1px solid currentColor;padding-bottom:14px;font-size:11px;letter-spacing:.18em}
+#miao-globe .hero{display:grid;grid-template-columns: .8fr 1.2fr;align-items:center;gap:12px}
+#miao-globe h1{font:400 clamp(30px,4.8vw,52px)/1.08 Georgia,serif;letter-spacing:-.045em;margin:12px 0}
+#miao-globe .eyebrow{letter-spacing:.14em;font-size:12px}
+#miao-globe .name{font:clamp(16px,2vw,20px) serif;margin:0}
+#miao-globe .profile{align-self:start;padding-top:clamp(22px,6vw,66px)}
+#miao-globe nav{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:28px}
+#miao-globe a{color:inherit;text-underline-offset:4px}
+#miao-globe footer{text-align:right;margin-top:26px;font-size:13px}
+#miao-globe .atlas{text-align:center;min-width:0}
+#miao-globe canvas{display:block;width:100%;aspect-ratio:1.08}
+#miao-globe .caption{margin:0;font-size:11px;letter-spacing:.22em}
+@media(max-width:560px){#miao-globe .hero{grid-template-columns:1fr}}
+</style>
+<script>
+(() => {
+ const root=document.getElementById('miao-globe'), canvas=root.querySelector('canvas'), ctx=canvas.getContext('2d');
+ const pool='Spectral Geometry|Scalar Curvature|Minimal Surfaces|Heat Kernel|Riemannian Geometry|Ricci Flow|Geometric Measure Theory|Harmonic Maps|Complex Geometry|Elliptic PDE|Kähler Geometry|Topology|Eigenvalues|Bernstein Problem|Math Daily|ICM Conjectures|Gradient Estimates|Einstein Metrics|Curvature Flows|Geometric Analysis|Jacobi Fields|Minimal Cones|Measure Theory|arXiv|Differential Geometry|Functional Analysis'.split('|');
+ const fonts=['Georgia','system-ui','monospace','"Times New Roman"','"Trebuchet MS"'];
+ const light=['#165957','#a24431','#514085','#855815','#23568c'];
+ let words=[], yaw=0;
+ const started=performance.now();
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ function shuffle(){
+   const shuffled=[...pool];
+   for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
+   words=shuffled.slice(0,20).map((word,i)=>({word,font:fonts[i%fonts.length],color:(i+Math.floor(i/5))%light.length,tilt:(Math.random()-.5)*.76,y:1-2*(i+.5)/20,a:i*2.399963}));
+   yaw=Math.random()*6.28;
+   draw();
+ }
+ function draw(){
+   const {width:w,height:h}=canvas.getBoundingClientRect(), d=devicePixelRatio||1;
+   if(!w||!h)return;
+   canvas.width=Math.round(w*d);canvas.height=Math.round(h*d);ctx.scale(d,d);
+   const r=Math.min(w*.47,h*.49);
+   ctx.translate(w/2,h/2);
+   ctx.globalAlpha=1;
+   const project=(a,t,j,k)=>{
+     const power=(x,y,branch)=>{
+       const m=Math.hypot(x,y)**.4, angle=(2*Math.atan2(y,x)+2*Math.PI*branch)/5;
+       return [m*Math.cos(angle),m*Math.sin(angle)];
+     };
+     const [x,u]=power(Math.cos(a)*Math.cosh(t),-Math.sin(a)*Math.sinh(t),j);
+     const [y,v]=power(Math.sin(a)*Math.cosh(t),Math.cos(a)*Math.sinh(t),k);
+     return [r*.68*(x+.48*v),r*.68*(y-.55*u),r*(.65*u+.7*v-.25*x)];
+   };
+   const panels=[],labels=[];
+   const elapsed=performance.now()-started;
+   const progress=reduced.matches?1:Math.max(0,Math.min(1,(elapsed-350)/4800));
+   if(progress===0)return;
+   const motion=reduced.matches?0:Math.max(0,elapsed-5150)*.00007;
+   for(let j=0;j<5;j++)for(let k=0;k<5;k++){
+     const sweep=Math.min(1,Math.max(0,progress*1.22-(j+k)*.027));
+     for(let i=0;i<18;i++)for(let l=0;l<14;l++){
+       if(i>=18*sweep)continue;
+       const a=i*Math.PI/36,b=Math.min(i+1,18*sweep)*Math.PI/36,t=-.79+l*.113,u=t+.113;
+       const corners=[project(a,t,j,k),project(b,t,j,k),project(b,u,j,k),project(a,u,j,k)];
+       const [p,q,g,f]=corners;
+       const addLine=(a,b,edge)=>panels.push({corners:[a,b],depth:(a[2]+b[2])/2,edge});
+       if(l===0||l===7)addLine(p,q,l===0);
+       if(l===13)addLine(f,g,true);
+       if(i===0)addLine(p,f,true);
+       if(i===17)addLine(q,g,true);
+     }
+     if((j+k)%2===0&&sweep>0){
+       const phase=motion+yaw+j*.31+k*.47;
+       const settled=.78+.52*Math.sin(phase);
+       const blend=Math.max(0,(progress-.88)/.12);
+       const a=(1-blend)*sweep*Math.PI/2+blend*settled;
+       const t=(1-blend)*.001+blend*.34*Math.cos(phase);
+       const [x,y,depth]=project(a,t,j,k),[tx,ty]=project(a+.01,t,j,k);
+       labels.push({x,y,depth:depth+r*.018,tx:tx-x,ty:ty-y,word:words[(j*5+k)/2|0],i:j+k});
+     }
+   }
+   for(const item of [...panels,...labels].sort((a,b)=>a.depth-b.depth)){
+     if(item.corners){
+       ctx.beginPath();
+       item.corners.forEach(([x,y],i)=>ctx[i?'lineTo':'moveTo'](x,y));
+       ctx.strokeStyle=item.edge?'rgba(65,61,106,.44)':'rgba(65,61,106,.16)';
+       ctx.lineWidth=item.edge?1.05:.65;
+       ctx.stroke();
+       continue;
+     }
+     const {x,y,tx,ty,word,i}=item;
+     const flip=tx<0?-1:1;
+     ctx.save();
+     const angle=Math.atan2(ty*flip,tx*flip);
+     ctx.translate(x,y);
+     ctx.rotate(angle);
+     ctx.textAlign='center';ctx.textBaseline='middle';
+     ctx.font=(i%3===0?'italic 600 ':'400 ')+Math.max(11,r*(i%3===0?.112:.086))+'px '+word.font;
+     ctx.fillStyle=light[word.color];
+     ctx.strokeStyle='#fcfaf5';ctx.lineWidth=2.5;
+     ctx.strokeText(word.word,0,0,r*.62);
+     ctx.fillText(word.word,0,0,r*.62);
+     ctx.restore();
+   }
+ }
+ new ResizeObserver(draw).observe(canvas);
+ shuffle();
+ if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+   let last=0;
+   function animate(time){
+     if(time-last>40){draw();last=time;}
+     requestAnimationFrame(animate);
+   }
+   requestAnimationFrame(animate);
+ }
+})();
+</script>
+<script>
+if (location.hash && ['#about-me','#notes','#research','#links'].includes(location.hash)) {
+  location.replace('/profile.html' + location.hash);
+}
+</script>
+</body>
+</html>

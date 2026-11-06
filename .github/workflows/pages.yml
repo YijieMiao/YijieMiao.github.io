@@ -26,7 +26,13 @@ jobs:
           source: ./
           destination: ./_site
       - name: Check personal homepage
-        run: test -s _site/index.html
+        run: |
+          test -s _site/index.html
+          test -s _site/profile.html
+          for section in about-me notes research links; do
+            rg -F "href=\"/profile.html#$section\"" _site/index.html
+            rg -F "id=\"$section\"" _site/profile.html
+          done
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site

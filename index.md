@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /profile.html
+---
+
 ## Welcome to my homepage!
 Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 29, 2026*
 
@@ -196,6 +201,7 @@ Notes on campus life and interests beyond mathematics.
 * [ICM Conjectures](https://icmconjectures.com/)：由董彬、居浩成和 Gergely Bérczi 发起的开放协作项目, 系统整理历届国际数学家大会（ICM）论文集中提出的重要猜想与开放问题, 并追踪其研究进展、相关文献及当前状态；同时也为数学 AI 的真实推理能力评测提供具有文献依据的基准. [Here](/notes/Geometry_at_the_ICM_Problems.pdf) 是使用 GPT 5.6 Sol 整理出的几何部分，当前收录 278 个问题.
 * [AI Safety For Mathematicians](https://mathforaisafety.org/). A starting point for mathematicians who want to engage with AI safety.
 * [arXiv](https://arxiv.org/) 是由康奈尔大学运营维护的一个非盈利的数据库, 内容涵盖物理、数学、计算机等多领域, 可及时关注最新的进展(但文章为预印版, 尚未经过同行评议)
+* [Hexagon](https://hexagonmath.org/) 是一个面向数学科学与理论计算机科学研究级成果的存档平台，致力于保存、传播、研究和评估原创及综述性文献。Hexagon 不进行同行评审；每项提交都会先接受自动筛查，在 beta 阶段还会由人工审核员复核后才会公开。被收录并不代表平台对其正确性、质量或新颖性作出认可或判断。
 * [Mathoverflow](https://mathoverflow.net/) 对于前沿的内容, 比如说阅读论文中遇到的一些问题, 可以参考此网站. 
 * [MSC2020 database](https://mathscinet.ams.org/mathscinet/msc/msc2020.html):The current 2020 Mathematics Subject Classification (MSC2020) is a revision of the MSC2010 that has been used by MR and Zbl since 2010. MSC2020 is the result of a collaborative effort by the editors of MR and Zbl to update their shared classification. These editors acknowledge the many helpful suggestions from the mathematical community during the revision process over more than two years.
 * [MathSciNet](https://mathscinet.ams.org/mathscinet/publications-search), [Jstor](https://www.jstor.org/) 和 [Google Scholar](https://scholar.google.com/) 是我常用于查阅文献的网站. 
