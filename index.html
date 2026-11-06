@@ -20,10 +20,17 @@
         <a href="/profile.html#research">Research</a>
         <a href="/profile.html#links">Links</a>
       </nav>
+      <aside class="interest-note" aria-labelledby="interest-title">
+        <h2 id="interest-title">Interests</h2>
+        <ul>
+          <li>Geometric Measure Theory</li>
+          <li>Spectral Geometry</li>
+          <li>Scalar Curvature</li>
+        </ul>
+      </aside>
     </div>
     <div class="atlas">
       <canvas role="img" aria-label="Projected curves in a Fermat quintic slice, with flowing mathematics keywords"></canvas>
-      <p class="caption">CALABI–YAU · FERMAT QUINTIC SLICE</p>
     </div>
   </div>
   <footer><a href="mailto:yijiemiao0420@gmail.com">yijiemiao0420@gmail.com</a></footer>
@@ -35,13 +42,16 @@
 #miao-globe h1{font:400 clamp(30px,4.8vw,52px)/1.08 Georgia,serif;letter-spacing:-.045em;margin:12px 0}
 #miao-globe .eyebrow{letter-spacing:.14em;font-size:12px}
 #miao-globe .name{font:clamp(16px,2vw,20px) serif;margin:0}
-#miao-globe .profile{align-self:start;padding-top:clamp(22px,6vw,66px)}
-#miao-globe nav{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:28px}
+#miao-globe .profile{align-self:stretch;display:flex;flex-direction:column;align-items:flex-start;padding-top:clamp(22px,6vw,66px)}
+#miao-globe .interest-note{margin-top:auto;padding:8px 11px;background:#f7f3e9;border-left:1px solid #c9bda7;color:#514b45;font:12px/1.3 Georgia,serif}
+#miao-globe .interest-note h2{margin:0 0 4px;font:500 10px system-ui;letter-spacing:.08em}
+#miao-globe .interest-note ul{list-style:none;margin:0;padding:0}
+#miao-globe .interest-note li{padding:2px 0;border-top:1px solid #e4dccd}
+#miao-globe nav{display:flex;flex-wrap:wrap;gap:10px 18px;margin:28px 0 24px}
 #miao-globe a{color:inherit;text-underline-offset:4px}
 #miao-globe footer{text-align:right;margin-top:26px;font-size:13px}
 #miao-globe .atlas{text-align:center;min-width:0}
 #miao-globe canvas{display:block;width:100%;aspect-ratio:1.08}
-#miao-globe .caption{margin:0;font-size:11px;letter-spacing:.22em}
 @media(max-width:560px){#miao-globe .hero{grid-template-columns:1fr}}
 </style>
 <script>
@@ -53,6 +63,8 @@
  let words=[], yaw=0;
  const started=performance.now();
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ const introDelay=350, introDuration=7800;
+ const ease=t=>t*t*(3-2*t);
  function shuffle(){
    const shuffled=[...pool];
    for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];}
@@ -78,11 +90,11 @@
    };
    const panels=[],labels=[];
    const elapsed=performance.now()-started;
-   const progress=reduced.matches?1:Math.max(0,Math.min(1,(elapsed-350)/4800));
+   const progress=reduced.matches?1:Math.max(0,Math.min(1,(elapsed-introDelay)/introDuration));
    if(progress===0)return;
-   const motion=reduced.matches?0:Math.max(0,elapsed-5150)*.00007;
+   const motion=reduced.matches?0:Math.max(0,elapsed-introDelay-introDuration)*.000035;
    for(let j=0;j<5;j++)for(let k=0;k<5;k++){
-     const sweep=Math.min(1,Math.max(0,progress*1.22-(j+k)*.027));
+     const sweep=ease(Math.min(1,Math.max(0,progress*1.22-(j+k)*.027)));
      for(let i=0;i<18;i++)for(let l=0;l<14;l++){
        if(i>=18*sweep)continue;
        const a=i*Math.PI/36,b=Math.min(i+1,18*sweep)*Math.PI/36,t=-.79+l*.113,u=t+.113;
@@ -97,7 +109,7 @@
      if((j+k)%2===0&&sweep>0){
        const phase=motion+yaw+j*.31+k*.47;
        const settled=.78+.52*Math.sin(phase);
-       const blend=Math.max(0,(progress-.88)/.12);
+       const blend=ease(Math.max(0,(progress-.68)/.32));
        const a=(1-blend)*sweep*Math.PI/2+blend*settled;
        const t=(1-blend)*.001+blend*.34*Math.cos(phase);
        const [x,y,depth]=project(a,t,j,k),[tx,ty]=project(a+.01,t,j,k);
@@ -133,7 +145,7 @@
  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
    let last=0;
    function animate(time){
-     if(time-last>40){draw();last=time;}
+     if(time-last>=30){draw();last=time;}
      requestAnimationFrame(animate);
    }
    requestAnimationFrame(animate);
