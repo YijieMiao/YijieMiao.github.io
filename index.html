@@ -20,14 +20,10 @@
         <a href="/profile.html#research">Research</a>
         <a href="/profile.html#links">Links</a>
       </nav>
-      <aside class="interest-note" aria-labelledby="interest-title">
-        <h2 id="interest-title">Interests</h2>
-        <ul>
-          <li>Geometric Measure Theory</li>
-          <li>Spectral Geometry</li>
-          <li>Scalar Curvature</li>
-        </ul>
-      </aside>
+      <figure class="opening-quote">
+        <blockquote id="opening-line" lang="zh">行到水穷处，坐看云起时。</blockquote>
+        <figcaption id="opening-source" lang="zh">王维《终南别业》</figcaption>
+      </figure>
     </div>
     <div class="atlas">
       <canvas role="img" aria-label="Projected curves in a Fermat quintic slice, with flowing mathematics keywords"></canvas>
@@ -43,10 +39,9 @@
 #miao-globe .eyebrow{letter-spacing:.14em;font-size:12px}
 #miao-globe .name{font:clamp(16px,2vw,20px) serif;margin:0}
 #miao-globe .profile{align-self:stretch;display:flex;flex-direction:column;align-items:flex-start;padding-top:clamp(22px,6vw,66px)}
-#miao-globe .interest-note{margin-top:auto;padding:8px 11px;background:#f7f3e9;border-left:1px solid #c9bda7;color:#514b45;font:12px/1.3 Georgia,serif}
-#miao-globe .interest-note h2{margin:0 0 4px;font:500 10px system-ui;letter-spacing:.08em}
-#miao-globe .interest-note ul{list-style:none;margin:0;padding:0}
-#miao-globe .interest-note li{padding:2px 0;border-top:1px solid #e4dccd}
+#miao-globe .opening-quote{margin:auto 0 0;padding:3px 0 3px 11px;border-left:1px solid #d8cdb9;color:#514b45}
+#miao-globe .opening-quote blockquote{margin:0;font:14px/1.5 Georgia,"Songti SC",serif}
+#miao-globe .opening-quote figcaption{margin-top:4px;font-size:11px}
 #miao-globe nav{display:flex;flex-wrap:wrap;gap:10px 18px;margin:28px 0 24px}
 #miao-globe a{color:inherit;text-underline-offset:4px}
 #miao-globe footer{text-align:right;margin-top:26px;font-size:13px}
@@ -54,6 +49,7 @@
 #miao-globe canvas{display:block;width:100%;aspect-ratio:1.08}
 @media(max-width:560px){#miao-globe .hero{grid-template-columns:1fr}}
 </style>
+<script src="/assets/homepage-quotes.js" defer></script>
 <script>
 (() => {
  const root=document.getElementById('miao-globe'), canvas=root.querySelector('canvas'), ctx=canvas.getContext('2d');
