@@ -4,7 +4,7 @@ permalink: /profile.html
 ---
 
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on October 29, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 7, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -77,23 +77,23 @@ As my understanding of the content covered in these three presentations is not c
 
 ------
 ### Research
-#### Preprints
-[Yijie Miao and Bin Shen. Shi-type and Hamilton-type gradient estimates for a general parabolic equation under compact Finsler CD(−K,N). arXiv:2506.14776.](https://arxiv.org/abs/2506.14776) A lot of modifications have been made so far.
-
-#### Pubilications
+#### Publications
 
 [Yijie Miao and Bin Shen. Two Methods of Gradient Estimates for the Lichnerowicz Equation and Their Comparison. Taiwanese J. Math. Advance Publication 1 - 26, 2026.](https://doi.org/10.11650/tjm/260401)
 
------
+#### Preprints
+[Yijie Miao and Bin Shen. Shi-type and Hamilton-type gradient estimates for a general parabolic equation under compact Finsler CD(−K,N). arXiv:2506.14776.](https://arxiv.org/abs/2506.14776) A lot of modifications have been made so far.
 
-#### 这里记录了我对一些数学问题的随想, 并非详尽的笔记(很多为我在阅读文献的过程中整理和推导的总结, 截至本次更新并没有上传)
+#### Work in Progress
 
-* [Minkowski Problem]()
-* [Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture by Gang Liu]()
-* [Positive Mass Theorem I]()
-* [Positive Mass Theorem II]()
-* [Ricci Soliton]()
-* [Generalized Monge–Ampère equation on arbitrary convex bodies containing the origin.]()
+这里列出一些在阅读文献和整理推导时记下的数学随想，笔记尚未上传。
+
+* Minkowski Problem
+* Gromov-Hausdorff limit of Kähler manifolds and the finite generation conjecture by Gang Liu
+* Positive Mass Theorem I
+* Positive Mass Theorem II
+* Ricci Soliton
+* Generalized Monge–Ampère equation on arbitrary convex bodies containing the origin
 
 <!--
 * [Aleksandrov-Bakelman-Pucci estimates]()
