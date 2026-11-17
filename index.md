@@ -4,7 +4,7 @@ permalink: /profile.html
 ---
 
 ## Welcome to my homepage!
-Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 7, 2026*
+Updates on my research and expository papers, discussion of open problems, and other maths-related topics. *Last updated on November 17, 2026*
 
 ![](Images/lantingxu.jpg)
 
@@ -28,6 +28,7 @@ Hi, I'm Yijie Miao (Chinese Name: 苗祎杰, Wade-Giles romanization: Miao I-chi
 *“由于部分文件较大, 页面可能需要一些时间加载, 可以先冲一杯咖啡耐心等待, 感谢您的理解与支持！”*
 ### Notes
 * [Functional Analysis — Lecture Notes of Zuoqin Wang](notes/functional-analysis.pdf): My TeX edition of Professor Zuoqin Wang's 2015 course notes, including exercises and solutions.
+* [Functional Analysis Homework Solutions](notes/functional-analysis-undergraduate-homework-solutions.pdf): Solutions to undergraduate Functional Analysis homework assignments at Southeast University.
 * [Laplace Eigenvalues and Pólya's Conjecture](notes/laplace-eigenvalues-polya-conjecture.pdf): My notes from Professor Zuoqin Wang's short course on spectral theory, Weyl's law, and Pólya's conjecture.
 * [Geometry and Topology Seminar](https://geometry-topology.github.io/) This seminar aims at topics in the areas of Quantitative Topology and Quantitative Geometry, Metric Topology and Metric Geometry, Simplicial Volume and Bounded Cohomology, Topological Complexity, Hyperbolic Geometry, Geometric Topology, Coarse Geometry and K-theory, Differential Geometry and related subjects. Organizers: [Lizhi Chen (Lanzhou University)](https://sites.google.com/site/chenzhmath) and [Bo Zhu (YMSC, Tsinghua University)](https://sites.google.com/view/bozhumath/)
 * [Introduction to Partial Differential Equations](notes/pde_by_Miao.pdf): My notes from Professor Jianchun Chu's introductory course on second-order elliptic PDEs.
